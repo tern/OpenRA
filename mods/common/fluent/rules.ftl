@@ -1,61 +1,61 @@
 ## Shroud
 checkbox-fog-of-war =
-    .label = Fog of War
-    .description = Line of sight is required to view enemy forces
+    .label = 戰爭迷霧
+    .description = 需要視線才能看到敵軍
 
 checkbox-explored-map =
-    .label = Explored Map
-    .description = Initial map shroud is revealed
+    .label = 已探索地圖
+    .description = 開局時揭開地圖黑幕
 
 ## DeveloperMode
 checkbox-debug-menu =
-    .label = Debug Menu
-    .description = Enables cheats and developer commands
+    .label = 除錯選單
+    .description = 啟用作弊與開發者指令
 
 ## CrateSpawner
 checkbox-crates =
-    .label = Crates
-    .description = Collect crates with units to receive random bonuses or penalties
+    .label = 補給箱
+    .description = 用單位拾取補給箱，獲得隨機獎勵或懲罰
 
 ## MapBuildRadius
 checkbox-ally-build-radius =
-    .label = Build Off Allies
-    .description = Allows allies to place structures within your build area
+    .label = 盟友處建造
+    .description = 允許盟友在你的建造範圍內放置建築
 
 checkbox-build-radius =
-    .label = Limit Build Area
-    .description = Limits structure placement to areas around Construction Yards
+    .label = 限制建造範圍
+    .description = 建築只能放在建造廠周圍
 
 ## MapOptions
 checkbox-short-game =
-    .label = Short Game
-    .description = Players are defeated when their bases are destroyed
+    .label = 短期遊戲
+    .description = 基地被摧毀時，玩家即失敗
 
 dropdown-tech-level =
-    .label = Tech Level
-    .description = The units and abilities available to players
+    .label = 科技等級
+    .description = 玩家可用的單位與能力
 
 ## MapOptions
 dropdown-game-speed =
-    .label = Game Speed
-    .description = Controls the rate at which time passes
+    .label = 遊戲速度
+    .description = 控制時間流逝的速度
 
 ## MapStartingLocations
 checkbox-separate-team-spawns =
-    .label = Separate Team Spawns
-    .description = Players without assigned spawn points start as far as possible from enemy players
+    .label = 隊伍分開出生
+    .description = 未指定出生點的玩家會盡量遠離敵方
 
 ## SpawnStartingUnits
 dropdown-starting-units =
-    .label = Starting Units
-    .description = The units players start with at the beginning of the game
+    .label = 起始單位
+    .description = 玩家在遊戲開始時擁有的單位
 
 ## TimeLimitManager
 dropdown-time-limit =
-    .label = Time Limit
-    .description = The player or team with the highest score at the end of this time wins
+    .label = 時間限制
+    .description = 時間結束時，分數最高的玩家或隊伍獲勝
 
 ## Tooltip
 label-tooltip-prefix =
-    .ally = Ally
-    .enemy = Enemy
+    .ally = 盟友
+    .enemy = 敵人

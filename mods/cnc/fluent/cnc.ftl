@@ -1,6 +1,6 @@
 ## Metadata
-mod-title = Tiberian Dawn
-mod-windowtitle = OpenRA - Tiberian Dawn
+mod-title = 泰伯倫黎明
+mod-windowtitle = OpenRA - 泰伯倫黎明
 
 ## CncLoadScreen
-loadscreen-loading = Loading
+loadscreen-loading = 載入中

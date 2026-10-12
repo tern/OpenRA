@@ -1,6 +1,6 @@
 ## Metadata
-mod-title = Dune 2000
-mod-windowtitle = OpenRA - Dune 2000
+mod-title = 沙丘 2000
+mod-windowtitle = OpenRA - 沙丘 2000
 
 ## LogoStripLoadScreen
-loadscreen-loading = Filling Crates..., Breeding Sandworms..., Fuelling carryalls..., Deploying harvesters..., Preparing thopters..., Summoning mentats...
+loadscreen-loading = 裝箱……, 繁殖沙蟲……, 幫運輸機加油……, 部署收割機……, 準備撲翼機……, 召喚門塔特……

@@ -1,9 +1,9 @@
 ## hotkeys.yaml
-hotkey-description-productiontypebuilding = Building Tab
-hotkey-description-productiontypeupgrade = Upgrade Tab
-hotkey-description-productiontypeinfantry = Infantry Tab
-hotkey-description-productiontypevehicle = Vehicle Tab
-hotkey-description-productiontypeaircraft = Aircraft Tab
-hotkey-description-productiontypetank = Tank Tab
-hotkey-description-productiontypemerchant = Starport Tab
-hotkey-description-powerdown = Power-down mode
+hotkey-description-productiontypebuilding = 建築分頁
+hotkey-description-productiontypeupgrade = 升級分頁
+hotkey-description-productiontypeinfantry = 步兵分頁
+hotkey-description-productiontypevehicle = 載具分頁
+hotkey-description-productiontypeaircraft = 飛行器分頁
+hotkey-description-productiontypetank = 坦克分頁
+hotkey-description-productiontypemerchant = 星港分頁
+hotkey-description-powerdown = 關閉電源模式

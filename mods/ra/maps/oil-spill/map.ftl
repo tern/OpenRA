@@ -1,2 +1,2 @@
 ## rules.yaml
-actor-oilb-husk-name = Husk (Oil Derrick)
+actor-oilb-husk-name = 殘骸（油井）

@@ -1,2 +1,2 @@
 ## rules.yaml
-actor-lst-name = Naval Mobile HQ
+actor-lst-name = 海軍移動指揮部

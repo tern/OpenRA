@@ -1,441 +1,405 @@
 ## campaign.lua
-objective-failed = Objective Failed
-objective-completed = Objective Completed
+objective-failed = 目標失敗
+objective-completed = 目標完成
 
-primary = Primary
-secondary = Secondary
+primary = 主要目標
+secondary = 次要目標
 
-new-primary-objective = New Primary Objective
-new-secondary-objective = New Secondary Objective
+new-primary-objective = 新主要目標
+new-secondary-objective = 新次要目標
 
 ## allies-01, allies-03, allies-05abc, evacuation, personal-war
-tanya = Tanya
+tanya = 坦雅
 
 ## allies-01
-extract-einstein-helicopter = Wait for the helicopter and extract Einstein.
-find-einstein = Find Einstein.
-einstein-survive = Einstein must survive.
-protect-civilians = Protect all civilians.
+extract-einstein-helicopter = 等候直升機，接出愛因斯坦。
+find-einstein = 找到愛因斯坦。
+einstein-survive = 愛因斯坦必須存活。
+protect-civilians = 保護所有平民。
 
 ## allies-01, allies-03, allies-05abc, evacuation, negotiations
-tanya-rules-of-engagement = Commander, I require your direct orders to fire under the rules of engagement!
+tanya-rules-of-engagement = 指揮官，依交戰規則，開火得由你直接下令！
 
 # allies-01, allies-05abc, evacuation
-tanya-survive = Tanya must survive.
+tanya-survive = 坦雅必須存活。
 
 ## allies-02, soviet-06
-escort-convoy = Escort the convoy.
+escort-convoy = 護送車隊。
 
 ## allies-02
-convoy-arrived = The Convoy has arrived!
-secure-convoy = Secure the convoy's path.
-eliminate-soviets = Eliminate the entire Soviet presence in this area.
+convoy-arrived = 車隊已抵達！
+secure-convoy = 確保車隊路線安全。
+eliminate-soviets = 消滅此區域內所有蘇聯勢力。
 
 ## allies-03a
-destroy-oilpumps = Destroy all Soviet oil pumps.
+destroy-oilpumps = 摧毀所有蘇聯油泵。
 
 ## allies-03b
-find-lost-tanks = Find our lost tanks.
+find-lost-tanks = 找到失散的坦克。
 
 ## allies-03ab
-destroy-bridges = Destroy all bridges.
-free-prisoners = Free all Allied soldiers and keep them alive.
+destroy-bridges = 摧毀所有橋樑。
+free-prisoners = 解救所有盟軍士兵，並讓他們存活。
 
 ## allies-04
-destroy-soviet-units-buildings = Destroy all Soviet units and buildings in this region.
-destroy-convoys = Eliminate all passing Soviet convoys.
+destroy-soviet-units-buildings = 摧毀此區域內所有蘇聯單位與建築。
+destroy-convoys = 消滅所有經過的蘇聯車隊。
 
 ## allies-05a
-extract-transport = Get all your forces aboard the transport.
+extract-transport = 讓所有部隊登上運輸艦。
 
 # allies-05abc
-spy = Spy
-disguise-spy = Commander! You have to disguise me in order to get through the enemy patrols.
-battlefield-control = Battlefield Control
-skip-heroics = Good work! But next time, skip the heroics!
-rescue-tanya = Rescue Tanya.
-eliminate-soviet-units = Eliminate all Soviet units in this area.
-infiltrate-warfactory = Infiltrate the Soviet War Factory.
-destroy-sam-sites-blocker = Destroy all four SAM Sites blocking
-    our reinforcements' helicopter from landing.
+spy = 間諜
+disguise-spy = 指揮官！你得幫我偽裝，才能通過敵方巡邏。
+battlefield-control = 戰場管制
+skip-heroics = 做得好！不過下次別逞英雄！
+rescue-tanya = 營救坦雅。
+eliminate-soviet-units = 消滅此區域內所有蘇聯單位。
+infiltrate-warfactory = 滲透蘇聯戰車工廠。
+destroy-sam-sites-blocker = 摧毀擋住援軍直升機降落的四座防空飛彈。
 
 # allies-06ab
-soviet-tech-centers-discovered = Soviet tech center coordinates discovered.
-destroy-soviet-buildings-units = Destroy all Soviet buildings and units in the area.
-do-not-capture-tech-centers = Do not capture the tech centers! Infiltrate one with a spy.
-infiltrate-tech-center-spy = Infiltrate one of the Soviet tech centers with a spy.
-capture-radar-shore = Capture the Radar Dome near the shore.
-build-naval-yard-redeploy-mcv = Secure a foothold and build a Naval Yard.
-    Redeploy the MCV if needed.
+soviet-tech-centers-discovered = 已發現蘇聯科技中心座標。
+destroy-soviet-buildings-units = 摧毀區域內所有蘇聯建築與單位。
+do-not-capture-tech-centers = 不要佔領科技中心！派間諜滲透其中一座。
+infiltrate-tech-center-spy = 派間諜滲透一座蘇聯科技中心。
+capture-radar-shore = 佔領岸邊的雷達圓頂。
+build-naval-yard-redeploy-mcv = 建立據點並建造船塢。必要時重新部署機動建造車。
 
 # allies-07
-enemy-approaching = Enemy approaching.
-soviet-armored-battalion-arrives-in = Soviet armored battalion arrives in { $time }
-destroy-all-soviet-sub-pens = Destroy all Soviet Submarine Pens.
-clear-area-all-subs = Clear the area of all Submarine activity.
+enemy-approaching = 敵人接近中。
+soviet-armored-battalion-arrives-in = 蘇聯裝甲營將於 { $time } 後抵達
+destroy-all-soviet-sub-pens = 摧毀所有蘇聯潛艇碼頭。
+clear-area-all-subs = 清除區域內所有潛水艇活動。
 
 ## allies-07, soviet-05
-capture-radar-dome = Capture the Radar Dome.
+capture-radar-dome = 佔領雷達圓頂。
 
 ## soviet-04ab, soviet-05
-defeat-allied-forces = Defeat the Allied forces.
+defeat-allied-forces = 擊敗盟軍部隊。
 
 ## allies-08a
-evacuate-scientists-from-west-island = Evacuate all scientists from the island to
-    the west.
+evacuate-scientists-from-west-island = 撤離西邊島上的所有科學家。
 
 ## allies-08b
-evacuate-scientists-from-east-island = Evacuate all scientists from the island to
-    the east.
+evacuate-scientists-from-east-island = 撤離東邊島上的所有科學家。
 
 ## allies-08ab
-experiment-successful = The experiment is a success!
-chronosphere-experiment-completes-in = Chronosphere experiment completes in { $time }
-defend-chronosphere-tech-center = Defend the Chronosphere and Technology Center
-    at all costs.
-chronosphere-needs-power = The Chronosphere must have power when the
-    timer runs out.
+experiment-successful = 實驗成功！
+chronosphere-experiment-completes-in = 超時空傳送儀實驗將於 { $time } 後完成
+defend-chronosphere-tech-center = 不惜一切代價防守超時空傳送儀與科技中心。
+chronosphere-needs-power = 計時結束時，超時空傳送儀必須保有電力。
 
 ## allies09a
-extract-kosygin = Extract Kosygin and
-    get him back to your base.
-infiltrate-soviet-command-center-contact-kosygin = Infiltrate the Soviet Command Center and
-    contact Kosygin.
-kosygin-must-survive = Kosygin must survive.
+extract-kosygin = 接出柯西金，並把他帶回你的基地。
+infiltrate-soviet-command-center-contact-kosygin = 滲透蘇聯前線指揮部，並接觸柯西金。
+kosygin-must-survive = 柯西金必須存活。
 
 ## allies-10a
-we-are-too-late = We're too late!
-incoming-transmission-capitalized = INCOMING TRANSMISSION.
-deactivate-four-missiles = Commander, we are tracking four missiles. They must be deactivated! We are scrambling a team to assault the missile control bunker. Clear the way and capture the enemy command center. Hurry!
-capture-enemy-command-center = Capture the enemy Command Center. Hurry!
-disable-atomic-weapons = Find a way to take the atomic weapons offline.
+we-are-too-late = 我們來得太遲了！
+incoming-transmission-capitalized = 收到傳輸。
+deactivate-four-missiles = 指揮官，我們正在追蹤四枚飛彈。必須解除它們！我們正緊急調派突擊隊進攻飛彈控制掩體。清出道路，佔領敵方前線指揮部。快！
+capture-enemy-command-center = 佔領敵方前線指揮部。快！
+disable-atomic-weapons = 設法停用原子武器。
 
 ## allies-10b
-nuclear-missile-deactivated = Nuclear missile deactivated.
-reach-target-in = Nuclear missiles will reach their targets in { $time }
-get-engineers-to-consoles = Get your engineers to each launch control center.
-spare-the-scientists = Spare the scientists; they are more valuable as
-    prisoners of war.
+nuclear-missile-deactivated = 核子飛彈已解除。
+reach-target-in = 核子飛彈將於 { $time } 後抵達目標
+get-engineers-to-consoles = 把工程師送到每一座發射控制中心。
+spare-the-scientists = 饒過那些科學家；他們當戰俘更有價值。
 
 ## allies-13
-place-explosive-charges = Place explosive charges on all generators.
-steal-supplies = Secure the base's supply cache.
-explosive-charge-placed = Explosive charge placed.
-engineer = Engineer
-old-flametowers = Commander, the flame towers in this base are older models. We should be able to get closer.
-be-sneaky = Be careful, we don't want to alert these guys.
-soldier = Soldier
+place-explosive-charges = 在所有發電機上放置炸藥。
+steal-supplies = 奪取基地的補給儲藏。
+explosive-charge-placed = 炸藥已放置。
+engineer = 工程師
+old-flametowers = 指揮官，這座基地的火焰塔是舊型。我們應該可以再靠近一些。
+be-sneaky = 小心，別驚動這些人。
+soldier = 士兵
 
 ## ant-01
-allied-forces-have-arrived = Allied forces have arrived!
-defend-outpost-until-reinforcements-arrive = Defend the outpost until reinforcements arrive.
-reinforcements-arrive-in = Reinforcements arrive in { $time }
-find-outpost = Find the outpost.
+allied-forces-have-arrived = 盟軍部隊已抵達！
+defend-outpost-until-reinforcements-arrive = 防守前哨站，直到援軍抵達。
+reinforcements-arrive-in = 援軍將於 { $time } 後抵達
+find-outpost = 找到前哨站。
 
 ## ants-03
-gas-every-ant-nest = Gas every ant nest.
-kill-every-ant-above-ground = Kill every ant lurking above ground.
+gas-every-ant-nest = 對每個蟻巢施放毒氣。
+kill-every-ant-above-ground = 殺死所有潛伏在地面的巨蟻。
 
 ## evacuation
-allied-reinforcements-arrive-in = Allied reinforcements arrive in { $time }
-wait-for-helicopter-extract-einstein = Wait for a helicopter at the LZ and extract Einstein.
-keep-einstein-alive-at-all-costs = Keep Einstein alive at all costs.
-find-einstein-crashed-helicopter = Find Einstein's crashed helicopter.
-destroy-sam-sites = Destroy the SAM sites.
-hold-position-protect-base = Hold your position and protect the base.
-do-not-lose-more-than = Do not lose more than { $units } units.
-take-out-the-soviet-power-grid = Disable the Soviet power grid.
+allied-reinforcements-arrive-in = 盟軍援軍將於 { $time } 後抵達
+wait-for-helicopter-extract-einstein = 在著陸區等候直升機，接出愛因斯坦。
+keep-einstein-alive-at-all-costs = 不惜一切代價讓愛因斯坦存活。
+find-einstein-crashed-helicopter = 找到愛因斯坦墜毀的直升機。
+destroy-sam-sites = 摧毀防空飛彈。
+hold-position-protect-base = 堅守陣地並保護基地。
+do-not-lose-more-than = 損失的單位不得超過 { $units } 個。
+take-out-the-soviet-power-grid = 癱瘓蘇聯電網。
 
 ## exodus
-units-evacuated = { $evacuated } / { $threshold } units evacuated.
-evacuate-units = Evacuate { $threshold } units.
-destroy-nearby-soviet-airbases = Destroy the nearby Soviet airbases.
-evacuate-at-least-one-gap-generator = Save at least one Mobile Gap Generator.
-transferring-funds = Transferring funds.
-co-commander-missing = Co-Commander is missing
+units-evacuated = 已撤離 { $evacuated } / { $threshold } 個單位。
+evacuate-units = 撤離 { $threshold } 個單位。
+destroy-nearby-soviet-airbases = 摧毀附近的蘇聯機場。
+evacuate-at-least-one-gap-generator = 至少保住一輛移動間隙產生器。
+transferring-funds = 正在轉移資金。
+co-commander-missing = 副指揮官失聯
 
 ## fall-of-greece-01-personal-war
-civilians-manual-targeting = Commander, there are several civilians in the area.
-    We need you to designate targets.
-soviet-aircraft-armor-moving-in = Alfa Niner this is Lima One Six. Be advised, Soviet aircraft and armor are moving into your AO.
-headquarters = Headquarters
-extraction-point-compromised-evacuate-base = Extraction point compromised. Evacuate the base!
-new-extraction-point-northwest = New extraction point has been setup to the northwest.
-stalin-will-pay = Stalin will pay for what he has done today!
-    I will bury him with my own hands!
-stavros = Stavros
-keep-stavros-tanya-alive = Keep Stavros and Tanya alive.
-get-tanya-stavros-helicopter = Get Stavros and Tanya to the extraction helicopter.
+civilians-manual-targeting = 指揮官，區域內有數名平民。你來指定目標。
+soviet-aircraft-armor-moving-in = 阿爾法九號，我是利馬一六。注意，蘇聯戰機與裝甲正進入你的作戰區域。
+headquarters = 總部
+extraction-point-compromised-evacuate-base = 撤離點已暴露。撤離基地！
+new-extraction-point-northwest = 新的撤離點已設在西北方。
+stalin-will-pay = 史達林會為他今天的所作所為付出代價！我要親手把他埋了！
+stavros = 史塔夫羅斯
+keep-stavros-tanya-alive = 讓史塔夫羅斯與坦雅存活。
+get-tanya-stavros-helicopter = 把史塔夫羅斯與坦雅送到撤離直升機。
 
 ## fall-of-greece-2-evacuation
-civilians-evacuated = { $evacuated } / { $threshold } civilians evacuated
-chinook-assist-evacuation = Alfa Niner this is Pegasus. We are on site and ready to assist with the evacuation.
-chinook-pilot = Chinook pilot
-rescue-civilians-island-shelter-easy = Evacuate at least half of the civilians to the island
-    shelter.
-rescue-civilians-island-shelter-normal = Evacuate at least three-quarters of the civilians to
-    the island shelter.
-rescue-civilians-island-shelter-hard = Evacuate all civilians to the island shelter.
-clear-enemy-submarines = Clear the area of enemy submarine activity.
+civilians-evacuated = 已撤離 { $evacuated } / { $threshold } 名平民
+chinook-assist-evacuation = 阿爾法九號，我是飛馬。我們已到現場，可以協助撤離。
+chinook-pilot = 契努克飛行員
+rescue-civilians-island-shelter-easy = 至少把一半平民撤離到島上避難所。
+rescue-civilians-island-shelter-normal = 至少把四分之三的平民撤離到島上避難所。
+rescue-civilians-island-shelter-hard = 把所有平民撤離到島上避難所。
+clear-enemy-submarines = 清除區域內的敵方潛水艇活動。
 
 ## fort-lonestar
-no-more-waves = The onslaught is almost over! No more waves remain.
-defend-fort-lonestar = Defend Fort Lonestar at all costs!
-lonestar-ai-sold-its-walls = Lonestar AI { $id } sold its walls for better combat performance.
+no-more-waves = 攻勢就快結束了！已經沒有後續波次。
+defend-fort-lonestar = 不惜一切代價防守孤星要塞！
+lonestar-ai-sold-its-walls = 孤星電腦 { $id } 出售了混凝土牆，以換取更好的戰鬥表現。
 
 ## in-the-nick-of-time
-friendlies-coming-out = Friendlies coming out!
-medic = Medic
-get-scientists-evacuation-point = Commander, we're detecting Soviet transports headed your way. Get the scientists back to the extraction point in the southeast!
-landcom-16-capitalized = LANDCOM 16
-scientists-killed-in-command-center = The scientists were in the Command Center!
-chronosphere-explodes-in = Chronosphere explodes in { $time }
-rescue-scientists-extraction-point = Rescue the scientists and escort them back to the
-    extraction point.
+friendlies-coming-out = 友軍出來了！
+medic = 醫護兵
+get-scientists-evacuation-point = 指揮官，我們偵測到蘇聯運輸艦正朝你而來。把科學家帶回東南方的撤離點！
+landcom-16-capitalized = 陸指十六
+scientists-killed-in-command-center = 科學家在前線指揮部內！
+chronosphere-explodes-in = 超時空傳送儀將於 { $time } 後爆炸
+rescue-scientists-extraction-point = 營救科學家，並護送他們回到撤離點。
 
 ## in-the-nick-of-time, situation-critical
-too-late = We're too late!
+too-late = 我們來得太遲了！
 
 ## infiltration
-secure-laboratory-guards = Eliminate the guards to secure the laboratory.
-destroy-remaining-soviet-presence = Destroy the remaining Soviet presence.
-infiltrate-laboratory = Infiltrate the laboratory with a spy undetected.
-secure-lab-in = Secure lab in: { $time }
-soviet-research-lab-not-secured-in-time = The Soviet research laboratory was not secured in time.
+secure-laboratory-guards = 消滅守衛以確保實驗室安全。
+destroy-remaining-soviet-presence = 消滅剩餘的蘇聯勢力。
+infiltrate-laboratory = 派間諜滲透實驗室，不得被發現。
+secure-lab-in = 確保實驗室安全，時限：{ $time }
+soviet-research-lab-not-secured-in-time = 未能及時確保蘇聯研究實驗室的安全。
 
 ## intervention
-percentage-village-destroyed = { $percentage }% of the village destroyed.
-save-village = Save the village.
-mcv-main-island = Get your MCV to the main island.
-capture-air-force-hq = Find and capture the enemy Air Force HQ.
+percentage-village-destroyed = 村莊已摧毀 { $percentage }%。
+save-village = 拯救村莊。
+mcv-main-island = 把機動建造車送到主島。
+capture-air-force-hq = 找到並佔領敵方空軍總部。
 
 ## monster-tank-madness
-find-demitri = Find Dr. Demitri. He is likely hiding in the village
-    to the far south.
-reprogram-super-tanks = Reprogram the Super Tanks by infiltrating
-    the Soviet Radar Dome with a spy.
-defend-outpost = Defend and repair our outpost.
-super-tank-self-destruct-t-minus-3 = In 3 minutes the super tanks will self-destruct.
-evacuate-demitri = Evacuate Dr. Demitri with the helicopter waiting
-    at our outpost.
-super-tank-self-destruct-in = The Super Tanks will self-destruct in { $time }
-super-tanks-destroyed = The Super Tanks have been destroyed!
-eliminate-super-tanks = Destroy all remaining Super Tanks.
-steal-money-outpost = Use the Thief to steal funds from the nearby outpost.
-cross-river = Secure transportation to the mainland.
-find-outpost-and-repair = Find our outpost and start repairs.
-evacuate-civilian-hospital = Evacuate all civilians from the hospital.
-demitri-extracted-super-tanks-destroyed = Dr. Demitri has been safely extracted, and the Super Tanks have been dealt with.
+find-demitri = 找到德米特里博士。他很可能躲在最南邊的村莊。
+reprogram-super-tanks = 派間諜滲透蘇聯雷達圓頂，重新設定超級坦克。
+defend-outpost = 防守並修復我方前哨站。
+super-tank-self-destruct-t-minus-3 = 三分鐘後超級坦克將會自爆。
+evacuate-demitri = 用停在我方前哨站的直升機撤離德米特里博士。
+super-tank-self-destruct-in = 超級坦克將於 { $time } 後自爆
+super-tanks-destroyed = 超級坦克已被摧毀！
+eliminate-super-tanks = 摧毀所有剩餘的超級坦克。
+steal-money-outpost = 用小偷從附近的前哨站竊取資金。
+cross-river = 確保前往大陸的運輸。
+find-outpost-and-repair = 找到我方前哨站並開始修復。
+evacuate-civilian-hospital = 撤離醫院內所有平民。
+demitri-extracted-super-tanks-destroyed = 德米特里博士已安全接出，超級坦克也已解決。
 
 ## mousetrap
-all-engineers-killed = All engineers have been killed.
-kill-stavros = Kill Stavros.
-sabotage-facility = Sabotage the facility using our engineers.
+all-engineers-killed = 所有工程師都已陣亡。
+kill-stavros = 殺死史塔夫羅斯。
+sabotage-facility = 用我方工程師破壞設施。
 
 ## negotiations
-all-hostages-killed = All hostages were killed.
-church-destroyed = The church was destroyed.
-free-hostages = Find and rescue the hostages.
-get-hostages-to-church = Get the hostages to the church.
-signal-for-reinforcements = Signal for reinforcements at the drop-off point.
-guide-thank-you = Thank you! I'll help you get into town!
-guide-follow-me = Follow me!
-guide-patrol-coming = Uh oh, a patrol is coming this way.
-guide-come-this-way = Come this way! Hurry!
-guide-safe-to-move = It's safe now. Let's go.
-hostage-dies-in = Hostage dies in { $time }
-keep-all-hostages-alive = Keep all hostages alive.
+all-hostages-killed = 所有人質都已遇害。
+church-destroyed = 教堂已被摧毀。
+free-hostages = 找到並營救人質。
+get-hostages-to-church = 把人質帶到教堂。
+signal-for-reinforcements = 在投放點發出援軍信號。
+guide-thank-you = 謝謝！我帶你進城！
+guide-follow-me = 跟我來！
+guide-patrol-coming = 糟了，巡邏隊往這邊來了。
+guide-come-this-way = 走這邊！快！
+guide-safe-to-move = 現在安全了。走吧。
+hostage-dies-in = 人質將於 { $time } 後死亡
+keep-all-hostages-alive = 讓所有人質存活。
 
 ## production-disruption, shock-therapy
-capture-enemy-radar-dome = Capture the enemy Radar Dome.
+capture-enemy-radar-dome = 佔領敵方雷達圓頂。
 
 ## production-disruption
-destroy-escaping-submarine = Destroy the submarine before it escapes!
-submarine-escapes = The submarine is heading for open sea!
-submarine-construction-complete-in = Submarine construction complete in { $time }
-destroy-soviet-sub-pen = Destroy the Soviet Submarine Pen.
-power-down-tesla-coils = Cut power to the Tesla Coils.
+destroy-escaping-submarine = 在潛水艇逃離前摧毀它！
+submarine-escapes = 潛水艇正航向外海！
+submarine-construction-complete-in = 潛水艇將於 { $time } 後建造完成
+destroy-soviet-sub-pen = 摧毀蘇聯潛艇碼頭。
+power-down-tesla-coils = 切斷磁暴線圈的電力。
 
 ## sarin-gas-1-crackdown, soviet09
-convoy-truck-escaping = Convoy truck attempting to escape!
+convoy-truck-escaping = 車隊卡車正試圖逃離！
 
 ## sarin-gas-1-crackdown
-prevent-soviet-trucks-escaping = Prevent the Soviet convoy trucks from escaping.
-clear-sector-soviet-presence = Clear the sector of all Soviet presence.
-infiltrate-radar-reveal-escape-routes = Infiltrate the Soviet Radar Dome to reveal convoy
-    escape routes.
+prevent-soviet-trucks-escaping = 阻止蘇聯車隊卡車逃離。
+clear-sector-soviet-presence = 清除此區段內所有蘇聯勢力。
+infiltrate-radar-reveal-escape-routes = 滲透蘇聯雷達圓頂，以揭露車隊逃脫路線。
 
 ## sarin-gas-2-down-under, situation-critical
-scientist = Scientist
+scientist = 科學家
 
 ## sarin-gas-2-down-under
-flame-turret-deactivated = Flame Turret deactivated.
-console = Console
-sarin-dispenser-activated = Sarin Nerve Gas dispensers activated.
-tesla-coil-deactivated = Tesla Coil deactivated.
-tesla-coil-activated = Initialising Tesla Coil defense.
-prisoners-escaping = Warning, prisoners are attempting to escape!
-intercom = Intercom
-hurry-base-compromised = The base is compromised. We have to hurry the execution!
-soviet-officer = Soviet Officer
-prepare-to-fire = Prepare to Fire!
-fire = Fire!
-thanks-for-rescue = Thanks for the rescue!
-move-nuclear-outside = The Soviets have an unstable nuclear device stored here
-    - help me move it out of the facility!
-exit-clear-hopefully = I hope the exit is clear!
-reach-eastern-exit = Reach the eastern facility exit.
-free-tanya-keep-alive = Free Tanya and keep her alive.
-kill-soviet-officers-scientists = Kill all Soviet officers and scientists.
-steal-soviet-mammoth-tank = Steal a Soviet Mammoth Tank.
-no-casualties = Ensure no soldier or civilian
-    under your command is lost.
+flame-turret-deactivated = 火焰塔已停用。
+console = 控制台
+sarin-dispenser-activated = 沙林神經毒氣施放器已啟動。
+tesla-coil-deactivated = 磁暴線圈已停用。
+tesla-coil-activated = 正在啟動磁暴線圈防禦。
+prisoners-escaping = 警告，囚犯正試圖逃脫！
+intercom = 對講機
+hurry-base-compromised = 基地已遭突破。處決得快！
+soviet-officer = 蘇聯軍官
+prepare-to-fire = 準備射擊！
+fire = 開火！
+thanks-for-rescue = 謝謝你來救我！
+move-nuclear-outside = 蘇聯把一枚不穩定的核子裝置放在這裡，幫我把它搬出設施！
+exit-clear-hopefully = 但願出口是通的！
+reach-eastern-exit = 抵達設施東側出口。
+free-tanya-keep-alive = 救出坦雅並讓她存活。
+kill-soviet-officers-scientists = 殺死所有蘇聯軍官與科學家。
+steal-soviet-mammoth-tank = 奪取一輛蘇聯毛象坦克。
+no-casualties = 確保你指揮的士兵與平民無人損失。
 
 ## sarin-gas-3-controlled-burn
-capture-sarin-plants-intact = Capture all Sarin processing plants intact.
-destroy-enemy-compound = Destroy the enemy compound.
-cut-power-east = Cut the power to the eastern base.
+capture-sarin-plants-intact = 完整佔領所有沙林處理廠。
+destroy-enemy-compound = 摧毀敵方營區。
+cut-power-east = 切斷東邊基地的電力。
 
 ## shock-therapy
-destroy-opposition = Destroy all who oppose us.
+destroy-opposition = 消滅所有反抗者。
 
 ## siberian-conflict-1-fresh-tracks
-first-trucks-entering = First trucks entering your AO.
-first-trucks-arrive-in = First trucks arrive in { $time }
-destroy-soviet-convoy = Destroy all Soviet convoy trucks.
-destroy-bridges-slow-convoy = Demolish the nearby bridges to slow down
-    the convoys.
+first-trucks-entering = 首批卡車正在進入你的作戰區域。
+first-trucks-arrive-in = 首批卡車將於 { $time } 後抵達
+destroy-soviet-convoy = 摧毀所有蘇聯車隊卡車。
+destroy-bridges-slow-convoy = 炸毀附近橋樑，以拖延車隊。
 
 ## siberian-conflict-3-wasteland, negotiations
-destroy-soviet-units-infrastructure = Destroy all Soviet units and structures.
+destroy-soviet-units-infrastructure = 摧毀所有蘇聯單位與建築。
 
 ## situation-critical
-plans-stolen-erase-data = Plans stolen; erasing all data.
-software-update-failed-manual-targets = IFF software update failed. Manual target input is required.
-volkov = Volkov
-missiles-launch-in = Missiles launch in { $time }
-kill-power = Bring the base to low power. Volkov will arrive
-    once the defenses are down.
-infiltrate-bio-weapons-lab-scientist = Infiltrate the bio-weapons lab with the scientist.
-destroy-bio-weapons-lab-missile-silos = Destroy the bio-weapons lab and the missile silos.
-destroy-all-sam-sites-strategic-bombers = Destroy all SAM sites on the island.
-    Our strategic bombers will finish the rest.
+plans-stolen-erase-data = 計畫遭竊，正在清除所有資料。
+software-update-failed-manual-targets = 敵我識別軟體更新失敗。需手動指定目標。
+volkov = 沃科夫
+missiles-launch-in = 飛彈將於 { $time } 後發射
+kill-power = 使基地電力不足。防禦失效後，沃科夫就會抵達。
+infiltrate-bio-weapons-lab-scientist = 讓科學家滲透生物武器實驗室。
+destroy-bio-weapons-lab-missile-silos = 摧毀生物武器實驗室與飛彈發射井。
+destroy-all-sam-sites-strategic-bombers = 摧毀島上所有防空飛彈。其餘交給我方戰略轟炸機。
 
 ## situation-critical, soviet-soldier-volkov-n-chitzkoi
-volkov-survive = Volkov must survive.
+volkov-survive = 沃科夫必須存活。
 
 ## soviet-01
-raze-village = Raze the village.
+raze-village = 夷平村莊。
 
 ## soviet-02ab, soviet-08a, soviet-11
-protect-command-center = Protect the Command Center.
-destroy-allied-units-structures = Destroy all Allied units and structures.
+protect-command-center = 保護前線指揮部。
+destroy-allied-units-structures = 摧毀所有盟軍單位與建築。
 
 ## soviet-03
-kill-enemy-spy = Kill the enemy spy.
-clear-farm-reinforcements = Clear the nearby farm for reinforcements.
-scavenge-civilian-buildings = Scavenge civilian buildings for supplies.
-time-remaining = Time Remaining: { $time }
+kill-enemy-spy = 殺死敵方間諜。
+clear-farm-reinforcements = 清空附近農場，以迎接援軍。
+scavenge-civilian-buildings = 搜刮平民建築以取得補給。
+time-remaining = 剩餘時間：{ $time }
 
 ## soviet-04ab, soviet-08ab, soviet-10
-destroy-radar-dome-reinforcements = Destroy the Allied Radar Dome to prevent
-    reinforcements.
+destroy-radar-dome-reinforcements = 摧毀盟軍雷達圓頂，以阻止援軍。
 
 ## soviet05
-allied-mcv-island = Allied MCV detected moving towards the island.
-defend-radar-dome = Defend the Radar Dome.
-allied-expansion-movement-detected = Allied MCV movement detected.
-coordinates-allied-expansion-discovered = Allied expansion base discovered.
+allied-mcv-island = 偵測到盟軍機動建造車正朝島嶼移動。
+defend-radar-dome = 防守雷達圓頂。
+allied-expansion-movement-detected = 偵測到盟軍機動建造車移動。
+coordinates-allied-expansion-discovered = 已發現盟軍擴張基地。
 
 ## soviet06ab
-destroy-capture-radar-dome-reinforcements = Destroy or capture the Allied Radar Dome to stop
-    enemy reinforcements.
-keep-trucks-alive = Keep all trucks alive.
+destroy-capture-radar-dome-reinforcements = 摧毀或佔領盟軍雷達圓頂，以阻止敵方援軍。
+keep-trucks-alive = 讓所有卡車存活。
 
 ## soviet07
-deactivate-security-system = Deactivate the security system.
-rescue-engineers = Rescue the engineers.
-engineers-coolant-station = Get the engineers to the coolant stations.
-engineer-reprogram-security = Use an Engineer to reprogram the security system.
-engineer-reactor-core = Get an Engineer to the reactor core.
-free-dogs = Free the dogs.
-time-until-meltdown = Time until Meltdown: { $time }
+deactivate-security-system = 解除安全系統。
+rescue-engineers = 營救工程師。
+engineers-coolant-station = 把工程師送到各冷卻站。
+engineer-reprogram-security = 用工程師重新設定安全系統。
+engineer-reactor-core = 把工程師送到反應爐核心。
+free-dogs = 釋放犬隻。
+time-until-meltdown = 距離熔毀：{ $time }
 
 ## soviet-08ab
-destroy-allied-sympathizers-village = Destroy the village of Allied sympathizers.
+destroy-allied-sympathizers-village = 摧毀盟軍同情者的村莊。
 
 ## soviet-09
-truck-stopped-near-allied-base = Commander, the truck has stopped at a nearby Allied base.
-    Radio intercepts indicate the truck has orders to flee if any Soviet units approach.
+truck-stopped-near-allied-base = 指揮官，卡車停在附近的盟軍基地。無線電截聽顯示，一旦有蘇聯單位靠近，卡車就會奉命逃離。
 
-destroy-stolen-convoy-truck = Destroy the stolen convoy truck
-    - don't let it escape.
-defend-forward-command-center = Defend our forward Command Center.
+destroy-stolen-convoy-truck = 摧毀遭竊的車隊卡車，別讓它逃掉。
+defend-forward-command-center = 防守我方前線指揮部。
 
 ## soviet-10
-run-for-it = RUN FOR IT!
-convoy-commander = Convoy commander
-we-are-surrounded = We are surrounded!
-corridor-closes-in = Corridor closes in { $time }
-escort-convoy-mountain-pass = Escort the convoy through the mountain pass.
-protect-every-truck = Ensure no truck is lost.
-save-migs = Do not squander any of our new MiG aircraft.
+run-for-it = 快逃！
+convoy-commander = 車隊指揮官
+we-are-surrounded = 我們被包圍了！
+corridor-closes-in = 通道將於 { $time } 後封閉
+escort-convoy-mountain-pass = 護送車隊通過山口。
+protect-every-truck = 確保沒有卡車損失。
+save-migs = 不要浪費任何一架我方新的米格攻擊機。
 
 ## soviet-11b
-destroy-allied-naval-base = Destroy the Allied naval base.
+destroy-allied-naval-base = 摧毀盟軍海軍基地。
 
 ## soviet-13a, soviet13b
-chrono-trap-triggered = We failed to disable the trap!
-destroy-allied-radar-sites = Destroy the Allied radar sites before approaching
-    the Chronosphere.
-capture-the-chronosphere = Capture the Chronosphere.
+chrono-trap-triggered = 我們未能解除陷阱！
+destroy-allied-radar-sites = 接近超時空傳送儀之前，先摧毀盟軍雷達圓頂。
+capture-the-chronosphere = 佔領超時空傳送儀。
 
 ## soviet-soldier-volkov-n-chitzkoi
-destroy-control-center = Destroy the Control Center.
-tank-division-must-not-be-destroyed = Your tank division must not be destroyed before
-    the alloy facility is dealt with.
-keep-chitzkoi-alive = Keep Chitzkoi Alive.
-destroy-alloy-facility = Destroy the alloy facility.
-heavy-turret-control-destroyed = Excellent! The heavy turret control center is destroyed;
-    now we can deal with the alloy facility.
-rebuild-chitzkoi = We can rebuild Chitzkoi - we have the technology.
+destroy-control-center = 摧毀控制中心。
+tank-division-must-not-be-destroyed = 在解決合金設施之前，你的坦克師不得被殲滅。
+keep-chitzkoi-alive = 讓契茲科伊存活。
+destroy-alloy-facility = 摧毀合金設施。
+heavy-turret-control-destroyed = 漂亮！重型砲塔控制中心已摧毀，現在可以處理合金設施了。
+rebuild-chitzkoi = 我們可以重建契茲科伊——我們有這項技術。
 
 ## survival01
-french-reinforcements-arrive-in = French reinforcements arrive in { $time }
-french-allies-arrived = Our French allies have arrived!
-takeover-reinforcements-kill-remaining-soviet-forces = Take command of French reinforcements and
-    kill all remaining Soviet forces.
-takeover-reinforcements-dismantle-soviet-base = Use French reinforcements to dismantle the nearby Soviet base.
-enforce-position-hold-until-reinforcements = Hold your position and withstand the onslaught
-    until reinforcements arrive.
-destroy-two-sams-before-reinforcements = Destroy the two SAM sites before reinforcements
-    arrive.
-soviets-blocking-gps = The Soviets are blocking our GPS - we need to investigate their new technology.
-capture-hold-soviet-airbase-northeast = Capture and hold the Soviet airbase
-    in the northeast.
-french-survived-dismantled-soviet-presence = The French forces have survived and dismantled the Soviet presence!
-kill-remaining-soviet-forces = Kill all remaining Soviet forces.
-dismantle-nearby-soviet-base = Dismantle the nearby Soviet base.
+french-reinforcements-arrive-in = 法國援軍將於 { $time } 後抵達
+french-allies-arrived = 我們的法國盟友已經抵達！
+takeover-reinforcements-kill-remaining-soviet-forces = 接掌法國援軍，消滅所有剩餘蘇聯部隊。
+takeover-reinforcements-dismantle-soviet-base = 利用法國援軍拆除附近的蘇聯基地。
+enforce-position-hold-until-reinforcements = 堅守陣地，撐過攻勢，直到援軍抵達。
+destroy-two-sams-before-reinforcements = 在援軍抵達前摧毀兩座防空飛彈。
+soviets-blocking-gps = 蘇聯正在封鎖我方 GPS，我們得調查他們的新科技。
+capture-hold-soviet-airbase-northeast = 佔領並守住東北邊的蘇聯機場。
+french-survived-dismantled-soviet-presence = 法國部隊撐下來了，並清除了蘇聯勢力！
+kill-remaining-soviet-forces = 消滅所有剩餘蘇聯部隊。
+dismantle-nearby-soviet-base = 拆除附近的蘇聯基地。
 
 ## survival02
-destroy-all-soviet-forces = Destroy all Soviet forces in the area.
-soviet-reinforcements-arrive-in = Soviet reinforcements arrive in { $time }
-reinforced-position-initiate-counter-attack = Excellent work Commander! We have reinforced our position enough to launch a counter-attack.
-incoming-report = Incoming Report
-destroy-remaining-soviet-forces-area = Destroy the remaining Soviet forces in the area.
-soviet-reinforcements-arrived = Soviet reinforcements have arrived!
-repair-bridges-for-reinforcement = Commander! The Soviets destroyed the bridges to cut off our reinforcements. Repair them for additional support.
-repair-two-southern-bridges = Repair the two southern bridges.
-enforce-position-hold-out-onslaught = Fortify your position and hold off the onslaught.
-remaining-soviet-presence-destroyed = We have destroyed the remaining Soviet presence!
-soviet-reinforcements-approaching = Soviet reinforcements are approaching!
+destroy-all-soviet-forces = 消滅區域內所有蘇聯部隊。
+soviet-reinforcements-arrive-in = 蘇聯援軍將於 { $time } 後抵達
+reinforced-position-initiate-counter-attack = 幹得好，指揮官！我方陣地已強化到足以發動反擊。
+incoming-report = 傳入報告
+destroy-remaining-soviet-forces-area = 消滅區域內剩餘的蘇聯部隊。
+soviet-reinforcements-arrived = 蘇聯援軍已抵達！
+repair-bridges-for-reinforcement = 指揮官！蘇聯摧毀了橋樑，切斷我方援軍。修復橋樑以取得更多支援。
+repair-two-southern-bridges = 修復南邊兩座橋樑。
+enforce-position-hold-out-onslaught = 強化陣地，抵擋攻勢。
+remaining-soviet-presence-destroyed = 我們已消滅剩餘的蘇聯勢力！
+soviet-reinforcements-approaching = 蘇聯援軍正在接近！
 
 ## top-o-the-world
-supply-truck-waystation = Bring the supply truck to the waystation.
-waystation-must-not-be-destroyed = The waystation must not be destroyed.
-destroy-aa-guns-enable-air-support = Destroy all the AA Guns to enable air support.
-find-destroy-bridge-stop-allied-reinforcements = Find and destroy the bridge the Allies are using
-    to bring reinforcements into the area.
-air-support-t-minus-3 = Very good, Comrade General! Our air units are en route
-    and should reach your area in approximately three minutes.
-allied-ground-reinforcements-stopped = This should stop the Allied forces from getting further ground reinforcements.
+supply-truck-waystation = 把補給卡車送到中繼站。
+waystation-must-not-be-destroyed = 中繼站不得被摧毀。
+destroy-aa-guns-enable-air-support = 摧毀所有防空砲，以取得空中支援。
+find-destroy-bridge-stop-allied-reinforcements = 找到並摧毀盟軍用來把援軍送進此區域的橋樑。
+air-support-t-minus-3 = 很好，將軍同志！我方空中單位正在途中，約三分鐘後就會抵達你的區域。
+allied-ground-reinforcements-stopped = 這樣應能阻止盟軍再取得地面援軍。

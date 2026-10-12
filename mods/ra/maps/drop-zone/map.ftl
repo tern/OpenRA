@@ -1,2 +1,2 @@
 ## rules.yaml
-actor-dtrk-name = Bomb Truck
+actor-dtrk-name = 炸彈卡車

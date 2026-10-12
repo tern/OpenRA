@@ -1,32 +1,32 @@
 ## world
 dropdown-difficulty =
-    .label = Difficulty
-    .description = The difficulty of the mission
+    .label = 難度
+    .description = 此任務的難度
 
 options-difficulty =
-    .easy = Easy
-    .normal = Normal
-    .hard = Hard
+    .easy = 簡單
+    .normal = 普通
+    .hard = 困難
 
 ## player
 bot-campaign-ai =
-    .name = Campaign Player AI
+    .name = 戰役玩家電腦
 
 ## campaign-maprules.yaml
-actor-moneycrate-name = Money Crate
+actor-moneycrate-name = 資金補給箱
 
 ## gdi03, gdi07, gdi08a, gdi08b, gdi09, nod03a, nod03b
-actor-hq-description = Provides an overview of the battlefield.
-      Requires power to operate.
+actor-hq-description = 提供戰場概覽。
+      運作需要電力。
 
 ## gdi08a
-actor-c3-name = Farmer Mike
+actor-c3-name = 農夫麥克
 
 ## gdi08b
-civilian-killed = Civilian killed.
+civilian-killed = 平民死亡。
 
 ## nod01
-actor-c10-name = Nikoomba
+actor-c10-name = 尼庫姆巴
 
 ## nod03a, nod03b
-actor-prison-name = Prison
+actor-prison-name = 監獄

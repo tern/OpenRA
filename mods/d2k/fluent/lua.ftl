@@ -1,152 +1,152 @@
 ## campaign.lua
-objective-failed = Objective Failed
-objective-completed = Objective Completed
+objective-failed = 目標失敗
+objective-completed = 目標完成
 
-primary = Primary
-secondary = Secondary
+primary = 主要
+secondary = 次要
 
-new-primary-objective = New Primary Objective
-new-secondary-objective = New Secondary Objective
+new-primary-objective = 新的主要目標
+new-secondary-objective = 新的次要目標
 
-mentat = Mentat
+mentat = 門塔特
 
 ## atreides-01ab, atreides03ab, harkonnen-01a, ordos-05
-harvested-resources = Harvested resources: { $harvested }/{ $goal }
-harvest-spice = Harvest { $spice } Solaris worth of Spice.
-not-enough-silos = We don't have enough silo space to store the required amount of Spice!
+harvested-resources = 已採集資源：{ $harvested }/{ $goal }
+harvest-spice = 採集價值 { $spice } 索拉里斯的香料。
+not-enough-silos = 我們的儲存槽空間不夠，放不下所需數量的香料！
 
 ## atreides-01ab, harkonnen-01ab, ordos01ab
-build-concrete = Build a concrete foundation before placing structures.
-build-wind-trap = Build a Wind Trap to generate power.
-build-refinery = Build a Refinery to collect Spice.
-build-silo = Build a Silo to store additional Spice.
+build-concrete = 放置建築之前，先建造混凝土地基。
+build-wind-trap = 建造捕風器來產生電力。
+build-refinery = 建造香料精煉廠來採集香料。
+build-silo = 建造儲存槽，以存放更多香料。
 
 ## atreides-01ab, ordos01a, ordos-03ab
-eliminate-harkonnen-units-reinforcements = Eliminate all Harkonnen units and reinforcements in the area.
+eliminate-harkonnen-units-reinforcements = 消滅區域內所有哈肯尼單位與援軍。
 
 ## atreides-02a, atreides-04, atreides-05, ordos-02ab, ordos-03ab, ordos-04, ordos-06a
-harkonnen-annihilated = The Harkonnen have been annihilated!
+harkonnen-annihilated = 哈肯尼已被殲滅！
 
 ## atreides-02a, ordos02ab
-destroy-harkonnen-forces = Destroy all Harkonnen forces.
+destroy-harkonnen-forces = 摧毀所有哈肯尼部隊。
 
 ## atreides-02b, atreides-03b, harkonnen-05, harkonnen-06ab, harkonnen-08
-ordos-annihilated = The Ordos have been annihilated!
+ordos-annihilated = 奧多斯已被殲滅！
 
 ## atreides-02b, atreides-03b, harkonnen-03ab, ordos-03a
-upgrade-barracks-light-factory = Upgrade the Barracks and Light Factory to enable advanced unit production.
+upgrade-barracks-light-factory = 升級兵營與輕型工廠，以生產進階單位。
 
 ## atreides-02b
-eliminate-ordos-units-reinforcements = Eliminate all Ordos forces and reinforcements in the area.
+eliminate-ordos-units-reinforcements = 消滅區域內所有奧多斯部隊與援軍。
 
 ## atreides-04, ordos-04, ordos-06a
-destroy-harkonnen = Destroy the Harkonnen.
+destroy-harkonnen = 摧毀哈肯尼。
 
 ## atreides-04
-fremen-leader = Fremen Leader
-sietch-integrity = Sietch structural integrity: { $integrity }%
-protect-fremen-sietch = Protect the Fremen Sietch.
-keep-sietch-intact = Keep the Sietch { $integrity }% intact!
-fremen-sietch-southeast = Fremen Sietch detected to the southeast.
-harkonnen-units-approaching = Harkonnen units approaching!
-sietch-destroyed = Sietch destroyed!
-fremen-sietch-under-attack = The Fremen Sietch is under attack!
+fremen-leader = 弗雷曼領袖
+sietch-integrity = 穴居結構完整度：{ $integrity }%
+protect-fremen-sietch = 保護弗雷曼穴居。
+keep-sietch-intact = 讓穴居維持 { $integrity }% 完整！
+fremen-sietch-southeast = 東南方偵測到弗雷曼穴居。
+harkonnen-units-approaching = 哈肯尼單位正在接近！
+sietch-destroyed = 穴居已摧毀！
+fremen-sietch-under-attack = 弗雷曼穴居正遭受攻擊！
 
 ## atreides-05, harkonnen-06ab, harkonnen09ab
-smugglers-annihilated = The Smugglers have been annihilated!
+smugglers-annihilated = 走私者已被殲滅！
 
 ## atreides-05
-incoming-mercenary-force = Hostile mercenary force incoming.
-contraband-has-arrived = The contraband has arrived!
-contraband-confiscated = Contraband has arrived and been confiscated.
-contraband-not-confiscated = The Smuggler contraband has arrived, but confiscation is impossible due to the heavy defenses of the Starport.
-contraband-arrives-in = The contraband arriving in { $time }
-capture-barracks-sietch-tabr = Capture the Barracks at Sietch Tabr.
-annihilate-harkonnen-units-reinforcements = Annihilate all Harkonnen reinforcements.
-capture-smuggler-starport-confiscate-contraband = Capture the Smuggler Starport and
-    confiscate the contraband.
-contraband-approaching-starport-north-in = The contraband is approaching the Starport to the north in { $time }
-starport-destroyed-no-contraband = Starport destroyed! Contraband cannot land.
-do-not-destroy-starport = Do not destroy the Starport!
-defend-captured-starport = Defend the captured Starport.
-do-not-destroy-barracks = Do not destroy the Barracks!
-hostages-released = Hostages released!
-stay-away-from-starport = Stay away from our Starport.
-smuggler-leader = Smuggler Leader.
-were-warned-will-pay = You were warned. Now you will pay.
-destroy-smugglers-mercenaries = Destroy the Smugglers and their mercenaries.
-capture-harkonnen-barracks-release-hostages = Capture the Harkonnen barracks to release the hostages.
+incoming-mercenary-force = 敵方傭兵部隊來襲。
+contraband-has-arrived = 違禁品已送達！
+contraband-confiscated = 違禁品已送達，並已沒收。
+contraband-not-confiscated = 走私者的違禁品已送達，但星港防禦過於嚴密，無法沒收。
+contraband-arrives-in = 違禁品將於 { $time } 後抵達
+capture-barracks-sietch-tabr = 佔領塔布爾穴居的兵營。
+annihilate-harkonnen-units-reinforcements = 殲滅所有哈肯尼援軍。
+capture-smuggler-starport-confiscate-contraband = 佔領走私者星港，
+    並沒收違禁品。
+contraband-approaching-starport-north-in = 違禁品將於 { $time } 後抵達北方星港
+starport-destroyed-no-contraband = 星港已摧毀！違禁品無法降落。
+do-not-destroy-starport = 不要摧毀星港！
+defend-captured-starport = 守住已佔領的星港。
+do-not-destroy-barracks = 不要摧毀兵營！
+hostages-released = 人質已獲釋！
+stay-away-from-starport = 離我們的星港遠一點。
+smuggler-leader = 走私者領袖。
+were-warned-will-pay = 警告過你了。現在該你付出代價。
+destroy-smugglers-mercenaries = 摧毀走私者與他們的傭兵。
+capture-harkonnen-barracks-release-hostages = 佔領哈肯尼兵營，釋放人質。
 
 ## harkonnen-01ab, harkonnen-03ab
-eliminate-atreides-units-reinforcements = Eliminate all Atreides forces and reinforcements in the area.
+eliminate-atreides-units-reinforcements = 消滅區域內所有亞崔迪部隊與援軍。
 
 ## harkonnen-02ab, harkonnen-03ab, harkonnen-04, harkonnen-07, harkonnen-08, harkonnen-09, ordos-05, ordos-06a
-atreides-annihilated = The Atreides have been annihilated!
+atreides-annihilated = 亞崔迪已被殲滅！
 
 ## harkonnen-02ab, harkonnen-03ab, harkonnen-04
-destroy-atreides-forces = Destroy all Atreides forces.
+destroy-atreides-forces = 摧毀所有亞崔迪部隊。
 
 ## harkonnen-04, harkonnen-07, harkonnen-08, harkonnen-09ab, ordos-05, ordos-06a
-destroy-atreides = Destroy the Atreides.
+destroy-atreides = 摧毀亞崔迪。
 
 ## harkonnen-04
-fremen-annihilated = The Fremen have been annihilated!
-destroy-fremen = Destroy the Fremen.
-fremen-spotted-north-southwest = Fremen concentrations spotted to the north and southwest.
+fremen-annihilated = 弗雷曼已被殲滅！
+destroy-fremen = 摧毀弗雷曼。
+fremen-spotted-north-southwest = 北方與西南方發現弗雷曼集結。
 
 ## harkonnen-05
-imperial-ships-penetrating-defense-grid = Imperial ships are penetrating the defense grid!
-enemy-carryall-drop-detected = Enemy carryall drop detected!
-keep-modified-outpost-intact = Keep the modified Outpost intact.
-protect-outpost = Protect the Outpost from attack.
+imperial-ships-penetrating-defense-grid = 帝國艦船正在突破防禦網！
+enemy-carryall-drop-detected = 偵測到敵方運輸機空投！
+keep-modified-outpost-intact = 保持改裝前哨站完好。
+protect-outpost = 保護前哨站不受攻擊。
 
 ## harkonnen-05, harkonnen-09ab
-destroy-imperial-forces = Destroy the Imperial forces.
+destroy-imperial-forces = 摧毀帝國部隊。
 
 ## harkonnen-05, harkonnen-07, harkonnen-09ab
-emperor-annihilated = The Emperor has been annihilated!
+emperor-annihilated = 皇帝已被殲滅！
 
 ## harkonnen-05, harkonnen-08
-destroy-ordos = Destroy the Ordos.
+destroy-ordos = 摧毀奧多斯。
 
 ## harkonnen-06ab
-ixian-transports-detected = Ixian transports detected.
-capture-destroy-ordos-starport = Capture or destroy the Ordos Starport.
+ixian-transports-detected = 偵測到伊克斯運輸船。
+capture-destroy-ordos-starport = 佔領或摧毀奧多斯星港。
 
 ## harkonnen-06ab, harkonnen-09ab
-smugglers-now-hostile = The Smugglers are now hostile!
+smugglers-now-hostile = 走私者現已轉為敵對！
 
 ## harkonnen-07
-high-tech-factory-neutralized-imperial-reinforcements = High Tech Factory neutralized! Atreides cut off from Imperial reinforcements!
-capture-atreides-construction-yard-south = Capture the Atreides Construction Yard in the south.
-destroy-corrino = Destroy the Corrino.
-destroy-atreides-high-tech-factory-imperial-reinforcements = Destroy the Atreides High Tech Factory to cut them off from Imperial reinforcements.
+high-tech-factory-neutralized-imperial-reinforcements = 高科技工廠已壓制！亞崔迪與帝國援軍的聯繫已中斷！
+capture-atreides-construction-yard-south = 佔領南方的亞崔迪建造廠。
+destroy-corrino = 摧毀科瑞諾。
+destroy-atreides-high-tech-factory-imperial-reinforcements = 摧毀亞崔迪高科技工廠，切斷他們的帝國援軍。
 
 ## harkonnen-08
-atreides-hostile = The Atreides are now hostile!
-mercenaries-annihilated = The Mercenaries have been annihilated!
-ally-mercenaries = Persuade the Mercenaries to fight alongside House Harkonnen.
-mercenary-leader-captured-allied = Leader Captured. The mercenaries have been persuaded to fight with House Harkonnen.
-cannot-stand-harkonnen-must-become-neutral = We cannot stand against the Harkonnen. We must become neutral.
-atreides-commander = Atreides Commander
+atreides-hostile = 亞崔迪現已轉為敵對！
+mercenaries-annihilated = 傭兵已被殲滅！
+ally-mercenaries = 說服傭兵與哈肯尼家族並肩作戰。
+mercenary-leader-captured-allied = 領袖已俘。傭兵已被說服，將與哈肯尼家族並肩作戰。
+cannot-stand-harkonnen-must-become-neutral = 我們抵擋不了哈肯尼。必須轉為中立。
+atreides-commander = 亞崔迪指揮官
 
 ## harkonnen-09ab
-build-deploy-mcv = Build and deploy an MCV to establish a Construction Yard.
+build-deploy-mcv = 建造並部署機動建造車，以建立建造廠。
 
 ## ordos-01ab, ordos-02ab, ordos-03ab, ordos-04, ordos-05
-outpost-not-captured-destroyed = Do not let the Outpost be captured or destroyed.
-capture-smuggler-outpost = Capture the Smuggler Outpost.
-do-not-destroy-outpost = Do not destroy the Outpost!
-warning-large-force-approaching = WARNING: Large enemy force approaching!
+outpost-not-captured-destroyed = 不要讓前哨站被佔領或摧毀。
+capture-smuggler-outpost = 佔領走私者前哨站。
+do-not-destroy-outpost = 不要摧毀前哨站！
+warning-large-force-approaching = 警告：大批敵軍正在接近！
 
 ## ordos-05
-capture-atreides-starport-establish-base = Capture the Atreides Starport and establish a base.
+capture-atreides-starport-establish-base = 佔領亞崔迪星港，並建立基地。
 
 ## ordos-06a
-ixian-reinforcements-arrived = Ixian reinforcements have arrived!
-deliveries-arriving-massive-reinforcements = Deliveries are beginning to arrive; massive reinforcements expected!
-initial-reinforcements-arrive-in = Initial reinforcements will arrive in { $time }
-additional-reinforcements-arrive-in = Additional reinforcements will arrive in { $time }
-defend-starport = Defend the Starport.
-ixian-reinforcements-in = The first batch of Ixian reinforcements will arrive in { $time }
-enemy-reinforcements-arrived = Enemy reinforcements have arrived.
+ixian-reinforcements-arrived = 伊克斯援軍已抵達！
+deliveries-arriving-massive-reinforcements = 物資開始送達；預計有大批援軍！
+initial-reinforcements-arrive-in = 首批援軍將於 { $time } 後抵達
+additional-reinforcements-arrive-in = 額外援軍將於 { $time } 後抵達
+defend-starport = 守住星港。
+ixian-reinforcements-in = 第一批伊克斯援軍將於 { $time } 後抵達
+enemy-reinforcements-arrived = 敵方援軍已抵達。

@@ -1,667 +1,667 @@
 ## player.yaml
 options-tech-level =
-    .low = Low
-    .medium = Medium
-    .no-powers = No Superpowers
-    .unrestricted = Unrestricted
+    .low = 低
+    .medium = 中
+    .no-powers = 無超級武器
+    .unrestricted = 無限制
 
 checkbox-automatic-concrete =
-    .label = Automatic Concrete
-    .description = Concrete foundations are automatically laid under buildings
+    .label = 自動混凝土
+    .description = 建築下方會自動鋪設混凝土地基
 
-notification-insufficient-funds = Insufficient funds.
-notification-new-construction-options = New construction options.
-notification-cannot-deploy-here = Cannot deploy here.
-notification-low-power = Low power.
-notification-base-under-attack = Base under attack.
-notification-ally-under-attack = Our ally is under attack.
-notification-harvester-under-attack = Harvester under attack.
-notification-silos-needed = Silos needed.
-notification-no-room-for-new-unit = No room for new unit.
-notification-cannot-build-here = Cannot build here.
-notification-one-of-our-buildings-has-been-captured = One of our buildings has been captured.
+notification-insufficient-funds = 資金不足。
+notification-new-construction-options = 有新的建造選項。
+notification-cannot-deploy-here = 無法在這裡部署。
+notification-low-power = 電力不足。
+notification-base-under-attack = 基地正遭受攻擊。
+notification-ally-under-attack = 我們的盟友正遭受攻擊。
+notification-harvester-under-attack = 收割機正遭受攻擊。
+notification-silos-needed = 需要儲存槽。
+notification-no-room-for-new-unit = 沒有空間容納新單位。
+notification-cannot-build-here = 無法在這裡建造。
+notification-one-of-our-buildings-has-been-captured = 我們的一座建築已被佔領。
 
 ## world.yaml
 dropdown-map-worms =
-    .label = Worms
-    .description = Worms roam the map, devouring unprepared forces
+    .label = 沙蟲
+    .description = 沙蟲在地圖上游走，吞噬毫無防備的部隊
 
 options-starting-units =
-    .mcv-only = MCV Only
-    .light-support = Light Support
-    .heavy-support = Heavy Support
+    .mcv-only = 僅機動建造車
+    .light-support = 輕型支援
+    .heavy-support = 重型支援
 
-resource-spice = Spice
+resource-spice = 香料
 
 faction-random =
-    .name = Any
-    .description = Random House
-    A random house is chosen at the start of the game
+    .name = 任意
+    .description = 隨機家族
+    遊戲開始時會隨機選出一個家族
 
 faction-atreides =
-    .name = Atreides
-    .description = House Atreides
-    The noble Atreides, from the water world of Caladan,
-    rely on their Ornithopters to ensure air superiority.
-    They have allied themselves with the Fremen, the fearsome
-    native warriors of Dune who can move undetected in battle.
+    .name = 亞崔迪
+    .description = 亞崔迪家族
+    來自水世界卡拉丹的高貴亞崔迪，
+    依靠撲翼機確保制空權。
+    他們與弗雷曼結盟。這些可怕的
+    沙丘原住民戰士能在戰鬥中隱匿行動。
 
-    Faction Variations:
-        - Combat Tanks are balanced in terms of speed and durability
+    陣營差異：
+        - 戰鬥坦克在速度與耐久上取得平衡
 
-    Special Units:
-        - Grenadier
-        - Fremen
-        - Sonic Tank
+    特殊單位：
+        - 擲彈兵
+        - 弗雷曼
+        - 音波坦克
 
-    Superweapon:
-        - Airstrike
+    超級武器：
+        - 空襲
 
 faction-harkonnen =
-    .name = Harkonnen
-    .description = House Harkonnen
-    The evil Harkonnen will stop at nothing to gain control of the spice.
-    They rely on brute force and atomic weapons to achieve their goals:
-    wealth, and the destruction of House Atreides.
+    .name = 哈肯尼
+    .description = 哈肯尼家族
+    邪惡的哈肯尼為了控制香料不擇手段。
+    他們依靠蠻力與原子武器達成目標：
+    財富，以及毀滅亞崔迪家族。
 
-    Faction Variations:
-        - Combat Tanks are more durable but move at a slower speed
+    陣營差異：
+        - 戰鬥坦克更耐打，但移動較慢
 
-    Special Units:
-        - Sardaukar
-        - Devastator
+    特殊單位：
+        - 薩督卡
+        - 毀滅者
 
-    Superweapon:
-        - Death Hand Missile
+    超級武器：
+        - 死亡之手飛彈
 
 faction-ordos =
-    .name = Ordos
-    .description = House Ordos
-    From the icy world of Sigma Draconis IV, the insidious Ordos are known for
-    their wealth, greed, and treachery. They often turn to mercenaries, sabotage,
-    and forbidden Ixian technologies to gain the upper hand.
+    .name = 奧多斯
+    .description = 奧多斯家族
+    來自冰封世界天龍座西格瑪四號。陰險的奧多斯以
+    財富、貪婪與背叛聞名。他們往往藉助傭兵、破壞，
+    以及禁忌的伊克斯科技佔得上風。
 
-    Faction Variations:
-        - Trikes are replaced by Raider Trikes
-        - Combat Tanks are faster but less durable
+    陣營差異：
+        - 三輪車改由襲擊三輪車取代
+        - 戰鬥坦克更快，但較不耐打
 
-    Special Units:
-        - Raider Trike
-        - Stealth Raider Trike
-        - Saboteur
-        - Deviator
+    特殊單位：
+        - 襲擊三輪車
+        - 隱形襲擊三輪車
+        - 破壞者
+        - 偏導車
 
 faction-corrino =
-    .name = Corrino
+    .name = 科瑞諾
 
 faction-mercenaries =
-    .name = Mercenaries
+    .name = 傭兵
 
 faction-smugglers =
-    .name = Smugglers
+    .name = 走私者
 
 faction-fremen =
-    .name = Fremen
+    .name = 弗雷曼
 
 ## defaults.yaml
-notification-unit-lost = Unit lost.
-notification-unit-promoted = Unit promoted.
-notification-enemy-building-captured = Enemy building captured.
-notification-primary-building-selected = Primary building selected.
+notification-unit-lost = 單位損失。
+notification-unit-promoted = 單位晉升。
+notification-enemy-building-captured = 已佔領敵方建築。
+notification-primary-building-selected = 已選取主要建築。
 
 ## aircraft.yaml
 actor-carryall-reinforce =
-    .name = Carryall
+    .name = 運輸機
     .description =
-    Large winged, planet-bound ship
-    Automatically lifts harvesters to and from Spice fields.
-    Lifts vehicles to Repair Pads when ordered to.
+    大型有翼的行星運輸船
+    自動將收割機運往香料田並載回。
+    受命時會把載具送到維修坪。
 
 actor-carryall-encyclopedia =
-    Automatically transport Harvesters between the Spice Fields and Refineries. They can also pick up units and deliver them to the Repair Pad when ordered to.
+    自動在香料田與精煉廠之間運送收割機。受命時也能吊起單位，送到維修坪。
 
-    The Carryall is a lightly armored transport aircraft. It is vulnerable to missiles and can only be hit by anti-aircraft weapons.
+    運輸機是輕裝甲運輸飛行器。它易受飛彈損傷，而且只有防空武器打得到。
 
-actor-frigate-name = Frigate
+actor-frigate-name = 護衛艦
 
 actor-ornithopter =
-    .name = Ornithopter
+    .name = 撲翼機
     .encyclopedia =
-    The fastest aircraft on Dune, it is lightly armored and capable of dropping 500 lb bombs. Highly effective against infantry and lightly armored targets, with the ability to damage other armor types.
+    沙丘上最快的飛行器。裝甲輕薄，能投擲 500 磅炸彈。對步兵與輕裝甲目標非常有效，也能損傷其他類型的裝甲。
 
-actor-ornithopter-husk-name = Ornithopter
-actor-carryall-husk-name = Carryall
-actor-carryall-huskvtol-name = Carryall
+actor-ornithopter-husk-name = 撲翼機
+actor-carryall-husk-name = 運輸機
+actor-carryall-huskvtol-name = 運輸機
 
 ## arrakis.yaml
-notification-worm-attack = Worm attack.
-notification-worm-sign = Worm sign.
+notification-worm-attack = 沙蟲來襲。
+notification-worm-sign = 出現沙蟲跡象。
 
-actor-spicebloom-spawnpoint-name = Spice Bloom spawnpoint
-actor-spicebloom-name = Spice Bloom
-actor-sandworm-name = Sandworm
-actor-sietch-name = Fremen Sietch
+actor-spicebloom-spawnpoint-name = 香料噴發生成點
+actor-spicebloom-name = 香料噴發
+actor-sandworm-name = 沙蟲
+actor-sietch-name = 弗雷曼穴居
 
 ## defaults.yaml
-meta-vehicle-generic-name = Unit
-meta-husk-generic-name = Destroyed Unit
-meta-aircrafthusk-generic-name = Unit
-meta-infantry-generic-name = Unit
-meta-plane-generic-name = Unit
-meta-building-generic-name = Structure
+meta-vehicle-generic-name = 單位
+meta-husk-generic-name = 已摧毀單位
+meta-aircrafthusk-generic-name = 單位
+meta-infantry-generic-name = 單位
+meta-plane-generic-name = 單位
+meta-building-generic-name = 建築
 
 ## husks.yaml
-actor-mcv-husk-name = Mobile Construction Vehicle (Destroyed)
-actor-harvester-husk-name = Spice Harvester (Destroyed)
-actor-siege-tank-husk-name = Siege Tank (Destroyed)
-actor-missile-tank-husk-name = Missile Tank (Destroyed)
-actor-sonic-tank-husk-name = Sonic Tank (Destroyed)
-actor-devastator-husk-name = Devastator (Destroyed)
-actor-deviator-husk-name = Deviator (Destroyed)
-meta-combat-tank-husk-name = Combat Tank (Destroyed)
+actor-mcv-husk-name = 機動建造車（已摧毀）
+actor-harvester-husk-name = 香料收割機（已摧毀）
+actor-siege-tank-husk-name = 攻城坦克（已摧毀）
+actor-missile-tank-husk-name = 飛彈坦克（已摧毀）
+actor-sonic-tank-husk-name = 音波坦克（已摧毀）
+actor-devastator-husk-name = 毀滅者（已摧毀）
+actor-deviator-husk-name = 偏導車（已摧毀）
+meta-combat-tank-husk-name = 戰鬥坦克（已摧毀）
 
 ## infantry.yaml
 actor-light-inf =
-    .name = Light Infantry
+    .name = 輕步兵
     .description =
-    General-purpose infantry.
-      Strong vs Infantry
-      Weak vs Vehicles and Artillery
+    泛用步兵。
+      強對步兵
+      弱對載具與砲兵
     .encyclopedia =
-    Lightly armored foot soldiers, equipped with 9mm RP assault rifles. They are effective against infantry and lightly armored vehicles.
+    輕裝甲步兵，配備 9mm RP 突擊步槍。對步兵與輕裝甲載具有效。
 
-    Light Infantry are resistant to missiles and large-caliber guns, but are very vulnerable to high-explosives, fire, and small arms.
+    輕步兵能抵抗飛彈與大口徑砲，但非常容易被高爆炸藥、火焰與輕武器損傷。
 
 actor-engineer =
-    .name = Engineer
+    .name = 工程師
     .description =
-    Infiltrates and captures enemy
-    structures.
-      Strong vs Buildings
-      Weak vs Everything
-      Repairs damaged cliffs
+    滲入並佔領敵方
+    建築。
+      強對建築
+      弱對一切
+      可修復受損峭壁
     .encyclopedia =
-    Can be used to capture enemy buildings.
+    可用來佔領敵方建築。
 
-    Engineers are resistant to anti-tank weaponry but are very vulnerable to high-explosives, fire, and small arms.
+    工程師能抵抗反坦克武器，但非常容易被高爆炸藥、火焰與輕武器損傷。
 
 actor-trooper =
-    .name = Trooper
+    .name = 裝甲兵
     .description =
-    Anti-tank infantry.
-      Strong vs Tanks
-      Weak vs Infantry and Artillery
+    反坦克步兵。
+      強對坦克
+      弱對步兵與砲兵
     .encyclopedia =
-    Armed with wire-guided, armor-piercing missile warheads, Troopers are very effective against vehicles and buildings but struggle against infantry.
+    配備線導穿甲飛彈彈頭。裝甲兵對載具與建築非常有效，但難以對付步兵。
 
-    Troopers are resistant to anti-tank weaponry but very vulnerable to high-explosives, fire and bullet weapons.
+    裝甲兵能抵抗反坦克武器，但非常容易被高爆炸藥、火焰與子彈武器損傷。
 
 actor-thumper =
-    .name = Thumper Infantry
+    .name = 擊砂兵
     .description =
-    Attracts nearby worms when deployed.
-      Unarmed
+    部署後吸引附近沙蟲。
+      無武裝
     .encyclopedia =
-    Deploys a loud hammering device that draws Sandworms to the area.
+    部署會發出巨大敲擊聲的裝置，把沙蟲引到該處。
 
 actor-fremen =
-    .name = Fremen
+    .name = 弗雷曼
     .description =
-    Elite infantry unit with assault rifles and rockets.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
-      Special Ability: Invisibility
+    配備突擊步槍與火箭的精銳步兵。
+      強對步兵與載具
+      弱對砲兵
+      特殊能力：隱形
     .encyclopedia =
-    The native desert warriors of Dune, armed with 10mm Assault Rifles and Rockets. Their firepower is equally effective against infantry and vehicles.
+    沙丘的沙漠原住民戰士，配備 10mm 突擊步槍與火箭。火力對步兵和載具同樣有效。
 
-    Fremen units are very vulnerable to high-explosive and bullet weapons.
+    弗雷曼非常容易被高爆炸藥與子彈武器損傷。
 
 actor-grenadier =
-    .name = Grenadier
+    .name = 擲彈兵
     .description =
-    Infantry with grenades.
-      Strong vs Buildings and Infantry
-      Weak vs Vehicles
+    投擲手榴彈的步兵。
+      強對建築與步兵
+      弱對載具
     .encyclopedia =
-    An infantry artillery unit strong against buildings. They have a chance of exploding when killed, so should not be grouped together.
+    擅長對付建築的步兵砲兵單位。死亡時有機率爆炸，因此不應聚集在一起。
 
 actor-sardaukar =
-    .name = Sardaukar
+    .name = 薩督卡
     .description =
-    Elite Corrino assault infantry.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    科瑞諾精銳突擊步兵。
+      強對步兵與載具
+      弱對砲兵
     .encyclopedia =
-    Powerful heavy troopers equipped with a machine gun that is effective against infantry and a rocket launcher for targeting vehicles.
+    強大的重裝步兵，配備對步兵有效的機槍，以及瞄準載具的火箭發射器。
 
 actor-mpsardaukar-description =
-    Elite Harkonnen assault infantry.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    哈肯尼精銳突擊步兵。
+      強對步兵與載具
+      弱對砲兵
 
 actor-saboteur =
-    .name = Saboteur
+    .name = 破壞者
     .description =
-    Sneaky infantry with explosives.
-    Turns invisible for a limited time.
-      Strong vs Buildings
-      Weak vs Everything
-      Special Ability: Destroys buildings
+    攜帶炸藥的潛行步兵。
+    可在有限時間內隱形。
+      強對建築
+      弱對一切
+      特殊能力：摧毀建築
     .encyclopedia =
-    A specialized military unit of House Ordos, capable of demolishing enemy buildings upon entry, but dying in the resulting explosion. It can activate stealth mode to become invisible.
+    奧多斯家族的特種單位。進入敵方建築後能將其炸毀，但自己也會死於爆炸。可啟動隱形模式。
 
-    The Saboteur is resistant to anti-tank weaponry, but very vulnerable to high-explosives, fire, and bullet weapons.
+    破壞者能抵抗反坦克武器，但非常容易被高爆炸藥、火焰與子彈武器損傷。
 
 actor-nsfremen-description =
-    Elite infantry unit with assault rifles and rockets.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    配備突擊步槍與火箭的精銳步兵。
+      強對步兵與載具
+      弱對砲兵
 
 ## misc.yaml
-actor-crate-name = Crate
-actor-mpspawn-name = (multiplayer starting point)
-actor-waypoint-name = (waypoint for scripted behavior)
-actor-camera-name = (reveals area to owner)
-actor-wormspawner-name = (worm spawning location)
+actor-crate-name = 補給箱
+actor-mpspawn-name = （多人連線出生點）
+actor-waypoint-name = （腳本用路徑點）
+actor-camera-name = （向擁有者揭示區域）
+actor-wormspawner-name = （沙蟲生成位置）
 
 actor-upgrade-conyard =
-    .name = Construction Yard Upgrade
+    .name = 建造廠升級
     .description =
-    Unlocks additional construction options:
-    - Large Concrete Slab
-    - Rocket Turret
+    解鎖額外建造選項：
+    - 大型混凝土板
+    - 火箭塔
 
 actor-upgrade-barracks =
-    .name = Barracks Upgrade
+    .name = 兵營升級
     .description =
-    Unlocks additional infantry:
-    - Trooper
-    - Engineer
-    - Thumper Infantry
+    解鎖額外步兵：
+    - 裝甲兵
+    - 工程師
+    - 擊砂兵
 
-    Required to unlock faction-specific infantry:
-    - Atreides: Grenadier
-    - Harkonnen: Sardaukar
+    解鎖家族專屬步兵所需：
+    - 亞崔迪：擲彈兵
+    - 哈肯尼：薩督卡
 
 actor-upgrade-light =
-    .name = Light Factory Upgrade
+    .name = 輕型工廠升級
     .description =
-    Unlocks additional light units:
-    - Missile Quad
+    解鎖額外輕型單位：
+    - 飛彈四輪車
 
-    Required to unlock a faction-specific light unit:
-    - Ordos: Stealth Raider Trike
+    解鎖家族專屬輕型單位所需：
+    - 奧多斯：隱形襲擊三輪車
 
 actor-upgrade-heavy =
-    .name = Heavy Factory Upgrade
+    .name = 重型工廠升級
     .description =
-    Unlocks additional construction options:
-    - Repair Pad
-    - IX Research Center
+    解鎖額外建造選項：
+    - 維修坪
+    - IX 研究中心
 
-    Unlocks additional heavy units:
-    - Siege Tank
-    - Missile Tank
-    - MCV
+    解鎖額外重型單位：
+    - 攻城坦克
+    - 飛彈坦克
+    - 機動建造車
 
 actor-upgrade-hightech =
-    .name = High Tech Factory Upgrade
+    .name = 高科技工廠升級
     .description =
-    Unlocks the Atreides Air Strike superweapon.
+    解鎖亞崔迪的空襲超級武器。
 
 actor-deathhand =
-    .name = Death Hand
+    .name = 死亡之手
     .encyclopedia =
-    Armed with atomic cluster munitions, it detonates above its target, inflicting great damage over a wide area.
+    搭載原子集束彈藥，在目標上方引爆，對廣大範圍造成重大傷害。
 
 ## structures.yaml
-notification-construction-complete = Construction complete.
-notification-unit-ready = Unit ready.
-notification-repairing = Repairing.
-notification-unit-repaired = Unit repaired.
-notification-select-target = Select target.
-notification-missile-launch-detected = Missile launch detected.
-notification-airstrike-ready = Airstrike ready.
-notification-building-lost = Building lost.
-notification-reinforcements-have-arrived = Reinforcements have arrived.
-notification-death-hand-missile-prepping = Death Hand missile prepping.
-notification-death-hand-missile-ready = Death Hand missile ready.
-notification-fremen-ready = Fremen ready.
-notification-saboteur-ready = Saboteur ready.
+notification-construction-complete = 建造完成。
+notification-unit-ready = 單位就緒。
+notification-repairing = 修復中。
+notification-unit-repaired = 單位已修復。
+notification-select-target = 選取目標。
+notification-missile-launch-detected = 偵測到飛彈發射。
+notification-airstrike-ready = 空襲就緒。
+notification-building-lost = 建築損失。
+notification-reinforcements-have-arrived = 援軍已抵達。
+notification-death-hand-missile-prepping = 死亡之手飛彈準備中。
+notification-death-hand-missile-ready = 死亡之手飛彈就緒。
+notification-fremen-ready = 弗雷曼就緒。
+notification-saboteur-ready = 破壞者就緒。
 
 meta-concrete =
-    .generic-name = Structure
+    .generic-name = 建築
     .description =
-    Provides a strong foundation that
-    protects against terrain damage.
+    提供堅固地基，
+    防範地形損傷。
 
 actor-concrete-a =
-    .name = Concrete Slab
+    .name = 混凝土板
     .encyclopedia =
-    Buildings not constructed on a Concrete Slab will sustain ongoing damage from the harsh desert environment of Dune. While repairs are possible, placing structures on concrete prevents continuous weathering.
+    沒有建在混凝土板上的建築，會因為沙丘嚴酷的沙漠環境持續受損。雖然可以修復，但把建築放在混凝土上，就能避免持續風化。
 
-    Concrete is vulnerable to most weapons and cannot be repaired once damaged.
+    混凝土易受多數武器損傷，而且受損後無法修復。
 
-actor-concrete-b-name = Large Concrete Slab
+actor-concrete-b-name = 大型混凝土板
 
 actor-construction-yard =
-    .name = Construction Yard
-    .description = Produces structures.
+    .name = 建造廠
+    .description = 生產建築。
     .encyclopedia =
-    Serving as the foundation of any base built on Arrakis, the Construction Yard produces a small amount of power and enables the construction of new structures. Protect this structure! It is critical to the success of your base.
+    任何建在阿拉基斯上的基地，都以建造廠為根基。建造廠會產生少量電力，並讓你能建造新建築。請保護這座建築！它關係著基地的成敗。
 
-    Construction yards are fairly strong, but vulnerable to all weapons to varying degrees.
+    建造廠相當堅固，但對各種武器都有不同程度的弱點。
 
 actor-wind-trap =
-    .name = Wind Trap
+    .name = 捕風器
     .description =
-    Supplies power to other
-    structures.
+    為其他建築供應
+    電力。
     .encyclopedia =
-    Produces power and water for your base. Large, above-ground ducts funnel wind currents underground into massive turbines, which drive power generators and humidity extractors.
+    為基地產生電力與水。地面上的大型導管把風灌進地下巨大渦輪，藉此驅動發電機與濕氣萃取器。
 
-    Wind Traps are vulnerable to most weapons.
+    捕風器易受多數武器損傷。
 
 actor-barracks =
-    .name = Barracks
-    .description = Trains infantry.
+    .name = 兵營
+    .description = 訓練步兵。
     .encyclopedia =
-    Required for producing and training light infantry units, it can be upgraded to train advanced infantry in later missions.
+    生產並訓練輕步兵的必要建築。後續任務中可升級，以訓練進階步兵。
 
-    Barracks are vulnerable to most weapons.
+    兵營易受多數武器損傷。
 
 actor-refinery =
-    .name = Spice Refinery
+    .name = 香料精煉廠
     .description =
-    Harvesters unload Spice here
-    for processing.
+    收割機在此卸下香料
+    進行加工。
     .encyclopedia =
-    The basis of all Spice production on Dune. Harvesters transport mined Spice to the Refinery where it is converted into credits. Refined Spice is automatically distributed to Silos and Refineries for storage. Each refinery can store Spice. A Spice Harvester is delivered by Carryall once a Refinery is built.
+    沙丘上一切香料生產的基礎。收割機把採得的香料運到精煉廠，轉換成資金。精製後的香料會自動分配到各儲存槽與精煉廠存放。每座精煉廠都能儲存香料。精煉廠建造完成後，運輸機會送來一台香料收割機。
 
-    Refineries are vulnerable to most weapons.
+    精煉廠易受多數武器損傷。
 
 actor-silo =
-    .name = Silo
-    .description = Stores excess harvested Spice.
+    .name = 儲存槽
+    .description = 儲存多餘的採集香料。
     .encyclopedia =
-    Store mined Spice. Any surplus from Refineries is evenly distributed among all available Silos. If storage capacity is exceeded, excess Spice is lost. Destroyed or captured Silos redistribute their contents, provided there is sufficient space.
+    存放採得的香料。精煉廠超出的部分會平均分配到所有可用的儲存槽。若容量不足，多餘的香料就會流失。儲存槽被摧毀或佔領時，只要還有足夠空間，所存香料就會重新分配。
 
-    The Spice Silo is vulnerable to most weapons.
+    香料儲存槽易受多數武器損傷。
 
 actor-light-factory =
-    .name = Light Factory
-    .description = Produces light vehicles.
+    .name = 輕型工廠
+    .description = 生產輕型載具。
     .encyclopedia =
-    Required to produce small, lightly armored combat vehicles. It can be upgraded in later missions to manufacture more advanced light vehicles.
+    生產小型輕裝甲戰鬥載具的必要建築。後續任務中可升級，以製造更先進的輕型載具。
 
-    A Light Factory is vulnerable to most weapons.
+    輕型工廠易受多數武器損傷。
 
 actor-heavy-factory =
-    .name = Heavy Factory
-    .description = Produces heavy vehicles.
+    .name = 重型工廠
+    .description = 生產重型載具。
     .encyclopedia =
-    Enables the construction of heavy vehicles such as Harvesters and Combat Tanks. With upgrades, it unlocks advanced vehicles, though some may require additional buildings.
+    可建造收割機、戰鬥坦克等重型載具。升級後能解鎖進階載具，但其中一部分還需要其他建築。
 
-    The Heavy Factory is vulnerable to most weapons.
+    重型工廠易受多數武器損傷。
 
 actor-outpost =
-    .name = Outpost
+    .name = 前哨站
     .description =
-    Provides a radar map of the battlefield.
-    Requires power to operate.
+    提供戰場的雷達地圖。
+    運作需要電力。
     .encyclopedia =
-    Once enough power is available, the Radar Outpost activates, providing a radar map.
+    電力足夠時，前哨站會啟動並提供雷達地圖。
 
-    The Radar Outpost is vulnerable to most weapons.
+    前哨站易受多數武器損傷。
 
 actor-starport =
-    .name = Starport
-    .description = Dropzone for quick reinforcements, at a price.
+    .name = 星港
+    .description = 以資金換取快速援軍的降落區。
     .encyclopedia =
-    Unlocks intergalactic trade with the CHOAM Merchants' Guild, where vehicles and airborne units can be purchased at varying rates. This facility is essential for acquiring units from the Guild.
+    開啟與喬安姆商人公會的星際貿易，能以不同價格購買載具與空中單位。要向公會取得單位，這座設施不可或缺。
 
-    Even with heavy armor, the Starport is vulnerable to most weapons.
+    星港即使有重裝甲，仍易受多數武器損傷。
 
 actor-wall =
-    .name = Concrete Wall
-    .generic-name = Structure
-    .description = Stops units and blocks enemy fire.
+    .name = 混凝土牆
+    .generic-name = 建築
+    .description = 阻擋單位並擋住敵火。
     .encyclopedia =
-    The most effective defensive barriers on Dune, blocking tank fire and impeding unit movement.
+    沙丘上最有效的防禦屏障，能擋住坦克砲火，並阻礙單位移動。
 
-    Walls can only be damaged by explosive weapons, missiles and shells. Similar to Concrete Slabs, they cannot be repaired once damaged.
+    牆只能被爆裂武器、飛彈與砲彈損傷。和混凝土板一樣，受損後無法修復。
 
 actor-medium-gun-turret =
-    .name = Gun Turret
+    .name = 機槍塔
     .description =
-    Defensive structure.
-      Strong vs Tanks
-      Weak vs Infantry and Aircraft
+    防禦建築。
+      強對坦克
+      弱對步兵與飛行器
     .encyclopedia =
-    A medium-range weapon that is effective against all types of vehicle, particularly heavily armored ones. It automatically fires upon any enemy unit within its range and requires power to operate.
+    中射程武器，對各類載具都有效，尤其是重裝甲載具。會自動射擊射程內的任何敵方單位，運作需要電力。
 
-    The Gun Turret is resistant to small arms and explosive weapons, but vulnerable to missiles and high-caliber guns.
+    機槍塔能抵抗輕武器與爆裂武器，但易受飛彈與大口徑砲損傷。
 
 actor-large-gun-turret =
-    .name = Rocket Turret
+    .name = 火箭塔
     .description =
-    Defensive structure.
-    Requires power to operate.
-      Strong vs Infantry and Aircraft
-      Weak vs Tanks
+    防禦建築。
+    運作需要電力。
+      強對步兵與飛行器
+      弱對坦克
     .encyclopedia =
-    An enhanced defensive structure with a longer range and faster rate of fire than the Gun Turret. Its advanced targeting system requires power to operate.
+    比機槍塔射程更遠、射速更快的強化防禦建築。其先進瞄準系統運作時需要電力。
 
-    The Rocket Turret is resistant to firearms and explosive weapons, but vulnerable to missiles and high-caliber guns.
+    火箭塔能抵抗槍械與爆裂武器，但易受飛彈與大口徑砲損傷。
 
 actor-repair-pad =
-    .name = Repair Pad
+    .name = 維修坪
     .description =
-    Repairs vehicles.
-    Allows MCVs to be built.
+    修復載具。
+    可建造機動建造車。
     .encyclopedia =
-    Repairs units for a fraction of their production cost.
+    以生產成本的一小部分修復單位。
 
-    The Repair Pad is vulnerable to most weapons.
+    維修坪易受多數武器損傷。
 
 actor-high-tech-factory =
-    .name = High Tech Factory
-    .description = Unlocks advanced technology.
-    .airstrikepower-name = Air Strike
-    .airstrikepower-description = Ornithopters bomb the target.
+    .name = 高科技工廠
+    .description = 解鎖先進科技。
+    .airstrikepower-name = 空襲
+    .airstrikepower-description = 撲翼機轟炸目標。
     .encyclopedia =
-    Produces airborne units, and is required to build Carryalls. House Atreides can upgrade this facility to build Ornithopters for air strikes in later missions.
+    生產空中單位，也是建造運輸機的必要建築。亞崔迪家族可在後續任務升級這座設施，建造能進行空襲的撲翼機。
 
-    The High Tech Factory is vulnerable to most weapons.
+    高科技工廠易受多數武器損傷。
 
 actor-research-centre =
-    .name = IX Research Center
-    .description = Unlocks advanced tanks.
+    .name = IX 研究中心
+    .description = 解鎖進階坦克。
     .encyclopedia =
-    Provides technology upgrades for both structures and vehicles. This facility is required to develop advanced special weapons and prototypes.
+    為建築與載具提供科技升級。要開發先進的特殊武器與原型單位，都需要這座設施。
 
-    The IX Research Center is vulnerable to most weapons.
+    IX 研究中心易受多數武器損傷。
 
 actor-palace =
-    .name = Palace
-    .description = Unlocks elite infantry and weapons.
+    .name = 宮殿
+    .description = 解鎖精銳步兵與武器。
     .encyclopedia =
-    Serves as the command center once built, offering additional options and special weapons.
+    建成後即成為指揮中心，提供額外選項與特殊武器。
 
-    Even with heavy armor, the Palace is vulnerable to most weapons.
-    .nukepower-name = Death Hand
-    .nukepower-description = Launches an atomic missile at a target location.
-    .produceactorpower-fremen-name = Recruit Fremen
-    .produceactorpower-fremen-description = Elite infantry unit with assault rifles and rockets.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
-      Special Ability: Invisibility
-    .produceactorpower-saboteur-name = Recruit Saboteur
-    .produceactorpower-saboteur-description = Sneaky infantry with explosives.
-    Can be deployed to become invisible for a limited time.
-      Strong vs Buildings
-      Weak vs Everything
-      Special Ability: Destroys buildings
+    宮殿即使有重裝甲，仍易受多數武器損傷。
+    .nukepower-name = 死亡之手
+    .nukepower-description = 對目標位置發射原子飛彈。
+    .produceactorpower-fremen-name = 招募弗雷曼
+    .produceactorpower-fremen-description = 配備突擊步槍與火箭的精銳步兵。
+      強對步兵與載具
+      弱對砲兵
+      特殊能力：隱形
+    .produceactorpower-saboteur-name = 招募破壞者
+    .produceactorpower-saboteur-description = 攜帶炸藥的潛行步兵。
+    可部署，在有限時間內變成隱形。
+      強對建築
+      弱對一切
+      特殊能力：摧毀建築
 
 ## vehicles.yaml
 actor-mcv =
-    .name = Mobile Construction Vehicle
+    .name = 機動建造車
     .description =
-    Deploys into a Construction Yard.
-      Unarmed
+    部署成建造廠。
+      無武裝
     .encyclopedia =
-    Must be driven to an area where it can be deployed. After finding a suitable rock surface, the MCV can be transformed into a Construction Yard.
+    必須開到能夠部署的區域。找到合適的岩石地面後，機動建造車能變形成建造廠。
 
-    MCVs are resistant to bullets and light-explosives. They are vulnerable to missiles and high-caliber guns.
+    機動建造車能抵抗子彈與輕爆裂物，但易受飛彈與大口徑砲損傷。
 
 actor-harvester =
-    .name = Spice Harvester
+    .name = 香料收割機
     .description =
-    Collects Spice for processing.
-      Unarmed
+    採集香料以供加工。
+      無武裝
     .encyclopedia =
-    Resistant to bullets, and to some degree, high explosives. They are vulnerable to missiles and high-caliber guns.
+    能抵抗子彈，對高爆炸藥也有一定抵抗力。易受飛彈與大口徑砲損傷。
 
-    A Harvester is included with a Refinery.
+    精煉廠會附贈一台收割機。
 
 actor-trike =
-    .name = Trike
+    .name = 三輪車
     .description =
-    Fast scout.
-      Strong vs Infantry
-      Weak vs Tanks
+    快速偵察單位。
+      強對步兵
+      弱對坦克
     .encyclopedia =
-    Lightly armored, three-wheeled vehicles armed with heavy machine guns, effective against infantry and lightly armored vehicles.
+    輕裝甲的三輪載具，配備重機槍，對步兵與輕裝甲載具有效。
 
-    Trikes are vulnerable to most weapons, high-caliber guns are slightly less effective against them.
+    三輪車易受多數武器損傷，大口徑砲的效果稍差。
 
 actor-quad =
-    .name = Missile Quad
+    .name = 飛彈四輪車
     .description =
-    Missile Scout.
-      Strong vs Vehicles
-      Weak vs Infantry
+    飛彈偵察車。
+      強對載具
+      弱對步兵
     .encyclopedia =
-    Superior to the Trike in both armor and firepower, the Quad is a four-wheeled vehicle firing armor-piercing rockets. It is effective against most vehicles.
+    裝甲與火力都優於三輪車。這種四輪車發射穿甲火箭，對多數載具有效。
 
-    Quads are resistant to bullets and, to a lesser degree, explosives. They are vulnerable to missiles and high-caliber guns.
+    四輪車能抵抗子彈，對爆裂物也有一定抵抗力，但易受飛彈與大口徑砲損傷。
 
 actor-siege-tank =
-    .name = Siege Tank
+    .name = 攻城坦克
     .description =
-    Siege Artillery.
-      Strong vs Infantry and Buildings
-      Weak vs Tanks
+    攻城砲兵。
+      強對步兵與建築
+      弱對坦克
     .encyclopedia =
-    Incredibly effective against infantry and lightly armored vehicles, but struggles against heavily armored targets. It has a long firing range.
+    對步兵與輕裝甲載具極為有效，但難以對付重裝甲目標。射程很長。
 
-    Siege Tanks are resistant to bullets, and to some degree, explosives. They are vulnerable to missiles and high-caliber guns.
+    攻城坦克能抵抗子彈，對爆裂物也有一定抵抗力，但易受飛彈與大口徑砲損傷。
 
 actor-missile-tank =
-    .name = Missile Tank
+    .name = 飛彈坦克
     .description =
-    Rocket Artillery.
-      Strong vs Vehicles, Buildings and Aircraft
-      Weak vs Infantry
+    火箭砲兵。
+      強對載具、建築與飛行器
+      弱對步兵
     .encyclopedia =
-    Shoots down aircraft and is effective against most targets, except infantry.
+    能擊落飛行器，除了步兵以外對多數目標都有效。
 
-    Missile Tanks are vulnerable to most weapons, high-caliber guns are slightly less effective.
+    飛彈坦克易受多數武器損傷，大口徑砲的效果稍差。
 
 actor-sonic-tank =
-    .name = Sonic Tank
+    .name = 音波坦克
     .description =
-    Fires sonic shocks.
-      Strong vs Infantry and Vehicles
-      Weak vs Artillery
+    發射音波衝擊。
+      強對步兵與載具
+      弱對砲兵
     .encyclopedia =
-    Most effective against infantry and lightly armored vehicles, but weaker against armored targets.
+    對步兵與輕裝甲載具最有效，但對裝甲目標較弱。
 
-    Its sonic waves damage all units in their path.
+    音波會傷害路徑上的所有單位。
 
-    Resistant to bullets and small-explosives, but vulnerable to missiles and high-caliber guns.
+    能抵抗子彈與小型爆裂物，但易受飛彈與大口徑砲損傷。
 
 actor-devastator =
-    .name = Devastator
+    .name = 毀滅者
     .description =
-    Super Heavy Tank.
-      Strong vs Tanks
-      Weak vs Artillery
+    超重型坦克。
+      強對坦克
+      弱對砲兵
     .encyclopedia =
-    As the most powerful tank on Dune, the Devastator is slow but highly effective against most units. It fires dual plasma charges and can self-destruct on command, damaging nearby units and structures.
+    毀滅者是沙丘上威力最強的坦克。速度雖慢，但對多數單位非常有效。它發射雙重電漿彈，也能奉命自毀，傷及附近的單位與建築。
 
-    Resistant to bullets and high explosives, but vulnerable to missiles and high-caliber guns.
+    能抵抗子彈與高爆炸藥，但易受飛彈與大口徑砲損傷。
 
 actor-raider =
-    .name = Raider Trike
+    .name = 襲擊三輪車
     .description =
-    Improved Scout.
-      Strong vs Infantry and Light Vehicles
-      Weak vs Tanks
+    改良偵察車。
+      強對步兵與輕型載具
+      弱對坦克
     .encyclopedia =
-    Raider Trikes, upgraded by House Ordos, have enhanced firepower, speed, and armor. Equipped with dual 20mm cannons, they are strong against infantry and lightly armored vehicles.
+    奧多斯家族改良的襲擊三輪車，火力、速度與裝甲都更強。配備雙聯 20mm 機砲，對步兵與輕裝甲載具很有效。
 
-    Raiders are vulnerable to most weapons, though high-caliber guns are slightly less effective against them.
+    襲擊車易受多數武器損傷，不過大口徑砲的效果稍差。
 
 actor-stealth-raider =
-    .name = Stealth Raider Trike
+    .name = 隱形襲擊三輪車
     .description =
-    Invisible Raider Trike.
-      Strong vs Infantry and Light Vehicles
-      Weak vs Tanks
+    會隱形的襲擊三輪車。
+      強對步兵與輕型載具
+      弱對坦克
     .encyclopedia =
-    A cloaked version of the Raider, good for stealth attacks. It uncloaks when it fires its machine guns.
+    襲擊車的隱形版本，適合偷襲。機槍開火時會現形。
 
 actor-deviator =
-    .name = Deviator
+    .name = 偏導車
     .description =
-    Fires a warhead that changes the
-    allegiance of enemy vehicles.
+    發射能改變敵方載具
+    陣營歸屬的彈頭。
     .encyclopedia =
-    Fires missiles that release a silicon cloud, temporarily altering the allegiance of targeted vehicles. Personnel are only slightly affected by the cloud.
+    發射飛彈並釋放矽雲，暫時改變目標載具的陣營。人員只會受到矽雲輕微影響。
 
-    The Deviator is vulnerable to most weapons, high-caliber guns are slightly less effective.
+    偏導車易受多數武器損傷，大口徑砲的效果稍差。
 
 meta-combat-tank-description =
-    Main Battle Tank.
-      Strong vs Tanks
-      Weak vs Infantry
+    主力戰鬥坦克。
+      強對坦克
+      弱對步兵
 
 actor-combat-tank-a =
-    .name = Atreides Combat Tank
+    .name = 亞崔迪戰鬥坦克
     .encyclopedia =
-    Effective against most vehicles but less suited against lightly armored targets.
+    對多數載具有效，但較不適合對付輕裝甲目標。
 
-    Resistant to bullets and heavy explosives, but vulnerable to missiles and high-caliber guns.
+    能抵抗子彈與重爆裂物，但易受飛彈與大口徑砲損傷。
 
 actor-combat-tank-h =
-    .name = Harkonnen Combat Tank
+    .name = 哈肯尼戰鬥坦克
     .encyclopedia =
-    Effective against most vehicles but less suited against lightly armored targets.
+    對多數載具有效，但較不適合對付輕裝甲目標。
 
-    Stronger than its counterparts, but also slower.
+    比其他型號更堅固，但也更慢。
 
 actor-combat-tank-o =
-    .name = Ordos Combat Tank
+    .name = 奧多斯戰鬥坦克
     .encyclopedia =
-    Effective against most vehicles but less suited against lightly armored targets.
+    對多數載具有效，但較不適合對付輕裝甲目標。
 
-    The fastest variant of Combat Tank, but also the weakest.
+    戰鬥坦克中速度最快的型號，但也最脆弱。
 
 meta-destroyabletile =
-    .generic-name = Passage (destroyable)
-    .name = Passage (destroyable)
+    .generic-name = 通道（可摧毀）
+    .name = 通道（可摧毀）
 
 meta-destroyedtile =
-    .generic-name = Passage (repairable)
-    .name = Passage (repairable)
+    .generic-name = 通道（可修復）
+    .name = 通道（可修復）
 
 ## ai.yaml
 bot-omnius =
-    .name = Omnius
+    .name = 奧姆尼烏斯
 
 bot-vidius =
-    .name = Vidious
+    .name = 維迪烏斯
 
 bot-gladius =
-    .name = Gladius
+    .name = 格拉迪烏斯

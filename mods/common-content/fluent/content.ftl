@@ -1,2 +1,2 @@
 ## Metadata
-mod-title = Mod Content Manager
+mod-title = 模組內容管理員

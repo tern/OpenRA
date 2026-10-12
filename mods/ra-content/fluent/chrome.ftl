@@ -1,16 +1,16 @@
 modcontent-installprompt =
-    Red Alert requires artwork and audio from the original game.
+    紅色警戒需要原版遊戲的圖像與音訊。
 
-    Quick Install will automatically download this content (without music or videos) from a mirror of the 2008 Red Alert freeware release.
+    快速安裝會從 2008 年紅色警戒免費版的鏡像，自動下載這些內容（不含音樂或影片）。
 
-    Advanced Install includes options for copying the music, videos, and other content from an original game disc or digital installation.
+    進階安裝可從原版遊戲光碟或數位安裝，複製音樂、影片與其他內容。
 modcontent-header =
-    Game content may be extracted from the original game discs or an existing digital install. OpenRA can also download the base game files from an online mirror of the 2008 freeware release of RA.
-modcontent-package-basefiles = Base Game Files
-modcontent-package-aftermathfiles = Aftermath Expansion Files
-modcontent-package-deserttileset = C&C Desert Tileset
-modcontent-package-basemusic = Base Game Music
-modcontent-package-allied = Allied Campaign Briefings
-modcontent-package-soviet = Soviet Campaign Briefings
-modcontent-package-counterstrikemusic = Counterstrike Music
-modcontent-package-aftermathmusic = Aftermath Music
+    遊戲內容可從原版遊戲光碟或現有的數位安裝擷取。OpenRA 也能從 2008 年紅色警戒免費版的線上鏡像，下載遊戲本體檔案。
+modcontent-package-basefiles = 遊戲本體檔案
+modcontent-package-aftermathfiles = 絕地逢生資料片檔案
+modcontent-package-deserttileset = C&C 沙漠地形組
+modcontent-package-basemusic = 遊戲本體音樂
+modcontent-package-allied = 盟軍戰役簡報
+modcontent-package-soviet = 蘇聯戰役簡報
+modcontent-package-counterstrikemusic = 危機任務音樂
+modcontent-package-aftermathmusic = 絕地逢生音樂

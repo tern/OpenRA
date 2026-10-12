@@ -1,12 +1,12 @@
 ## modcontent|content.yaml
-label-content-panel-title = Manage Content
-label-package-template-required = Required
-button-package-template-download = Download
-label-package-template-installed = Installed
-label-package-template-requires-source = Requires Disc
-button-content-panel-check-source = Detect Disc or Installation
-label-source-tooltip-description = Content available from:
-button-package-download-panel-retry = Retry
-label-content-prompt-panel-title = Install Content
-button-content-prompt-panel-advanced = Advanced Install
-button-content-prompt-panel-quick = Quick Install
+label-content-panel-title = 管理內容
+label-package-template-required = 必要
+button-package-template-download = 下載
+label-package-template-installed = 已安裝
+label-package-template-requires-source = 需要光碟
+button-content-panel-check-source = 偵測光碟或安裝
+label-source-tooltip-description = 內容來源：
+button-package-download-panel-retry = 重試
+label-content-prompt-panel-title = 安裝內容
+button-content-prompt-panel-advanced = 進階安裝
+button-content-prompt-panel-quick = 快速安裝

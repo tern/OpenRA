@@ -1,943 +1,938 @@
 ## player.yaml
 options-tech-level =
-    .infantry-only = Infantry Only
-    .low = Low
-    .medium = Medium
-    .no-superweapons = No Superweapons
-    .unrestricted = Unrestricted
+    .infantry-only = 僅步兵
+    .low = 低
+    .medium = 中
+    .no-superweapons = 無超級武器
+    .unrestricted = 無限制
 
 checkbox-kill-bounties =
-    .label = Kill Bounties
-    .description = Players receive cash bonuses for killing enemy units
+    .label = 擊殺賞金
+    .description = 玩家擊殺敵方單位可獲得資金獎勵
 
 checkbox-redeployable-mcvs =
-    .label = Redeployable MCVs
-    .description = Allows Construction Yards to be undeployed
+    .label = 建造廠可收回
+    .description = 允許收回建造廠
 
 checkbox-reusable-engineers =
-    .label = Reusable Engineers
-    .description = Engineers stay on the battlefield after capturing a structure
+    .label = 工程師可重複使用
+    .description = 工程師佔領建築後仍留在戰場上
 
-notification-insufficient-funds = Insufficient funds.
-notification-new-construction-options = New construction options.
-notification-cannot-deploy-here = Cannot deploy here.
-notification-low-power = Low power.
-notification-base-under-attack = Base under attack.
-notification-ally-under-attack = Our ally is under attack.
-notification-silos-needed = Silos needed.
+notification-insufficient-funds = 資金不足。
+notification-new-construction-options = 有新的建造選項。
+notification-cannot-deploy-here = 無法在這裡部署。
+notification-low-power = 電力不足。
+notification-base-under-attack = 基地正遭受攻擊。
+notification-ally-under-attack = 我方盟友正遭受攻擊。
+notification-silos-needed = 需要儲存槽。
 
 ## world.yaml
 options-starting-units =
-    .mcv-only = MCV Only
-    .light-support = Light Support
-    .heavy-support = Heavy Support
+    .mcv-only = 僅機動建造車
+    .light-support = 輕型支援
+    .heavy-support = 重型支援
 
-resource-minerals = Valuable Minerals
+resource-minerals = 貴重礦物
 
 ## Faction
 faction-allies =
-    .name = Allies
+    .name = 盟軍
 
 faction-england =
-    .name = England
-    .description = England: Counterintelligence
-     Special Unit: British Spy
-     Special Unit: Mobile Gap Generator
+    .name = 英格蘭
+    .description = 英格蘭：反情報
+     特殊單位：英國間諜
+     特殊單位：移動間隙產生器
 
 faction-france =
-    .name = France
-    .description = France: Deception
-     Special Ability: Can build fake structures
-     Special Unit: Phase Transport
+    .name = 法國
+    .description = 法國：欺敵
+     特殊能力：可建造偽裝建築
+     特殊單位：相位傳送車
 
 faction-germany =
-    .name = Germany
-    .description = Germany: Chronoshift Technology
-     Special Ability: Advanced Chronoshift
-     Special Unit: Chrono Tank
+    .name = 德國
+    .description = 德國：超時空科技
+     特殊能力：高級超時空傳送
+     特殊單位：超時空坦克
 
 faction-soviet =
-    .name = Soviet
+    .name = 蘇聯
 
 faction-russia =
-    .name = Russia
-    .description = Russia: Tesla Weapons
-     Special Unit: Tesla Tank
-     Special Unit: Shock Trooper
+    .name = 俄羅斯
+    .description = 俄羅斯：磁暴武器
+     特殊單位：磁能坦克
+     特殊單位：磁暴步兵
 
 faction-ukraine =
-    .name = Ukraine
-    .description = Ukraine: Demolitions
-     Special Ability: Parabombs
-     Special Unit: Demolition Truck
+    .name = 烏克蘭
+    .description = 烏克蘭：爆破
+     特殊能力：空投炸彈
+     特殊單位：自爆卡車
 
 faction-random =
-    .name = Any
-    .description = Random Country
-     A random country is chosen when the game starts
+    .name = 任意
+    .description = 隨機國家
+     遊戲開始時會隨機選定一個國家
 
 faction-randomallies =
-    .name = Allies
-    .description = Random Allied Country
-     A random Allied country is chosen when the game starts
+    .name = 盟軍
+    .description = 隨機盟軍國家
+     遊戲開始時會隨機選定一個盟軍國家
 
 faction-randomsoviet =
-    .name = Soviet
-    .description = Random Soviet Country
-     A random Soviet country is chosen when the game starts
+    .name = 蘇聯
+    .description = 隨機蘇聯國家
+     遊戲開始時會隨機選定一個蘇聯國家
 
 ## aircraft.yaml
-actor-badr-name = Badger
+actor-badr-name = 獾式轟炸機
 
 actor-mig =
-    .name = MiG Attack Plane
+    .name = 米格攻擊機
     .description =
-    Fast Ground-Attack Plane.
-      Strong vs Buildings and Vehicles
-      Weak vs Infantry and Aircraft
+    高速對地攻擊機。
+      剋制建築與載具
+      怕步兵與飛機
 
 actor-yak =
-    .name = Yak Attack Plane
+    .name = 雅克攻擊機
     .description =
-    Attack Plane with dual machine guns.
-      Strong vs Infantry and Light armor
-      Weak vs Tanks and Aircraft
+    配備雙機槍的攻擊機。
+      剋制步兵與輕甲
+      怕坦克與飛機
 
 actor-tran =
-    .name = Chinook
+    .name = 契努克
     .description =
-    Fast infantry transport helicopter.
-      Unarmed
+    高速步兵運輸直升機。
+      無武裝
 
 actor-heli =
-    .name = Longbow
+    .name = 長弓直升機
     .description =
-    Helicopter gunship with multi-purpose missiles.
-      Strong vs Buildings, Vehicles and Aircraft
-      Weak vs Infantry
+    搭載多用途飛彈的武裝直升機。
+      剋制建築、載具與飛機
+      怕步兵
 
 actor-hind =
-    .name = Hind
+    .name = 雌鹿直升機
     .description =
-    Helicopter gunship with dual chain guns.
-      Strong vs Infantry and Light armor
-      Weak vs Tanks and Aircraft
+    搭載雙鏈砲的武裝直升機。
+      剋制步兵與輕甲
+      怕坦克與飛機
 
-actor-u2-name = Spy Plane
+actor-u2-name = 間諜機
 
 actor-mh60 =
-    .name = Black Hawk
+    .name = 黑鷹直升機
     .description =
-    Helicopter gunship with dual chain guns.
-      Strong vs Infantry and Light armor
-      Weak vs Tanks and Aircraft
+    搭載雙鏈砲的武裝直升機。
+      剋制步兵與輕甲
+      怕坦克與飛機
 
 ## civilian.yaml
-actor-c10-name = Scientist
-actor-tecn-name = Technician
-actor-tecn2-name = Technician
-actor-v01-name = Church
-actor-v19-name = Oil Pump
-actor-v19-husk-name = Husk (Oil Pump)
-actor-barl-name = Explosive Barrel
-actor-brl3-name = Explosive Barrel
-actor-v25-name = Church
-actor-lhus-name = Lighthouse
-actor-windmill-name = Windmill
+actor-c10-name = 科學家
+actor-tecn-name = 技術員
+actor-tecn2-name = 技術員
+actor-v01-name = 教堂
+actor-v19-name = 油泵
+actor-v19-husk-name = 殘骸（油泵）
+actor-barl-name = 炸藥桶
+actor-brl3-name = 炸藥桶
+actor-v25-name = 教堂
+actor-lhus-name = 燈塔
+actor-windmill-name = 風車
 
 ## decoration.yaml
-actor-ice01-name = Ice Floe
-actor-ice02-name = Ice Floe
-actor-ice03-name = Ice Floe
-actor-ice04-name = Ice Floe
-actor-ice05-name = Ice Floe
-actor-utilpol1-name = Utility Pole
-actor-utilpol2-name = Utility Pole
-actor-tanktrap1-name = Tank Trap
-actor-tanktrap2-name = Tank Trap
+actor-ice01-name = 浮冰
+actor-ice02-name = 浮冰
+actor-ice03-name = 浮冰
+actor-ice04-name = 浮冰
+actor-ice05-name = 浮冰
+actor-utilpol1-name = 電線桿
+actor-utilpol2-name = 電線桿
+actor-tanktrap1-name = 反坦克障礙
+actor-tanktrap2-name = 反坦克障礙
 
 ## defaults.yaml
-notification-unit-lost = Unit lost.
-notification-airborne-unit-lost = Airborne Unit lost.
-notification-naval-unit-lost = Naval Unit lost.
-notification-unit-promoted = Unit promoted.
-notification-primary-building-selected = Primary building selected.
-notification-structure-captured = Structure captured.
-notification-unit-stolen = Unit stolen.
+notification-unit-lost = 單位損失。
+notification-airborne-unit-lost = 空中單位損失。
+notification-naval-unit-lost = 海軍單位損失。
+notification-unit-promoted = 單位已晉升。
+notification-primary-building-selected = 已選定主要建築。
+notification-structure-captured = 建築已被佔領。
+notification-unit-stolen = 單位被竊。
 
-meta-vehicle-generic-name = Vehicle
-meta-infantry-generic-name = Soldier
-meta-civinfantry-name = Civilian
-meta-ship-generic-name = Ship
-meta-neutralplane-generic-name = Plane
-meta-helicopter-generic-name = Helicopter
-meta-basicbuilding-generic-name = Structure
-meta-techbuilding-name = Civilian Building
-meta-ammobox-name = Ammo Box
-meta-civfield-name = Field
+meta-vehicle-generic-name = 載具
+meta-infantry-generic-name = 士兵
+meta-civinfantry-name = 平民
+meta-ship-generic-name = 船艦
+meta-neutralplane-generic-name = 飛機
+meta-helicopter-generic-name = 直升機
+meta-basicbuilding-generic-name = 建築
+meta-techbuilding-name = 平民建築
+meta-ammobox-name = 彈藥箱
+meta-civfield-name = 田地
 
 meta-civhaystackorigloo =
-    .winter-name = Igloo
-    .summer-name = Haystack
+    .winter-name = 冰屋
+    .summer-name = 乾草堆
 
-meta-tree-name = Tree
-meta-treehusk-name = Tree (Burnt)
-meta-box-name = Boxes
-meta-husk-generic-name = Destroyed Vehicle
-meta-planehusk-generic-name = Destroyed Plane
-meta-helicopterhusk-generic-name = Destroyed Helicopter
-meta-bridge-name = Bridge
-meta-rock-name = Rock
+meta-tree-name = 樹
+meta-treehusk-name = 樹（燒毀）
+meta-box-name = 箱子
+meta-husk-generic-name = 已摧毀載具
+meta-planehusk-generic-name = 已摧毀飛機
+meta-helicopterhusk-generic-name = 已摧毀直升機
+meta-bridge-name = 橋樑
+meta-rock-name = 岩石
 
 meta-crate =
-    .name = Crate
-    .generic-name = Crate
+    .name = 補給箱
+    .generic-name = 補給箱
 
-meta-mine-name = Mine
+meta-mine-name = 地雷
 
 ## fakes.yaml
 actor-fpwr =
-    .name = Fake Power Plant
-    .generic-name = Power Plant
-    .description = Looks like a Power Plant.
+    .name = 偽裝發電廠
+    .generic-name = 發電廠
+    .description = 看起來像發電廠。
 
 actor-tenf =
-    .name = Fake Allied Barracks
-    .generic-name = Allied Barracks
-    .description = Looks like an Allied Barracks.
+    .name = 偽裝盟軍兵營
+    .generic-name = 盟軍兵營
+    .description = 看起來像盟軍兵營。
 
 actor-syrf =
-    .name = Fake Naval Yard
-    .generic-name = Naval Yard
-    .description = Looks like a Naval Yard.
+    .name = 偽裝船塢
+    .generic-name = 船塢
+    .description = 看起來像船塢。
 
 actor-spef =
-    .name = Fake Sub Pen
-    .generic-name = Sub Pen
-    .description = Looks like a Sub Pen.
+    .name = 偽裝潛艇碼頭
+    .generic-name = 潛艇碼頭
+    .description = 看起來像潛艇碼頭。
 
 actor-weaf =
-    .name = Fake War Factory
-    .generic-name = War Factory
-    .description = Looks like a War Factory.
+    .name = 偽裝戰車工廠
+    .generic-name = 戰車工廠
+    .description = 看起來像戰車工廠。
 
 actor-domf =
-    .name = Fake Radar Dome
-    .generic-name = Radar Dome
-    .description = Looks like a Radar Dome.
+    .name = 偽裝雷達圓頂
+    .generic-name = 雷達圓頂
+    .description = 看起來像雷達圓頂。
 
 actor-fixf =
-    .name = Fake Service Depot
-    .generic-name = Service Depot
-    .description = Looks like a Service Depot.
+    .name = 偽裝維修廠
+    .generic-name = 維修廠
+    .description = 看起來像維修廠。
 
 actor-fapw =
-    .name = Fake Advanced Power Plant
-    .generic-name = Advanced Power Plant
-    .description = Looks like an Advanced Power Plant.
+    .name = 偽裝高級發電廠
+    .generic-name = 高級發電廠
+    .description = 看起來像高級發電廠。
 
 actor-atef =
-    .name = Fake Allied Tech Center
-    .generic-name = Allied Tech Center
-    .description = Looks like an Allied Tech Center.
+    .name = 偽裝盟軍科技中心
+    .generic-name = 盟軍科技中心
+    .description = 看起來像盟軍科技中心。
 
 actor-pdof =
-    .name = Fake Chronosphere
-    .generic-name = Chronosphere
+    .name = 偽裝超時空傳送儀
+    .generic-name = 超時空傳送儀
     .description =
-    Looks like a Chronosphere.
-    Maximum of one can be built.
+    看起來像超時空傳送儀。
+    最多只能建造一座。
 
 actor-mslf =
-    .name = Fake Missile Silo
-    .generic-name = Missile Silo
+    .name = 偽裝飛彈發射井
+    .generic-name = 飛彈發射井
     .description =
-    Looks like a Missile Silo.
-    Maximum of one can be built.
+    看起來像飛彈發射井。
+    最多只能建造一座。
 
 actor-facf =
-    .name = Fake Construction Yard
-    .generic-name = Construction Yard
-    .description = Looks like a Construction Yard.
+    .name = 偽裝建造廠
+    .generic-name = 建造廠
+    .description = 看起來像建造廠。
 
 ## husks.yaml
-actor-2tnk-husk-name = Husk (Medium Tank)
-actor-3tnk-husk-name = Husk (Heavy Tank)
-actor-4tnk-husk-name = Husk (Mammoth Tank)
-actor-harv-fullhusk-name = Husk (Ore Truck)
-actor-harv-emptyhusk-name = Husk (Ore Truck)
-actor-mcv-husk-name = Husk (Mobile Construction Vehicle)
-actor-mgg-husk-name = Husk (Mobile Gap Generator)
-actor-tran-husk-name = Chinook
-actor-tran-husk1-name = Husk (Chinook)
-actor-tran-husk2-name = Husk (Chinook)
-actor-badr-husk-name = Badger
-actor-mig-husk-name = MiG Attack Plane
-actor-yak-husk-name = Yak Attack Plane
-actor-heli-husk-name = Longbow
-actor-hind-husk-name = Hind
-actor-u2-husk-name = Husk (Spy Plane)
-actor-mh60-husk-name = Black Hawk
+actor-2tnk-husk-name = 殘骸（中型坦克）
+actor-3tnk-husk-name = 殘骸（重型坦克）
+actor-4tnk-husk-name = 殘骸（毛象坦克）
+actor-harv-fullhusk-name = 殘骸（採礦車）
+actor-harv-emptyhusk-name = 殘骸（採礦車）
+actor-mcv-husk-name = 殘骸（機動建造車）
+actor-mgg-husk-name = 殘骸（移動間隙產生器）
+actor-tran-husk-name = 契努克
+actor-tran-husk1-name = 殘骸（契努克）
+actor-tran-husk2-name = 殘骸（契努克）
+actor-badr-husk-name = 獾式轟炸機
+actor-mig-husk-name = 米格攻擊機
+actor-yak-husk-name = 雅克攻擊機
+actor-heli-husk-name = 長弓直升機
+actor-hind-husk-name = 雌鹿直升機
+actor-u2-husk-name = 殘骸（間諜機）
+actor-mh60-husk-name = 黑鷹直升機
 
 ## infantry.yaml
-notification-building-infiltrated = Building infiltrated.
+notification-building-infiltrated = 建築已被潛入。
 
 actor-dog =
-    .name = Attack Dog
-    .generic-name = Dog
+    .name = 攻擊犬
+    .generic-name = 狗
     .description =
-    Anti-infantry unit.
-    Can detect spies.
-      Strong vs Infantry
-      Weak vs Vehicles and Aircraft
+    反步兵單位。
+    可偵測間諜。
+      剋制步兵
+      怕載具與飛機
 
 actor-e1 =
-    .name = Rifle Infantry
+    .name = 步槍兵
     .description =
-    General-purpose infantry.
-      Strong vs Infantry
-      Weak vs Vehicles and Aircraft
+    通用步兵。
+      剋制步兵
+      怕載具與飛機
 
 actor-e2 =
-    .name = Grenadier
+    .name = 擲彈兵
     .description =
-    Infantry with grenades.
-      Strong vs Buildings and Infantry
-      Weak vs Vehicles and Aircraft
+    投擲手榴彈的步兵。
+      剋制建築與步兵
+      怕載具與飛機
 
 actor-e3 =
-    .name = Rocket Soldier
+    .name = 火箭兵
     .description =
-    Anti-tank/Anti-aircraft infantry.
-      Strong vs Vehicles and Aircraft
-      Weak vs Infantry
+    反坦克、防空步兵。
+      剋制載具與飛機
+      怕步兵
 
 actor-e4 =
-    .name = Flame Infantry
+    .name = 噴火兵
     .description =
-    Advanced anti-structure unit.
-      Strong vs Infantry and Buildings
-      Weak vs Vehicles and Aircraft
+    進階反建築單位。
+      剋制步兵與建築
+      怕載具與飛機
 
 actor-e6 =
-    .name = Engineer
+    .name = 工程師
     .description =
-    Infiltrates and captures
-    enemy structures.
-      Unarmed
+    潛入並佔領
+    敵方建築。
+      無武裝
 
 actor-spy =
-    .disguisetooltip-name = Spy
-    .disguisetooltip-generic-name = Soldier
+    .disguisetooltip-name = 間諜
+    .disguisetooltip-generic-name = 士兵
     .description =
-    Infiltrates enemy structures for intel or
-    sabotage. Exact effect depends on the
-    building infiltrated.
-    Loses disguise when attacking.
-    Can detect spies.
-      Strong vs Infantry
-      Weak vs Vehicles and Aircraft
-      Special Ability: Disguised
+    潛入敵方建築以取得情報，
+    或進行破壞。效果視潛入的
+    建築而定。
+    攻擊時會解除偽裝。
+    可偵測間諜。
+      剋制步兵
+      怕載具與飛機
+      特殊能力：偽裝
 
-actor-spy-england-disguisetooltip-name = British Spy
+actor-spy-england-disguisetooltip-name = 英國間諜
 
 actor-e7 =
-    .name = Tanya
+    .name = 坦雅
     .description =
-    Elite commando infantry, with dual pistols
-    and C4.
-    Maximum of one can be built.
-      Strong vs Infantry and Buildings
-      Weak vs Vehicles and Aircraft
-      Special Ability: Destroys buildings with C4
+    精英突擊步兵，配備雙槍
+    與 C4。
+    最多只能建造一名。
+      剋制步兵與建築
+      怕載具與飛機
+      特殊能力：以 C4 炸毀建築
 
 actor-medi =
-    .name = Medic
+    .name = 醫護兵
     .description =
-    Heals nearby infantry.
-      Unarmed
+    治療附近的步兵。
+      無武裝
 
 actor-mech =
-    .name = Mechanic
+    .name = 技工
     .description =
-    Repairs nearby vehicles and restores husks to
-    working condition by capturing them.
-      Unarmed
+    修復附近的載具。佔領殘骸
+    可使其恢復運作。
+      無武裝
 
-actor-einstein-name = Prof. Einstein
-actor-delphi-name = Agent Delphi
-actor-chan-name = Scientist
-actor-gnrl-name = General
+actor-einstein-name = 愛因斯坦教授
+actor-delphi-name = 德爾菲幹員
+actor-chan-name = 科學家
+actor-gnrl-name = 將軍
 
 actor-thf =
-    .name = Thief
+    .name = 小偷
     .description =
-    Steals enemy credits.
-    Hijacks enemy vehicles.
-      Unarmed
+    竊取敵方資金。
+    劫持敵方載具。
+      無武裝
 
 actor-shok =
-    .name = Shock Trooper
+    .name = 磁暴步兵
     .description =
-    Elite infantry with portable Tesla coils.
-      Strong vs Infantry and Vehicles
-      Weak vs Aircraft
+    精英步兵，配備便攜式磁暴線圈。
+      剋制步兵與載具
+      怕飛機
 
 actor-zombie =
-    .name = Zombie
+    .name = 殭屍
     .description =
-    Slow-moving undead that attack in close combat.
+    行動緩慢的不死者，以近戰攻擊。
 
 actor-ant =
-    .name = Giant Ant
-    .generic-name = Ant
+    .name = 巨蟻
+    .generic-name = 螞蟻
     .description =
-    Irradiated insect that grew to an abnormally large size.
+    受輻射而長到異常巨大的昆蟲。
 
-actor-fireant-name = Fire Ant
-actor-scoutant-name = Scout Ant
-actor-warriorant-name = Warrior Ant
+actor-fireant-name = 火蟻
+actor-scoutant-name = 偵察蟻
+actor-warriorant-name = 戰士蟻
 
 ## misc.yaml
-notification-sonar-pulse-ready = Sonar pulse ready.
+notification-sonar-pulse-ready = 聲納脈衝就緒。
 
-actor-moneycrate-name = Money Crate
-actor-healcrate-name = Heal Crate
-actor-wcrate-name = Wooden Crate
-actor-scrate-name = Steel Crate
-actor-camera-name = (reveals area to owner)
-actor-camera-paradrop-name = (support power proxy camera)
-actor-camera-spyplane-name = (support power proxy camera)
-actor-sonar-name = (support power proxy camera)
-actor-flare-name = Flare
-actor-mine-name = Ore Mine
-actor-gmine-name = Gem Mine
-actor-railmine-name = Abandoned Mine
-actor-quee-name = Queen Ant
-actor-lar1-name = Ant Larva
-actor-lar2-name = Ant Larvae
-actor-mpspawn-name = (multiplayer starting point)
-actor-waypoint-name = (waypoint for scripted behavior)
-actor-ctflag-name = Flag
+actor-moneycrate-name = 資金補給箱
+actor-healcrate-name = 治療補給箱
+actor-wcrate-name = 木箱
+actor-scrate-name = 鋼箱
+actor-camera-name = （對擁有者揭露區域）
+actor-camera-paradrop-name = （支援能力用代理攝影機）
+actor-camera-spyplane-name = （支援能力用代理攝影機）
+actor-sonar-name = （支援能力用代理攝影機）
+actor-flare-name = 信號彈
+actor-mine-name = 礦石礦場
+actor-gmine-name = 寶石礦場
+actor-railmine-name = 廢棄礦場
+actor-quee-name = 蟻后
+actor-lar1-name = 蟻幼蟲
+actor-lar2-name = 蟻幼蟲群
+actor-mpspawn-name = （多人連線出生點）
+actor-waypoint-name = （腳本用路徑點）
+actor-ctflag-name = 旗幟
 
 ## ships.yaml
 actor-ss =
-    .name = Submarine
+    .name = 潛水艇
     .description =
-    Submerged anti-ship unit with torpedoes.
-    Can detect other submarines.
-      Strong vs Naval units
-      Weak vs Ground units and Aircraft
-      Special Ability: Submerge
+    可下潛的反艦單位，以魚雷攻擊。
+    可偵測其他潛水艇。
+      剋制海軍單位
+      怕地面單位與飛機
+      特殊能力：下潛
 
 actor-msub =
-    .name = Missile Submarine
+    .name = 飛彈潛艇
     .description =
-    Submerged anti-ground siege unit with anti-air
-    capabilities.
-    Can detect other submarines.
-      Strong vs Buildings, Ground units and Aircraft
-      Weak vs Naval units
-      Special Ability: Submerge
+    可下潛的對地攻城單位，
+    並具備防空能力。
+    可偵測其他潛水艇。
+      剋制建築、地面單位與飛機
+      怕海軍單位
+      特殊能力：下潛
 
 actor-dd =
-    .name = Destroyer
+    .name = 驅逐艦
     .description =
-    Fast multi-role ship.
-    Can detect submarines.
-      Strong vs Naval units, Vehicles and Aircraft
-      Weak vs Infantry
+    高速多用途艦艇。
+    可偵測潛水艇。
+      剋制海軍單位、載具與飛機
+      怕步兵
 
 actor-ca =
-    .name = Cruiser
+    .name = 巡洋艦
     .description =
-    Very slow long-range ship.
-      Strong vs Buildings and Ground units
-      Weak vs Naval units and Aircraft
+    極慢的遠程艦艇。
+      剋制建築與地面單位
+      怕海軍單位與飛機
 
 actor-lst =
-    .name = Transport
+    .name = 運輸艦
     .description =
-    General-purpose naval transport.
-    Carries infantry and tanks
-      Unarmed
+    通用海軍運輸艦。
+    可搭載步兵與坦克。
+      無武裝
 
 actor-pt =
-    .name = Gunboat
+    .name = 砲艇
     .description =
-    Light scout and support ship.
-    Can detect submarines.
-      Strong vs Naval units
-      Weak vs Ground units and Aircraft
+    輕型偵察與支援艦。
+    可偵測潛水艇。
+      剋制海軍單位
+      怕地面單位與飛機
 
 ## structures.yaml
-notification-construction-complete = Construction complete.
-notification-unit-ready = Unit ready.
-notification-unable-to-build-more = Unable to build more.
-notification-unable-to-comply-building-in-progress = Unable to comply. Building in progress.
-notification-repairing = Repairing.
-notification-unit-repaired = Unit repaired.
-notification-select-target = Select target.
-notification-insufficient-power = Insufficient power.
-notification-reinforcements-have-arrived = Reinforcements have arrived.
-notification-abomb-prepping = A-bomb prepping.
-notification-abomb-ready = A-bomb ready.
-notification-abomb-launch-detected = A-bomb launch detected.
-notification-iron-curtain-charging = Iron curtain charging.
-notification-iron-curtain-ready = Iron curtain ready.
-notification-chronosphere-charging = Chronosphere charging.
-notification-chronosphere-ready = Chronosphere ready.
-notification-satellite-launched = Satellite launched.
-notification-credits-stolen = Credits stolen.
-notification-spy-plane-ready = Spy plane ready.
+notification-construction-complete = 建造完成。
+notification-unit-ready = 單位就緒。
+notification-unable-to-build-more = 無法再建更多。
+notification-unable-to-comply-building-in-progress = 無法執行。建造進行中。
+notification-repairing = 修復中。
+notification-unit-repaired = 單位已修復。
+notification-select-target = 選擇目標。
+notification-insufficient-power = 電力不足以運作。
+notification-reinforcements-have-arrived = 援軍已抵達。
+notification-abomb-prepping = 原子彈準備中。
+notification-abomb-ready = 原子彈就緒。
+notification-abomb-launch-detected = 偵測到原子彈發射。
+notification-iron-curtain-charging = 鐵幕裝置充能中。
+notification-iron-curtain-ready = 鐵幕裝置就緒。
+notification-chronosphere-charging = 超時空傳送儀充能中。
+notification-chronosphere-ready = 超時空傳送儀就緒。
+notification-satellite-launched = 衛星已發射。
+notification-credits-stolen = 資金被竊。
+notification-spy-plane-ready = 間諜機就緒。
 
 actor-mslo =
-    .name = Missile Silo
+    .name = 飛彈發射井
     .description =
-    Provides an atomic bomb.
-    Requires power to operate.
-    Maximum of one can be built.
-      Special Ability: Atom Bomb
-    .nukepower-name = Atom Bomb
-    .nukepower-description = Launches a devastating atomic bomb
-    at the target location.
+    提供原子彈。
+    運作需要電力。
+    最多只能建造一座。
+      特殊能力：原子彈
+    .nukepower-name = 原子彈
+    .nukepower-description = 對目標地點發射毀滅性的原子彈。
 
 actor-gap =
-    .name = Gap Generator
+    .name = 間隙產生器
     .description =
-    Obscures the enemy's view with shroud.
-    Requires power to operate.
+    以黑幕遮蔽敵方視野。
+    運作需要電力。
 
 actor-spen =
-    .name = Sub Pen
+    .name = 潛艇碼頭
     .description =
-    Produces and repairs submarines
-    and transports.
+    生產並修復潛水艇
+    與運輸艦。
 
 actor-syrd =
-    .name = Naval Yard
+    .name = 船塢
     .description =
-    Produces and repairs ships and
-    transports.
+    生產並修復艦艇
+    與運輸艦。
 
 actor-iron =
-    .name = Iron Curtain
+    .name = 鐵幕裝置
     .description =
-    Grants a group of units temporary
-    invulnerability.
-    Requires power to operate.
-    Maximum of one can be built.
-      Special Ability: Invulnerability
-    .grantexternalconditionpower-ironcurtain-name = Invulnerability
-    .grantexternalconditionpower-ironcurtain-description = Grants invulnerability to a group of units
-    for 20 seconds.
+    讓一群單位暫時無敵。
+    運作需要電力。
+    最多只能建造一座。
+      特殊能力：無敵
+    .grantexternalconditionpower-ironcurtain-name = 無敵
+    .grantexternalconditionpower-ironcurtain-description = 讓一群單位無敵，
+    持續 20 秒。
 
 actor-pdox =
-    .name = Chronosphere
+    .name = 超時空傳送儀
     .description =
-    Teleports a group of units across
-    the map for a short time.
-    Requires power to operate.
-    Maximum of one can be built.
-      Special Ability: Chronoshift
-    .chronoshiftpower-chronoshift-name = Chronoshift
-    .chronoshiftpower-chronoshift-description = Teleports a group of units across
-    the map for 20 seconds.
-    .chronoshiftpower-advancedchronoshift-name = Advanced Chronoshift
-    .chronoshiftpower-advancedchronoshift-description = Teleports a large group of units across
-    the map for 20 seconds.
+    將一群單位短暫傳送到
+    地圖另一處。
+    運作需要電力。
+    最多只能建造一座。
+      特殊能力：超時空傳送
+    .chronoshiftpower-chronoshift-name = 超時空傳送
+    .chronoshiftpower-chronoshift-description = 將一群單位傳送到地圖另一處，
+    持續 20 秒。
+    .chronoshiftpower-advancedchronoshift-name = 高級超時空傳送
+    .chronoshiftpower-advancedchronoshift-description = 將一大群單位傳送到地圖另一處，
+    持續 20 秒。
 
 actor-tsla =
-    .name = Tesla Coil
+    .name = 磁暴線圈
     .description =
-    Advanced base defense.
-    Requires power to operate.
-    Can detect cloaked units.
-      Strong vs Vehicles and Infantry
-      Weak vs Aircraft
+    進階基地防禦。
+    運作需要電力。
+    可偵測隱形單位。
+      剋制載具與步兵
+      怕飛機
 
 actor-agun =
-    .name = AA Gun
+    .name = 防空砲
     .description =
-    Anti-Air base defense.
-    Requires power to operate.
-      Strong vs Aircraft
-      Weak vs Ground units
+    防空基地防禦。
+    運作需要電力。
+      剋制飛機
+      怕地面單位
 
 actor-dome =
-    .name = Radar Dome
+    .name = 雷達圓頂
     .description =
-    Provides an overview of
-    the battlefield.
-    Requires power to operate.
+    提供戰場全圖概覽。
+    運作需要電力。
 
 actor-pbox =
-    .name = Pillbox
+    .name = 碉堡
     .description =
-    Static defense with a fireport for
-    a garrisoned soldier.
-    Can detect cloaked units.
-      Strong vs Infantry and Light armor
-      Weak vs Tanks and Aircraft
+    固定防禦，射擊口可駐守
+    一名士兵。
+    可偵測隱形單位。
+      剋制步兵與輕甲
+      怕坦克與飛機
 
 actor-hbox =
-    .name = Camo Pillbox
+    .name = 偽裝碉堡
     .description =
-    Camouflaged static defense with a fireport
-    for a garrisoned soldier.
-    Can detect cloaked units.
-      Strong vs Infantry and Light armor
-      Weak vs Tanks and Aircraft
+    經偽裝的固定防禦，射擊口
+    可駐守一名士兵。
+    可偵測隱形單位。
+      剋制步兵與輕甲
+      怕坦克與飛機
 
 actor-gun =
-    .name = Turret
+    .name = 砲塔
     .description =
-    Anti-Armor base defense.
-    Can detect cloaked units.
-      Strong vs Vehicles
-      Weak vs Infantry and Aircraft
+    反裝甲基地防禦。
+    可偵測隱形單位。
+      剋制載具
+      怕步兵與飛機
 
 actor-ftur =
-    .name = Flame Tower
+    .name = 火焰塔
     .description =
-    Anti-Infantry base defense.
-    Can detect cloaked units.
-      Strong vs Infantry and Light armor
-      Weak vs Tanks and Aircraft
+    反步兵基地防禦。
+    可偵測隱形單位。
+      剋制步兵與輕甲
+      怕坦克與飛機
 
 actor-sam =
-    .name = SAM Site
+    .name = 防空飛彈
     .description =
-    Anti-Air base defense.
-    Requires power to operate.
-      Strong vs Aircraft
-      Weak vs Ground units
+    防空基地防禦。
+    運作需要電力。
+      剋制飛機
+      怕地面單位
 
 actor-atek =
-    .name = Allied Tech Center
+    .name = 盟軍科技中心
     .description =
-    Provides advanced Allied technology.
-      Special Ability: GPS Satellite
-    .gpspower-name = GPS Satellite
+    提供進階盟軍科技。
+      特殊能力：GPS 衛星
+    .gpspower-name = GPS 衛星
     .gpspower-description =
-    Reveals map terrain and provides tactical information.
-    Requires power and active radar.
+    揭露地圖地形，並提供戰術資訊。
+    需要電力與運作中的雷達。
 
 actor-weap =
-    .name = War Factory
+    .name = 戰車工廠
     .description =
-    Produces vehicles.
+    生產載具。
 
 actor-fact =
-    .name = Construction Yard
+    .name = 建造廠
     .description =
-    Produces structures.
+    生產建築。
 
 actor-proc =
-    .name = Ore Refinery
+    .name = 礦石精煉廠
     .description =
-    Refines Ore and Gems into
-    credits.
+    將礦石與寶石
+    精煉成資金。
 
 actor-silo =
-    .name = Silo
+    .name = 儲存槽
     .description =
-    Stores excess refined
-    Ore and Gems.
+    儲存多餘的精煉
+    礦石與寶石。
 
 actor-hpad =
-    .name = Helipad
+    .name = 直升機坪
     .description =
-    Produces and reloads helicopters.
+    生產直升機並重新裝填。
 
 actor-afld =
-    .name = Airfield
+    .name = 機場
     .description =
-    Produces and reloads aircraft.
-      Special Ability: Spy Plane
-      Special Ability: Paratroopers
-    .airstrikepower-spyplane-name = Spy Plane
-    .airstrikepower-spyplane-description = Reveals an area of the map.
-    .paratrooperspower-paratroopers-name = Paratroopers
-    .paratrooperspower-paratroopers-description = A Badger drops a squad of infantry
-    at the selected location.
-    .airstrikepower-parabombs-name = Parabombs
-    .airstrikepower-parabombs-description = A Badger drops parachuted bombs
-    at the selected location.
+    生產飛機並重新裝填。
+      特殊能力：間諜機
+      特殊能力：空降部隊
+    .airstrikepower-spyplane-name = 間諜機
+    .airstrikepower-spyplane-description = 揭露地圖上一塊區域。
+    .paratrooperspower-paratroopers-name = 空降部隊
+    .paratrooperspower-paratroopers-description = 獾式轟炸機在指定地點
+    空投一隊步兵。
+    .airstrikepower-parabombs-name = 空投炸彈
+    .airstrikepower-parabombs-description = 獾式轟炸機在指定地點
+    空投帶降落傘的炸彈。
 
 actor-afld-ukraine-description =
-    Produces and reloads aircraft.
-      Special Ability: Spy Plane
-      Special Ability: Paratroopers
-      Special Ability: Parabombs
+    生產飛機並重新裝填。
+      特殊能力：間諜機
+      特殊能力：空降部隊
+      特殊能力：空投炸彈
 
 actor-powr =
-    .name = Power Plant
+    .name = 發電廠
     .description =
-    Provides power for other
-    structures.
+    為其他建築提供電力。
 
 actor-apwr =
-    .name = Advanced Power Plant
+    .name = 高級發電廠
     .description =
-    Provides double the power of a standard
-    Power Plant.
+    供電是標準發電廠的兩倍。
 
 actor-stek =
-    .name = Soviet Tech Center
+    .name = 蘇聯科技中心
     .description =
-    Provides advanced Soviet technology.
+    提供進階蘇聯科技。
 
 actor-barr =
-    .name = Soviet Barracks
+    .name = 蘇聯兵營
     .description =
-    Trains infantry units.
+    訓練步兵單位。
 
 actor-kenn =
-    .name = Kennel
+    .name = 犬舍
     .description =
-    Trains Attack Dogs.
+    訓練攻擊犬。
 
 actor-tent =
-    .name = Allied Barracks
+    .name = 盟軍兵營
     .description =
-    Trains infantry.
+    訓練步兵。
 
 actor-fix =
-    .name = Service Depot
+    .name = 維修廠
     .description =
-    Repairs vehicles for credits.
+    以資金修復載具。
 
 actor-sbag =
-    .name = Sandbag Wall
+    .name = 沙包牆
     .description =
-    Stops infantry and light vehicles.
-       Can be crushed by tanks.
+    阻擋步兵與輕型載具。
+       可被坦克輾過。
 
 actor-fenc =
-    .name = Wire Fence
+    .name = 鐵絲網
     .description =
-    Stops infantry and light vehicles.
-       Can be crushed by tanks.
+    阻擋步兵與輕型載具。
+       可被坦克輾過。
 
 actor-brik =
-    .name = Concrete Wall
+    .name = 混凝土牆
     .description =
-    Stops units and blocks enemy fire.
+    阻擋單位，並擋住敵方砲火。
 
-actor-cycl-name = Chain-Link Barrier
-actor-barb-name = Barbed-Wire Fence
-actor-wood-name = Wooden Fence
-actor-barracks-name = Infantry Production
-actor-techcenter-name = Tech Center
-actor-anypower-name = Any Power Generation
+actor-cycl-name = 鏈狀柵欄
+actor-barb-name = 拒馬鐵絲網
+actor-wood-name = 木柵欄
+actor-barracks-name = 步兵生產
+actor-techcenter-name = 科技中心
+actor-anypower-name = 任意發電設施
 
 ## vehicles.yaml
 actor-v2rl =
-    .name = V2 Rocket Launcher
+    .name = V2 火箭發射車
     .description =
-    Long-range rocket artillery.
-      Strong vs Infantry and Buildings
-      Weak vs Vehicles and Aircraft
+    遠程火箭砲。
+      剋制步兵與建築
+      怕載具與飛機
 
 actor-1tnk =
-    .name = Light Tank
-    .generic-name = Tank
+    .name = 輕型坦克
+    .generic-name = 坦克
     .description =
-    Fast tank; good for scouting.
-      Strong vs Light armor
-      Weak vs Infantry, Tanks and Aircraft
+    速度快，適合偵察。
+      剋制輕甲
+      怕步兵、坦克與飛機
 
 actor-2tnk =
-    .name = Medium Tank
-    .generic-name = Tank
+    .name = 中型坦克
+    .generic-name = 坦克
     .description =
-    Allied Main Battle Tank.
-      Strong vs Vehicles
-      Weak vs Infantry and Aircraft
+    盟軍主力坦克。
+      剋制載具
+      怕步兵與飛機
 
 actor-3tnk =
-    .name = Heavy Tank
-    .generic-name = Tank
+    .name = 重型坦克
+    .generic-name = 坦克
     .description =
-    Soviet Main Battle Tank with dual cannons.
-      Strong vs Vehicles
-      Weak vs Infantry and Aircraft
+    雙管主砲的蘇聯主力坦克。
+      剋制載具
+      怕步兵與飛機
 
 actor-4tnk =
-    .name = Mammoth Tank
-    .generic-name = Tank
+    .name = 毛象坦克
+    .generic-name = 坦克
     .description =
-    Large, slow tank with anti-air capabilities.
-    Can crush concrete walls.
-      Strong vs Vehicles, Infantry and Aircraft
-      Weak vs Nothing
+    大型慢速坦克，具備防空能力。
+    可輾過混凝土牆。
+      剋制載具、步兵與飛機
+      怕：無
 
 actor-arty =
-    .name = Artillery
+    .name = 自走砲
     .description =
-    Long-range artillery.
-      Strong vs Infantry and Buildings
-      Weak vs Vehicles and Aircraft
+    遠程火砲。
+      剋制步兵與建築
+      怕載具與飛機
 
 actor-harv =
-    .name = Ore Truck
-    .generic-name = Harvester
+    .name = 採礦車
+    .generic-name = 採礦車
     .description =
-    Collects Ore and Gems for
-    processing.
-      Unarmed
+    採集礦石與寶石，
+    送去精煉。
+      無武裝
 
 actor-mcv =
-    .name = Mobile Construction Vehicle
+    .name = 機動建造車
     .description =
-    Deploys into a Construction Yard.
-      Unarmed
+    可部署成建造廠。
+      無武裝
 
 actor-jeep =
-    .name = Ranger
+    .name = 遊騎兵
     .description =
-    Fast scout and anti-infantry vehicle.
-    Can carry just one infantry unit.
-      Strong vs Infantry
-      Weak vs Vehicles and Aircraft
+    高速偵察與反步兵載具。
+    只能搭載一名步兵。
+      剋制步兵
+      怕載具與飛機
 
 actor-apc =
-    .name = Armored Personnel Carrier
+    .name = 裝甲運兵車
     .description =
-    Tough infantry transport.
-      Strong vs Infantry and Light armor
-      Weak vs Tanks and Aircraft
+    堅固的步兵運輸載具。
+      剋制步兵與輕甲
+      怕坦克與飛機
 
 actor-mnly =
-    .name = Minelayer
+    .name = 佈雷車
     .description =
-    Lays mines to destroy
-    unwary enemy units.
-    Can detect mines.
-      Unarmed
+    佈設地雷，消滅
+    大意的敵方單位。
+    可偵測地雷。
+      無武裝
 
 actor-truk =
-    .name = Supply Truck
+    .name = 補給卡車
     .description =
-    Transports cash to other players.
-      Unarmed
+    把資金運給其他玩家。
+      無武裝
 
 actor-mgg =
-    .name = Mobile Gap Generator
+    .name = 移動間隙產生器
     .description =
-    Regenerates shroud to obscure nearby areas.
-      Unarmed
+    再生黑幕，遮蔽附近區域。
+      無武裝
 
 actor-mrj =
-    .name = Mobile Radar Jammer
+    .name = 移動雷達干擾車
     .description =
-    Jams nearby enemy Radar Domes
-    and deflects incoming missiles.
-      Unarmed
+    干擾附近的敵方雷達圓頂，
+    並偏轉來襲飛彈。
+      無武裝
 
 actor-ttnk =
-    .name = Tesla Tank
-    .generic-name = Tank
+    .name = 磁能坦克
+    .generic-name = 坦克
     .description =
-    Tank with mounted Tesla coil.
-      Strong vs Infantry, Vehicles and Buildings
-      Weak vs Aircraft
+    搭載磁暴線圈的坦克。
+      剋制步兵、載具與建築
+      怕飛機
 
 actor-ftrk =
-    .name = Mobile Flak
+    .name = 移動防空砲
     .description =
-    Mobile unit with a Flak cannon.
-      Strong vs Infantry, Light armor and Aircraft
-      Weak vs Tanks
+    配備高射砲的移動單位。
+      剋制步兵、輕甲與飛機
+      怕坦克
 
 actor-dtrk =
-    .name = Demolition Truck
+    .name = 自爆卡車
     .description =
-    Truck carrying armed nuclear explosives,
-    with very weak armor.
+    載有可引爆核子炸藥的卡車，
+    裝甲非常薄弱。
 
 actor-ctnk =
-    .name = Chrono Tank
-    .generic-name = Tank
+    .name = 超時空坦克
+    .generic-name = 坦克
     .description =
-    Armed with anti-ground missiles.
-    Teleports to any area within range.
-      Strong vs Vehicles and Buildings
-      Weak vs Infantry and Aircraft
-      Special ability: Can teleport
+    配備對地飛彈。
+    可傳送到射程內的任何地點。
+      剋制載具與建築
+      怕步兵與飛機
+      特殊能力：可傳送
 
 actor-qtnk =
-    .name = MAD Tank
-    .generic-name = Tank
+    .name = 磁暴坦克
+    .generic-name = 坦克
     .description =
-    Deals seismic damage to nearby vehicles
-    and structures.
-      Strong vs Vehicles and Buildings
-      Weak vs Infantry and Aircraft
+    對附近的載具與建築
+    造成地震傷害。
+      剋制載具與建築
+      怕步兵與飛機
 
 actor-stnk =
-    .name = Phase Transport
+    .name = 相位傳送車
     .description =
-    Light armored infantry transport which can
-    cloak. Armed with anti-ground missiles.
-      Strong vs Light armor
-      Weak vs Infantry, Tanks and Aircraft
+    可隱形的輕甲步兵運輸車，
+    配備對地飛彈。
+      剋制輕甲
+      怕步兵、坦克與飛機
 
 ## Civilian Tech
 actor-hosp =
-    .name = Hospital
-    .captured-desc = Provides infantry with self-healing.
-    .capturable-desc = Capture to enable self-healing for infantry.
+    .name = 醫院
+    .captured-desc = 讓步兵可自行回復。
+    .capturable-desc = 佔領後讓步兵可自行回復。
 
 actor-fcom =
-    .name = Forward Command
-    .captured-desc = Provides buildable area.
-    .capturable-desc = Capture to give buildable area.
+    .name = 前線指揮部
+    .captured-desc = 提供可建造區域。
+    .capturable-desc = 佔領後提供可建造區域。
 
 actor-miss =
-    .name = Communications Center
-    .captured-desc = Provides range of vision.
-    .capturable-desc = Capture to give visual range.
+    .name = 通訊中心
+    .captured-desc = 提供視野範圍。
+    .capturable-desc = 佔領後提供視野範圍。
 
 actor-bio =
-    .name = Biological Lab
-    .captured-desc = Provides prerequisite for Bio-Lab units.
-    .capturable-desc = Capture to produce Bio-Lab units.
+    .name = 生物實驗室
+    .captured-desc = 滿足生物實驗室單位的建造需求。
+    .capturable-desc = 佔領後可生產生物實驗室單位。
 
 actor-oilb =
-    .name = Oil Derrick
-    .captured-desc = Provides additional funds.
-    .capturable-desc =  Capture to receive additional funds.
+    .name = 油井
+    .captured-desc = 提供額外資金。
+    .capturable-desc = 佔領後獲得額外資金。
 
 ## misc.yaml
 actor-powerproxy-parabombs =
-    .name = Parabombs (Single Use)
+    .name = 空投炸彈（單次使用）
     .description =
-    A Badger drops parachuted bombs
-    over a selected location.
+    獾式轟炸機在指定地點
+    空投帶降落傘的炸彈。
 
 actor-powerproxy-sonarpulse =
-    .name = Sonar Pulse
+    .name = 聲納脈衝
     .description =
-    Reveals all submarines in the vicinity for a
-    short time.
+    短時間內揭露附近
+    所有潛水艇。
 
 actor-powerproxy-paratroopers =
-    .name = Paratroopers
+    .name = 空降部隊
     .description =
-    A Badger drops a squad of infantry
-    anywhere on the map.
+    獾式轟炸機可在地圖任意處
+    空投一隊步兵。
 
 ## ai.yaml
 bot-rush-ai =
-    .name = Rush AI
+    .name = 猛攻電腦
 
 bot-normal-ai =
-    .name = Normal AI
+    .name = 普通電腦
 
 bot-turtle-ai =
-    .name = Turtle AI
+    .name = 龜縮電腦
 
 bot-naval-ai =
-    .name = Naval AI
+    .name = 海軍電腦

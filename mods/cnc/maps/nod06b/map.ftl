@@ -1,9 +1,9 @@
 dropdown-difficulty =
-    .label = Difficulty
-    .description = The difficulty of the mission
+    .label = 難度
+    .description = 此任務的難度
 
 options-difficulty =
-    .easy = Easy
-    .normal = Normal
-    .hard = Hard
-    .tough = Real tough guy
+    .easy = 簡單
+    .normal = 普通
+    .hard = 困難
+    .tough = 真正的硬漢

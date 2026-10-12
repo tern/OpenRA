@@ -1,0 +1,326 @@
+# OpenRA 台灣繁體中文詞彙
+
+翻譯對象是 release-20250330 的 Fluent（`.ftl`）字串。玩家看到的是等號右邊，鍵名與 Fluent 語法不能改。
+
+## 必須遵守
+
+- 只改字串內容。保留鍵名、`##` 註解、屬性名（`.name`、`.description`、`.tooltip`）、選項結構（`[one]`、`*[other]`）、佔位符（`{ $player }` 這類，名稱一字不改）。
+- 熱鍵標記 `<(Alt)>`、`<(Ctrl)>` 維持原樣。
+- 兩個分支都要翻成中文。引擎文化仍是英文，單複數由英文規則挑選，所以 `[one]` 與 `*[other]` 通常寫成同一句台灣中文，例如「刪除 { $count } 個重播。」
+- 使用台灣繁體，不要簡體，也不要用中國大陸詞：設定（不是設置）、資訊（不是信息）、軟體（不是軟件）、預設（不是默認）、伺服器（不是服務器）、影片（不是視頻）、資料（不是數據）、檔案（不是文件）、資料夾（不是文件夾）、網路（不是網絡）、滑鼠（不是鼠標）、點選（不是點擊）、品質（不是質量）、儲存（不是保存）、程式（不是程序）、螢幕（不是屏幕）、解析度（不是分辨率）、支援（不是支持）、載入（不是加載）、離線（不是掉線，斷線可說已斷線）。
+- 「這裡、那裡、哪裡」用這裡。其他地方不要用「裡」，改用「內」或「中」。
+- 不要留整句英文。專有品牌 OpenRA、GPS、V2、A-10、Ctrl、Alt、Shift、Esc、Enter、F1–F24 可保留。單位名稱用下面的譯名。
+- 句尾語氣跟英文一致：介面按鈕短、通知可以有句號、說明用完整句。
+- 金錢在遊戲裡叫「資金」。工作人員名單叫「製作名單」。
+- 鍵名（keycode）只翻譯玩家看得懂的鍵：空白鍵、倒退、刪除、上、下、左、右、行首、行尾、插入、上一頁、下一頁、數字鍵盤。印在鍵帽上的 Ctrl、Alt、Shift、Esc、Enter、F 鍵維持原文。
+
+## 介面
+
+- Skirmish 遭遇戰
+- Multiplayer 多人連線
+- Single player / Campaign 單人遊戲 / 戰役
+- Replay 重播
+- Spectator / Observer 觀戰
+- Host 房主
+- Slot 欄位
+- Spawn point 出生點
+- Ready 準備完成
+- Start game 開始遊戲
+- Options / Settings 選項 / 設定
+- Display 顯示
+- Audio 音效
+- Input 輸入
+- Hotkeys 熱鍵
+- Advanced 進階
+- Cancel 取消
+- OK / Confirm 確定
+- Back 返回
+- Quit / Exit 離開
+- Continue 繼續
+- Retry 重試
+- Load 載入
+- Save 儲存
+- Delete 刪除
+- Map 地圖
+- Player 玩家
+- Team 隊伍
+- Ally 盟友
+- Enemy 敵人
+- Victory 勝利
+- Defeat 失敗
+- Bot / AI 電腦
+- Rush AI 猛攻電腦
+- Normal AI 普通電腦
+- Turtle AI 龜縮電腦
+- Naval AI 海軍電腦
+- Difficulty 難度
+- Color 顏色
+- Faction 陣營
+- Random 隨機
+- Credits (money) 資金
+- Power 電力
+- Low power 電力不足
+- Insufficient funds 資金不足
+- Base under attack 基地正遭受攻擊
+- Building 建造中
+- On hold 暫停
+- Ready (production) 建造完成
+- Sell 出售
+- Repair 修復
+- Attack 攻擊
+- Move 移動
+- Stop 停止
+- Guard 警戒
+- Deploy 部署
+- Harvest 採集
+- Stance 姿態
+- Attack move 攻擊移動
+- Force move 強制移動
+- Rally point 集結點
+- Superweapon 超級武器
+- Support power 支援能力
+- Prerequisite / Requires 需要
+- Armor 裝甲
+- Damage 傷害
+- Range 射程
+- Sight 視野
+- Speed 速度
+- Cost 造價
+- Hit points 生命值
+- Veteran / Elite 老兵 / 精英
+- Crate 補給箱
+- Husk 殘骸
+- Destroyed 已摧毀
+- Primary objective 主要目標
+- Secondary objective 次要目標
+- Objective completed 目標完成
+- Objective failed 目標失敗
+- Mission 任務
+- Briefing 任務簡報
+- Menu 選單
+- Pause 暫停
+- Resume 繼續
+- Restart 重新開始
+- Surrender 投降
+- Save game 儲存遊戲
+- Load game 載入遊戲
+- Server 伺服器
+- Lobby 遊戲大廳
+- Chat 聊天
+- Kick 踢出
+- Ban 封鎖
+- Ping 延遲
+- Map editor 地圖編輯器
+
+## 紅色警戒（Red Alert）
+
+- Red Alert 紅色警戒
+- Allies 盟軍
+- Soviet 蘇聯
+- England 英格蘭
+- France 法國
+- Germany 德國
+- Russia 俄羅斯
+- Ukraine 烏克蘭
+- Ore 礦石
+- Gem 寶石
+- Ore Truck / Harvester 採礦車
+- Ore Refinery 礦石精煉廠
+- Silo 儲存槽
+- Power Plant 發電廠
+- Advanced Power Plant 高級發電廠
+- Barracks 兵營
+- Soviet Barracks 蘇聯兵營
+- Allied Barracks 盟軍兵營
+- War Factory 戰車工廠
+- Naval Yard 船塢
+- Sub Pen 潛艇碼頭
+- Airfield 機場
+- Helipad 直升機坪
+- Service Depot 維修廠
+- Radar Dome 雷達圓頂
+- Tech Center 科技中心
+- Allied Tech Center 盟軍科技中心
+- Soviet Tech Center 蘇聯科技中心
+- Construction Yard 建造廠
+- Mobile Construction Vehicle (MCV) 機動建造車
+- Kennel 犬舍
+- Pillbox 碉堡
+- Camo Pillbox 偽裝碉堡
+- Turret 砲塔
+- AA Gun 防空砲
+- SAM Site 防空飛彈
+- Tesla Coil 磁暴線圈
+- Flame Tower 火焰塔
+- Gap Generator 間隙產生器
+- Chronosphere 超時空傳送儀
+- Iron Curtain 鐵幕裝置
+- Missile Silo 飛彈發射井
+- Sandbag Wall 沙包牆
+- Wire Fence 鐵絲網
+- Barbed-Wire Fence 拒馬鐵絲網
+- Concrete Wall 混凝土牆
+- Chain-Link Barrier 鏈狀柵欄
+- Wooden Fence 木柵欄
+- Rifle Infantry 步槍兵
+- Grenadier 擲彈兵
+- Rocket Soldier 火箭兵
+- Flame Infantry 噴火兵
+- Engineer 工程師
+- Medic 醫護兵
+- Mechanic 技工
+- Attack Dog 攻擊犬
+- Spy / British Spy 間諜 / 英國間諜
+- Thief 小偷
+- Tanya 坦雅
+- Shock Trooper 磁暴步兵
+- Ranger 遊騎兵
+- Light Tank 輕型坦克
+- Medium Tank 中型坦克
+- Heavy Tank 重型坦克
+- Mammoth Tank 毛象坦克
+- Artillery 自走砲
+- V2 Rocket Launcher V2 火箭發射車
+- Armored Personnel Carrier 裝甲運兵車
+- Minelayer 佈雷車
+- Supply Truck 補給卡車
+- Mobile Gap Generator 移動間隙產生器
+- Mobile Radar Jammer 移動雷達干擾車
+- Tesla Tank 磁能坦克
+- Mobile Flak 移動防空砲
+- Demolition Truck 自爆卡車
+- Chrono Tank 超時空坦克
+- MAD Tank 磁暴坦克
+- Phase Transport 相位傳送車
+- Longbow 長弓直升機
+- Hind 雌鹿直升機
+- Yak Attack Plane 雅克攻擊機
+- MiG Attack Plane 米格攻擊機
+- Chinook 契努克
+- Black Hawk 黑鷹直升機
+- Spy Plane 間諜機
+- Badger 獾式轟炸機
+- Gunboat 砲艇
+- Destroyer 驅逐艦
+- Cruiser 巡洋艦
+- Submarine 潛水艇
+- Missile Submarine 飛彈潛艇
+- Transport 運輸艦
+- Paratroopers 空降部隊
+- Parabombs 空投炸彈
+- Sonar Pulse 聲納脈衝
+- Chronoshift 超時空傳送
+- Fake (structure) 偽裝
+- Prof. Einstein 愛因斯坦教授
+- Agent Delphi 德爾菲幹員
+- Oil Derrick 油井
+- Oil Pump 油泵
+- Hospital 醫院
+- Communications Center 通訊中心
+- Biological Lab 生物實驗室
+- Forward Command 前線指揮部
+- Infantry Only 僅步兵
+- No Superweapons 無超級武器
+- Unrestricted 無限制
+- Kill Bounties 擊殺賞金
+- Redeployable MCVs 建造廠可收回
+
+## 泰伯倫黎明（Tiberian Dawn）
+
+- Tiberian Dawn 泰伯倫黎明
+- GDI 全球防衛組織
+- Nod 諾德兄弟會
+- Tiberium 泰伯倫
+- Harvester 採收車
+- Tiberium Refinery 泰伯倫精煉廠
+- Tiberium Silo 泰伯倫儲存槽
+- Hand of Nod 諾德之手
+- Weapons Factory 武器工廠
+- Airstrip 簡易機場
+- Repair Facility 維修廠
+- Communications Center 通訊中心
+- Advanced Communications Center 高級通訊中心
+- Temple of Nod 諾德神殿
+- Guard Tower 防禦塔
+- Advanced Guard Tower 高級防禦塔
+- Obelisk of Light 光之方尖碑
+- Sandbag Barrier 沙包障礙
+- Chain Link Barrier 鐵絲網障礙
+- Concrete Barrier 混凝土障礙
+- Minigunner 機槍兵
+- Flamethrower 噴火兵
+- Chemical Warrior 化學戰士
+- Commando 突擊兵
+- Hum-vee 悍馬車
+- Nod Buggy 諾德越野車
+- Recon Bike 偵察摩托車
+- Rocket Launcher 火箭發射車
+- Mobile SAM 移動防空飛彈
+- Stealth Tank 隱形坦克
+- Flame Tank 火焰坦克
+- Mammoth Tank 巨象坦克
+- Light Tank 輕型坦克
+- Medium Tank 中型坦克
+- Mobile HQ 移動指揮部
+- APC 裝甲運兵車
+- Orca 虎鯨直升機
+- Apache Longbow 阿帕契長弓
+- Chinook Transport 契努克運輸直升機
+- Supply Aircraft 補給機
+- A10 Bomber A-10 轟炸機
+- Ion Cannon 離子砲
+- Nuclear Missile 核子飛彈
+- Air Strike 空襲
+- Kane 凱恩
+- Dr. Moebius 莫比烏斯博士
+- Dr. Chan 陳博士
+- Blossom Tree 泰伯倫花樹
+
+## 沙丘 2000（Dune 2000）
+
+- Dune 2000 沙丘 2000
+- Spice 香料
+- Spice Harvester 香料收割機
+- Spice Refinery 香料精煉廠
+- Spice Bloom 香料噴發
+- Wind Trap 捕風器
+- Light Factory 輕型工廠
+- Heavy Factory 重型工廠
+- High Tech Factory 高科技工廠
+- IX Research Center IX 研究中心
+- Outpost 前哨站
+- Starport 星港
+- Repair Pad 維修坪
+- Palace 宮殿
+- Concrete Wall 混凝土牆
+- Concrete Slab 混凝土板
+- Gun Turret 機槍塔
+- Rocket Turret 火箭塔
+- Death Hand 死亡之手
+- Atreides 亞崔迪
+- Harkonnen 哈肯尼
+- Ordos 奧多斯
+- Fremen 弗雷曼
+- Fremen Sietch 弗雷曼穴居
+- Sardaukar 薩督卡
+- Light Infantry 輕步兵
+- Trooper 裝甲兵
+- Thumper Infantry 擊砂兵
+- Saboteur 破壞者
+- Grenadier 擲彈兵
+- Engineer 工程師
+- Combat Tank 戰鬥坦克
+- Siege Tank 攻城坦克
+- Missile Tank 飛彈坦克
+- Sonic Tank 音波坦克
+- Devastator 毀滅者
+- Deviator 偏導車
+- Trike 三輪車
+- Raider Trike 襲擊三輪車
+- Stealth Raider Trike 隱形襲擊三輪車
+- Missile Quad 飛彈四輪車
+- Carryall 運輸機
+- Ornithopter 撲翼機
+- Frigate 護衛艦
+- Sandworm 沙蟲
+- Mentat 門塔特

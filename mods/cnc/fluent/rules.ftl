@@ -1,778 +1,774 @@
 ## player.yaml
 options-tech-level =
-    .low = Low
-    .medium = Medium
-    .no-powers = No Superpowers
-    .unrestricted = Unrestricted
+    .low = 低
+    .medium = 中
+    .no-powers = 無超級武器
+    .unrestricted = 無限制
 
 checkbox-redeployable-mcvs =
-    .label = Redeployable MCVs
-    .description = Allows Construction Yards to undeploy
+    .label = 建造廠可收回
+    .description = 允許建造廠收回。
 
 checkbox-stealth-deliveries =
-    .label = Stealth Deliveries
-    .description = Nod's delivery plane is cloaked
+    .label = 隱形運送
+    .description = 諾德兄弟會的運輸機處於隱形狀態。
 
-notification-new-construction-options = New construction options.
-notification-cannot-deploy-here = Cannot deploy here.
-notification-low-power = Low power.
-notification-base-under-attack = Base under attack.
-notification-ally-under-attack = Our ally is under attack.
-notification-silos-needed = Silos needed.
+notification-new-construction-options = 有新的建造選項。
+notification-cannot-deploy-here = 無法在這裡部署。
+notification-low-power = 電力不足。
+notification-base-under-attack = 基地正遭受攻擊。
+notification-ally-under-attack = 我方盟友正遭受攻擊。
+notification-silos-needed = 需要儲存槽。
 
 ## world.yaml
 options-starting-units =
-    .mcv-only = MCV Only
-    .light-support = Light Support
-    .heavy-support = Heavy Support
+    .mcv-only = 僅機動建造車
+    .light-support = 輕型支援
+    .heavy-support = 重型支援
 
 dropdown-map-creeps =
-    .label = Creep Actors
-    .description = Hostile forces spawn on the battlefield
+    .label = 中立敵軍
+    .description = 敵對部隊會在戰場上生成。
 
-resource-tiberium = Tiberium
+resource-tiberium = 泰伯倫
 
 faction-random =
-    .name = Any
-    .description = Random Faction
-     A random faction is chosen at the start of the game
+    .name = 任意
+    .description = 隨機陣營
+     遊戲開始時會隨機選擇陣營
 
 faction-gdi =
-    .name = GDI
-    .description = Global Defense Initiative
-     The GDI is an international military branch of the United Nations tasked
-     with keeping world peace. Commanding the combined forces of the world's
-     most powerful nations, it possess an unmatched arsenal of high-tech weaponry.
+    .name = 全球防衛組織
+    .description = 全球防衛組織
+     聯合國轄下的國際軍事部門，負責維持世界和平。統率世上最強國家的聯合作戰部隊，擁有無可匹敵的高科技武器。
 
 faction-nod =
-    .name = Nod
-    .description = Brotherhood of Nod
-     The Brotherhood is a religious cult centered around their leader Kane
-     and the alien substance Tiberium. They use stealth technology
-     and guerilla tactics to defeat those who oppose them.
+    .name = 諾德兄弟會
+    .description = 諾德兄弟會
+     以領袖凱恩與外星物質泰伯倫為中心的宗教教團。運用隱形科技與游擊戰術，擊敗所有反抗者。
 
 ## defaults.yaml
-notification-unit-lost = Unit lost.
-notification-unit-promoted = Unit promoted.
-notification-building-captured = Building captured.
-notification-civ-building-captured = Civilian building captured.
-notification-structure-lost = Structure lost.
+notification-unit-lost = 單位損失。
+notification-unit-promoted = 單位已晉升。
+notification-building-captured = 建築已被佔領。
+notification-civ-building-captured = 平民建築已被佔領。
+notification-structure-lost = 建築損失。
 
 ## aircraft.yaml
 actor-tran =
-    .name = Chinook Transport
+    .name = 契努克運輸直升機
     .description =
-    Fast Infantry Transport Helicopter.
-      Unarmed
+    快速步兵運輸直升機。
+      無武裝
     .encyclopedia =
-    The chinook is a flying transport capable of carrying a detachement of infantry. It is mostly used to transport commandos or engineers for backline-destruction.
+    契努克是能搭載一支步兵分遣隊的飛行運輸機，多用來運送突擊兵或工程師，從後方破壞敵軍。
 
-    Like all aircraft, it can be handy in a pinch to crush a commando by landing!
+    和所有飛行器一樣，緊急時可以降落碾過突擊兵！
 
 actor-heli =
-    .name = Apache Longbow
+    .name = 阿帕契長弓
     .description =
-    Helicopter Gunship with chainguns.
-      Strong vs Infantry, Light Vehicles and Aircraft
-      Weak vs Tanks
+    搭載機砲的武裝直升機。
+      擅長對抗步兵、輕型載具與飛行器
+      弱於坦克
     .encyclopedia =
-    Has more health than the Orca and acts as a support unit. It works well with artillery, as it can kill approaching light vehicles.
+    生命值比虎鯨直升機更高，適合作為支援單位。與自走砲搭配時，能消滅接近的輕型載具。
 
-    Ammo is automatically reloaded in the air.
+    彈藥會在空中自動裝填。
 
 actor-orca =
-    .name = Orca
+    .name = 虎鯨直升機
     .description =
-    Helicopter gunship with AG missiles.
-      Strong vs Buildings and Tanks
-      Weak vs Infantry
+    搭載空對地飛彈的武裝直升機。
+      擅長對抗建築與坦克
+      弱於步兵
     .encyclopedia =
-    Fast but fragile, the Orca harasses enemy vehicles and aircraft with AT missiles. It is best used opportunistically, and can be kept alive longer with careful micro. Its AA missiles are effective but have a hard time hitting fast-moving air targets.
+    虎鯨直升機速度快但脆弱，以反坦克飛彈騷擾敵方載具與飛行器。最好伺機使用，細心操作能讓它活得更久。對空飛彈相當有效，但難以命中快速移動的空中目標。
 
-    Ammo is automatically reloaded in the air.
+    彈藥會在空中自動裝填。
 
-actor-c17-name = Supply Aircraft
-actor-a10-name = A10 Bomber
-actor-tran-husk-name = Chinook Transport (Destroyed)
-actor-heli-husk-name = Apache Longbow (Destroyed)
-actor-orca-husk-name = Orca (Destroyed)
+actor-c17-name = 補給機
+actor-a10-name = A-10 轟炸機
+actor-tran-husk-name = 契努克運輸直升機（已摧毀）
+actor-heli-husk-name = 阿帕契長弓（已摧毀）
+actor-orca-husk-name = 虎鯨直升機（已摧毀）
 
 ## civilian-desert.yaml
-actor-v20-name = Sala's House
-actor-v20-husk-name = Sala's House (Destroyed)
-actor-v21-name = Abdul's House
-actor-v21-husk-name = Abdul's House (Destroyed)
-actor-v22-name = Pablo's Wicked Pub
-actor-v22-husk-name = Pablo's Wicked Pub (Destroyed)
-actor-v23-name = Village Well
-actor-v23-husk-name = Village Well (Destroyed)
-actor-v24-name = Camel Trader
-actor-v24-husk-name = Camel Trader (Destroyed)
-actor-v25-name = Church
-actor-v25-husk-name = Church (Destroyed)
-actor-v26-name = Ali's House
-actor-v26-husk-name = Ali's House (Destroyed)
-actor-v27-name = Trader Ted's
-actor-v27-husk-name = Trader Ted's (Destroyed)
-actor-v28-name = Menelik's House
-actor-v28-husk-name = Menelik's House (Destroyed)
-actor-v29-name = Prestor John's House
-actor-v29-husk-name = Prestor John's House (Destroyed)
-actor-v30-name = Village Well
-actor-v30-husk-name = Village Well (Destroyed)
-actor-v31-name = Witch Doctor's Hut
-actor-v31-husk-name = Witch Doctor's Hut (Destroyed)
-actor-v32-name = Rikitikitembo's Hut
-actor-v32-husk-name = Rikitikitembo's Hut (Destroyed)
-actor-v33-name = Roarke's Hut
-actor-v33-husk-name = Roarke's Hut (Destroyed)
-actor-v34-name = Mubasa's Hut
-actor-v34-husk-name = Mubasa's Hut (Destroyed)
-actor-v35-name = Aksum's Hut
-actor-v35-husk-name = Aksum's Hut (Destroyed)
-actor-v36-name = Mambo's Hut
-actor-v36-husk-name = Mambo's Hut (Destroyed)
-actor-v37-name = The Studio
-actor-v37-husk-name = The Studio (Destroyed)
+actor-v20-name = 薩拉的家
+actor-v20-husk-name = 薩拉的家（已摧毀）
+actor-v21-name = 阿布杜勒的家
+actor-v21-husk-name = 阿布杜勒的家（已摧毀）
+actor-v22-name = 帕布洛邪惡酒館
+actor-v22-husk-name = 帕布洛邪惡酒館（已摧毀）
+actor-v23-name = 村莊水井
+actor-v23-husk-name = 村莊水井（已摧毀）
+actor-v24-name = 駱駝商人
+actor-v24-husk-name = 駱駝商人（已摧毀）
+actor-v25-name = 教堂
+actor-v25-husk-name = 教堂（已摧毀）
+actor-v26-name = 阿里的家
+actor-v26-husk-name = 阿里的家（已摧毀）
+actor-v27-name = 泰德商行
+actor-v27-husk-name = 泰德商行（已摧毀）
+actor-v28-name = 梅內利克的家
+actor-v28-husk-name = 梅內利克的家（已摧毀）
+actor-v29-name = 普雷斯托約翰的家
+actor-v29-husk-name = 普雷斯托約翰的家（已摧毀）
+actor-v30-name = 村莊水井
+actor-v30-husk-name = 村莊水井（已摧毀）
+actor-v31-name = 巫醫的小屋
+actor-v31-husk-name = 巫醫的小屋（已摧毀）
+actor-v32-name = 里基提基滕博的小屋
+actor-v32-husk-name = 里基提基滕博的小屋（已摧毀）
+actor-v33-name = 羅克的小屋
+actor-v33-husk-name = 羅克的小屋（已摧毀）
+actor-v34-name = 穆巴薩的小屋
+actor-v34-husk-name = 穆巴薩的小屋（已摧毀）
+actor-v35-name = 阿克蘇姆的小屋
+actor-v35-husk-name = 阿克蘇姆的小屋（已摧毀）
+actor-v36-name = 曼波的小屋
+actor-v36-husk-name = 曼波的小屋（已摧毀）
+actor-v37-name = 錄音室
+actor-v37-husk-name = 錄音室（已摧毀）
 
 ## civilian.yaml
-actor-v01-name = Church
-actor-v01-husk-name = Church (Destroyed)
-actor-v02-name = Hans and Gretel's House
-actor-v02-husk-name = Hans and Gretel's House (Destroyed)
-actor-v03-name = Hewitt's House
-actor-v03-husk-name = Hewitt's House (Destroyed)
-actor-v04-name = Ricktor's House
-actor-v04-husk-name = Ricktor's House (Destroyed)
-actor-v05-name = Gretchkin's House
-actor-v05-husk-name = Gretchkin's House (Destroyed)
-actor-v06-name = The Barn
-actor-v06-husk-name = The Barn (Destroyed)
-actor-v07-name = Damon's Pub
-actor-v07-husk-name = Damon's Pub (Destroyed)
-actor-v08-name = Fran's House
-actor-v08-husk-name = Fran's House (Destroyed)
-actor-v09-name = Music Factory
-actor-v09-husk-name = Music Factory (Destroyed)
-actor-v10-name = Toymaker's
-actor-v10-husk-name = Toymaker's (Destroyed)
-actor-v11-name = Ludwig's House
-actor-v11-husk-name = Ludwig's House (Destroyed)
-actor-v14-name = Wheat Field
-actor-v14-husk-name = Wheat Field (Destroyed)
-actor-v15-name = Fallow Field
-actor-v15-husk-name = Fallow Field (Destroyed)
-actor-v16-name = Corn Field
-actor-v16-husk-name = Corn Field (Destroyed)
-actor-v17-name = Celery Field
-actor-v17-husk-name = Celery Field (Destroyed)
-actor-v18-name = Potato Field
-actor-v18-husk-name = Potato Field (Destroyed)
-actor-arco-name = Oil Pump
-actor-arco-husk-name = Oil Pump (Destroyed)
-actor-barb-name = Barbwire Fence
-actor-wood-name = Wooden Fence
-actor-delphi-name = Agent Delphi
-actor-chan-name = Dr. Chan
-actor-moebius-name = Dr. Moebius
+actor-v01-name = 教堂
+actor-v01-husk-name = 教堂（已摧毀）
+actor-v02-name = 漢斯與葛麗特的家
+actor-v02-husk-name = 漢斯與葛麗特的家（已摧毀）
+actor-v03-name = 休伊特的家
+actor-v03-husk-name = 休伊特的家（已摧毀）
+actor-v04-name = 里克特的家
+actor-v04-husk-name = 里克特的家（已摧毀）
+actor-v05-name = 格雷奇金的家
+actor-v05-husk-name = 格雷奇金的家（已摧毀）
+actor-v06-name = 穀倉
+actor-v06-husk-name = 穀倉（已摧毀）
+actor-v07-name = 戴蒙酒館
+actor-v07-husk-name = 戴蒙酒館（已摧毀）
+actor-v08-name = 法蘭的家
+actor-v08-husk-name = 法蘭的家（已摧毀）
+actor-v09-name = 音樂工廠
+actor-v09-husk-name = 音樂工廠（已摧毀）
+actor-v10-name = 玩具匠舖
+actor-v10-husk-name = 玩具匠舖（已摧毀）
+actor-v11-name = 路德維希的家
+actor-v11-husk-name = 路德維希的家（已摧毀）
+actor-v14-name = 麥田
+actor-v14-husk-name = 麥田（已摧毀）
+actor-v15-name = 休耕地
+actor-v15-husk-name = 休耕地（已摧毀）
+actor-v16-name = 玉米田
+actor-v16-husk-name = 玉米田（已摧毀）
+actor-v17-name = 芹菜田
+actor-v17-husk-name = 芹菜田（已摧毀）
+actor-v18-name = 馬鈴薯田
+actor-v18-husk-name = 馬鈴薯田（已摧毀）
+actor-arco-name = 油泵
+actor-arco-husk-name = 油泵（已摧毀）
+actor-barb-name = 拒馬鐵絲網
+actor-wood-name = 木柵欄
+actor-delphi-name = 德爾菲幹員
+actor-chan-name = 陳博士
+actor-moebius-name = 莫比烏斯博士
 
 ## defaults.yaml
-meta-vehicle-generic-name = Vehicle
-meta-tank-generic-name = Tank
-meta-helicopter-generic-name = Helicopter
-meta-soldier-generic-name = Soldier
-meta-civinfantry-name = Civilian
-meta-viceroid-name = Visceroid
-meta-ship-generic-name = Ship
-meta-building-generic-name = Structure
-meta-civbuilding-generic-name = Civilian Building
-meta-civbuildinghusk-generic-name = Civilian Building (Destroyed)
-meta-civfield-generic-name = Field
+meta-vehicle-generic-name = 載具
+meta-tank-generic-name = 坦克
+meta-helicopter-generic-name = 直升機
+meta-soldier-generic-name = 士兵
+meta-civinfantry-name = 平民
+meta-viceroid-name = 內臟怪
+meta-ship-generic-name = 船艦
+meta-building-generic-name = 建築
+meta-civbuilding-generic-name = 平民建築
+meta-civbuildinghusk-generic-name = 平民建築（已摧毀）
+meta-civfield-generic-name = 田地
 
 meta-civhaystackorigloo =
-    .winter-name = Igloo
-    .summer-name = Haystack
+    .winter-name = 冰屋
+    .summer-name = 乾草堆
 
 meta-civhaystackorigloohusk =
-    .winter-name = Igloo (Destroyed)
-    .summer-name = Haystack (Destroyed)
+    .winter-name = 冰屋（已摧毀）
+    .summer-name = 乾草堆（已摧毀）
 
-meta-tree-name = Tree
-meta-treehusk-name = Tree (Burnt)
-meta-tibtree-name = Blossom Tree
-meta-rock-name = Rock
-meta-husk-generic-name = Destroyed Vehicle
-meta-helicopterhusk-generic-name = Destroyed Helicopter
-meta-bridge-name = Bridge
+meta-tree-name = 樹
+meta-treehusk-name = 樹（已燒毀）
+meta-tibtree-name = 泰伯倫花樹
+meta-rock-name = 岩石
+meta-husk-generic-name = 已摧毀載具
+meta-helicopterhusk-generic-name = 已摧毀直升機
+meta-bridge-name = 橋
 
 meta-crate =
-    .name = Crate
-    .generic-name = Crate
+    .name = 補給箱
+    .generic-name = 補給箱
 
 ## husks.yaml
-actor-mcv-husk-name = Mobile Construction Vehicle (Destroyed)
-actor-harv-husk-name = Harvester (Destroyed)
-actor-apc-husk-name = APC (Destroyed)
-actor-ftnk-husk-name = Flame Tank (Destroyed)
-actor-arty-husk-name = Artillery (Destroyed)
-actor-bggy-husk-name = Nod Buggy (Destroyed)
-actor-bike-husk-name = Recon Bike (Destroyed)
-actor-jeep-husk-name = Hum-vee (Destroyed)
-actor-ltnk-husk-name = Light Tank (Destroyed)
-actor-mtnk-husk-name = Medium Tank (Destroyed)
-actor-htnk-husk-name = Mammoth Tank (Destroyed)
-actor-msam-husk-name = Rocket Launcher (Destroyed)
-actor-mlrs-husk-name = Mobile SAM (Destroyed)
-actor-stnk-husk-name = Stealth Tank (Destroyed)
-actor-truck-husk-name = Supply Truck (Destroyed)
+actor-mcv-husk-name = 機動建造車（已摧毀）
+actor-harv-husk-name = 採收車（已摧毀）
+actor-apc-husk-name = 裝甲運兵車（已摧毀）
+actor-ftnk-husk-name = 火焰坦克（已摧毀）
+actor-arty-husk-name = 自走砲（已摧毀）
+actor-bggy-husk-name = 諾德越野車（已摧毀）
+actor-bike-husk-name = 偵察摩托車（已摧毀）
+actor-jeep-husk-name = 悍馬車（已摧毀）
+actor-ltnk-husk-name = 輕型坦克（已摧毀）
+actor-mtnk-husk-name = 中型坦克（已摧毀）
+actor-htnk-husk-name = 巨象坦克（已摧毀）
+actor-msam-husk-name = 火箭發射車（已摧毀）
+actor-mlrs-husk-name = 移動防空飛彈（已摧毀）
+actor-stnk-husk-name = 隱形坦克（已摧毀）
+actor-truck-husk-name = 補給卡車（已摧毀）
 
 ## infantry.yaml
 actor-e1 =
-    .name = Minigunner
+    .name = 機槍兵
     .description =
-    General-purpose infantry.
-      Strong vs Infantry
-      Weak vs Vehicles
+    通用步兵。
+      擅長對抗步兵
+      弱於載具
     .encyclopedia =
-    The humble Minigunner is a highly specialized infantry unit designed to soak damage and kill other infantry.
+    不起眼的機槍兵是高度專業的步兵，用來承受傷害並消滅其他步兵。
 
-    Like most TD units, they can see farther than they can shoot, and work well in packs to eliminate enemy infantry.
+    和大多數泰伯倫黎明單位一樣，他們的視野比射程更遠，成群使用時很適合清除敵方步兵。
 
 actor-e2 =
-    .name = Grenadier
+    .name = 擲彈兵
     .description =
-    Fast infantry with grenades.
-      Strong vs Buildings, slow-moving targets
+    投擲手榴彈的快速步兵。
+      擅長對抗建築與慢速目標
     .encyclopedia =
-    Fast and able to keep up with medium tanks, letting it work well with flanking armies.
+    速度快，跟得上中型坦克，因此很適合配合側翼部隊。
 
-    While not as powerful as the Minigunner or a Rocket soldier, its speed can be used to your advantage.
+    火力雖不如機槍兵或火箭兵，但速度可以成為你的優勢。
 
 actor-e3 =
-    .name = Rocket Soldier
+    .name = 火箭兵
     .description =
-    Anti-tank/Anti-aircraft infantry.
-      Strong vs Tanks and Aircraft
-      Weak vs Infantry
+    反坦克、防空步兵。
+      擅長對抗坦克與飛行器
+      弱於步兵
     .encyclopedia =
-    Highly vulnerable but excelling at eliminating enemy armor and aircraft. It is the slowest unit in the game, lagging behind other infantry and even mammoth tanks.
+    非常脆弱，但極擅長消滅敵方裝甲與飛行器。它是遊戲中最慢的單位，比其他步兵甚至巨象坦克還慢。
 
-    Its large weapons range makes up for its slow speed, making it most effective when used defensively, where it can be protected and provide vision.
+    較長的武器射程彌補了緩慢的速度，最適合用於防禦，以便受到保護並提供視野。
 
 actor-e4 =
-    .name = Flamethrower
+    .name = 噴火兵
     .description =
-    Advanced anti-infantry unit.
-      Strong vs Infantry and Buildings
-      Weak vs Tanks
+    高級反步兵單位。
+      擅長對抗步兵與建築
+      弱於坦克
     .encyclopedia =
-    Good for flanking and burning down structures. It has more health than a standard Minigunner, but its short weapons range makes it difficult to use in large armies.
+    適合側翼突擊並燒毀建築。生命值比一般機槍兵更高，但武器射程短，難以編入大規模部隊。
 
 actor-e5 =
-    .name = Chemical Warrior
+    .name = 化學戰士
     .description =
-    Advanced general-purpose infantry.
-      Strong vs all Ground units
+    高級通用步兵。
+      擅長對抗所有地面單位
     .encyclopedia =
-    Similar stats to the Flamethrower but deals good damage vs heavy armor. Great for stopping enemy armor from crushing your forces.
+    能力與噴火兵相近，但對重甲的傷害不錯。很適合阻止敵方裝甲碾過你的部隊。
 
-    It can walk on Tiberium without taking damage, making it particularly useful for harvester harassment on certain maps.
+    可以走在泰伯倫上而不受傷，在某些地圖上特別適合騷擾採收車。
 
 actor-e6 =
-    .name = Engineer
+    .name = 工程師
     .description =
-    Damages and captures enemy structures.
-    Repairs destroyed vehicles.
-      Unarmed
+    破壞並佔領敵方建築。
+    修復已摧毀的載具。
+      無武裝
     .encyclopedia =
-    Like the rocket soldier, the Engineer is slow and requires escorts to be used effectively. It can instantly capture structures but is consumed in the process.
+    和火箭兵一樣，工程師速度慢，需要護航才能有效運用。可以立即佔領建築，但本人會在過程中消耗掉。
 
-    Capturing a civilian structure requires only one engineer, while capturing an enemy structure typically requires two engineers, or one if the structure is heavily damaged.
+    佔領平民建築只需要一名工程師；佔領敵方建築通常需要兩名，若建築受損嚴重，則一名即可。
 
-    Engineers can also be used to repair friendly structures or restore husks from destroyed vehicles.
+    工程師也可以修復友方建築，或把已摧毀載具的殘骸修復回來。
 
 actor-rmbo =
-    .name = Commando
+    .name = 突擊兵
     .description =
-    Elite sniper infantry unit.
-      Strong vs Infantry and Buildings
-      Weak vs Vehicles
+    精英狙擊步兵。
+      擅長對抗步兵與建築
+      弱於載具
     .encyclopedia =
-    Equipped with a long-range sniper rifle, the Commando fires slowly but can eliminate enemy infantry from a distance when well-supported.
+    配備長程狙擊槍，射速慢，但在充分支援下能從遠處消滅敵方步兵。
 
-    It carries C4, for surprise backline structure destruction.
+    攜帶 C4，可出其不意地從後方炸毀建築。
 
 actor-pvice =
     .description =
-    Mutated abomination that spits liquid Tiberium.
-      Strong vs Infantry and Buildings
-      Weak vs Aircraft
+    噴吐液態泰伯倫的變異怪物。
+      擅長對抗步兵與建築
+      弱於飛行器
     .encyclopedia =
-    A mutated lifeform created from the strange properties of Tiberium, when infantry units are expose to it.
+    泰伯倫的奇異特性會產生這種變異生物，步兵暴露其中就會變成這樣。
 
-    They regenerate health quickly and have a short-range Tiberium weapon.
+    他們的生命值恢復很快，並擁有短程泰伯倫武器。
 
 actor-steg =
-    .name = Stegosaurus
+    .name = 劍龍
     .description =
-    A large, heavily built,
-    herbivorous quadruped.
+    體型龐大、身軀厚實的
+    草食四足動物。
 
 actor-trex =
-    .name = Tyrannosaurus rex
+    .name = 暴龍
     .description =
-    Bipedal carnivore with
-    a massive skull.
+    擁有巨大頭骨的
+    雙足肉食動物。
 
 actor-tric =
-    .name = Triceratops
+    .name = 三角龍
     .description =
-    Quadruped with large bony
-    frill and three horns.
+    有大型骨質頭盾
+    與三隻角的四足動物。
 
 actor-rapt =
-    .name = Velociraptor
+    .name = 迅猛龍
     .description =
-    Bipedal with enlarged sickle-shaped
-    claw on each hindfoot.
+    雙足行走，每隻後腳
+    有一支增大的鐮狀爪。
 
 ## misc.yaml
-actor-wcrate-name = Wooden Crate
-actor-scrate-name = Steel Crate
-actor-mpspawn-name = (multiplayer starting point)
-actor-waypoint-name = (waypoint for scripted behavior)
-actor-camera-name = (reveals area to owner)
-actor-camera-small-name = (reveals small area to owner)
-actor-flare-name = Flare
+actor-wcrate-name = 木箱
+actor-scrate-name = 鋼箱
+actor-mpspawn-name = （多人連線出生點）
+actor-waypoint-name = （腳本行為路徑點）
+actor-camera-name = （對擁有者揭示區域）
+actor-camera-small-name = （對擁有者揭示小範圍區域）
+actor-flare-name = 照明彈
 
 ## ships.yaml
-actor-boat-name = Gunboat
-actor-lst-name = Landing Craft
+actor-boat-name = 砲艇
+actor-lst-name = 登陸艇
 
 ## structures.yaml
-notification-construction-complete = Construction complete.
-notification-unit-ready = Unit ready.
-notification-reinforcements-have-arrived = Reinforcements have arrived.
-notification-unable-to-build-more = Unable to build more.
-notification-unable-to-comply-building-in-progress = Unable to comply. Building in progress.
-notification-repairing = Repairing.
-notification-ion-cannon-charging = Ion cannon charging.
-notification-ion-cannon-ready = Ion cannon ready.
-notification-select-target = Select target.
-notification-insufficient-power = Insufficient power.
-notification-airstrike-ready = Airstrike ready.
-notification-enemy-planes-approaching = Enemy planes approaching.
-notification-nuclear-weapon-available = Nuclear weapon available.
-notification-nuclear-weapon-launched = Nuclear weapon launched.
-notification-nuclear-warhead-approaching = Nuclear warhead approaching.
+notification-construction-complete = 建造完成。
+notification-unit-ready = 單位準備完成。
+notification-reinforcements-have-arrived = 援軍已經抵達。
+notification-unable-to-build-more = 無法再建造。
+notification-unable-to-comply-building-in-progress = 無法執行。建造進行中。
+notification-repairing = 修復中。
+notification-ion-cannon-charging = 離子砲充能中。
+notification-ion-cannon-ready = 離子砲準備完成。
+notification-select-target = 請選擇目標。
+notification-insufficient-power = 電力不足。
+notification-airstrike-ready = 空襲準備完成。
+notification-enemy-planes-approaching = 敵機正在接近。
+notification-nuclear-weapon-available = 核子武器可用。
+notification-nuclear-weapon-launched = 核子武器已發射。
+notification-nuclear-warhead-approaching = 核彈頭正在接近。
 
 actor-fact =
-    .name = Construction Yard
-    .description = Builds structures.
+    .name = 建造廠
+    .description = 建造建築。
     .encyclopedia =
-    The core of any base. It produces buildings and defenses while also providing a build radius. It has a large health pool, but is difficult to replace, making it paramount to defend.
+    任何基地的核心。生產建築與防禦工事，並提供建造範圍。生命值很高，但難以替換，因此務必加以防守。
 
-    It can be unpacked into a mobile version using the deploy key, but takes a small amount of time to do so.
+    按下部署鍵可將它轉為機動形態，但需要一點時間。
 
-actor-fact-gdi-name = GDI Construction Yard
-actor-fact-nod-name = Nod Construction Yard
+actor-fact-gdi-name = 全球防衛組織建造廠
+actor-fact-nod-name = 諾德兄弟會建造廠
 
 actor-nuke =
-    .name = Power Plant
-    .description = Generates power.
+    .name = 發電廠
+    .description = 產生電力。
     .encyclopedia =
-    Provides power to the structures in your base. Power output is directly related to the power plant's condition, so protect them during battles.
+    為基地內的建築供電。發電量與發電廠的受損程度直接相關，戰鬥時請保護它們。
 
 actor-nuk2 =
-    .name = Advanced Power Plant
+    .name = 高級發電廠
     .description =
-    Provides more power, cheaper than the
-    standard Power Plant.
+    提供更多電力，比標準
+    發電廠更便宜。
     .encyclopedia =
-    Provides more power to the structures in your base, making it more cost-effective than the Power Plant. Power output is directly related to its condition, so protect it during battle.
+    為基地內的建築提供更多電力，比發電廠更划算。發電量與其受損程度直接相關，戰鬥時請加以保護。
 
 actor-proc =
-    .name = Tiberium Refinery
+    .name = 泰伯倫精煉廠
     .description =
-    Processes raw Tiberium
-    into usable resources.
+    將原始泰伯倫
+    處理成可用資源。
     .encyclopedia =
-    Stores and processes the alien material and resource, Tiberium. Harvesters collect Tiberium in the field and deposit it at the refinery, where it is converted into credits.
+    儲存並處理外星物質資源泰伯倫。採收車在野外收集泰伯倫，送到精煉廠後轉換成資金。
 
-    The refinery stores Tiberium and immediately deploys a harvester once constructed. 3 harvesters is the maximum it can handle for close refining.
+    精煉廠會儲存泰伯倫，建造完成後立即派出一輛採收車。近處精煉最多可應付 3 輛採收車。
 
 actor-silo =
-    .name = Tiberium Silo
-    .description = Stores processed Tiberium.
+    .name = 泰伯倫儲存槽
+    .description = 儲存處理後的泰伯倫。
     .encyclopedia =
-    Stores credits. If storage is full, harvesters will wait until credits are spent.
+    儲存資金。若儲存空間已滿，採收車會等到資金花掉後才繼續作業。
 
-    Useful when harvesting the more valuable blue Tiberium, as a single refinery cannot store a full load.
+    採集價值較高的藍色泰伯倫時特別有用，因為單一精煉廠存不下一整車的產量。
 
 actor-pyle =
-    .name = Barracks
-    .description = Trains infantry.
+    .name = 兵營
+    .description = 訓練步兵。
     .encyclopedia =
-    Produces infantry for GDI. Once unlocked, advanced GDI infantry are hard-hitting and fast.
+    為全球防衛組織生產步兵。解鎖後，全球防衛組織的高級步兵火力強且速度快。
 
 actor-hand =
-    .name = Hand of Nod
-    .description = Trains infantry.
+    .name = 諾德之手
+    .description = 訓練步兵。
     .encyclopedia =
-    Produces infantry for Nod. Once unlocked, advanced Nod infantry are slow but have high health pools.
+    為諾德兄弟會生產步兵。解鎖後，諾德兄弟會的高級步兵速度慢，但生命值很高。
 
 actor-afld =
-    .name = Airstrip
+    .name = 簡易機場
     .description =
-    Provides a dropzone
-    for vehicle reinforcements.
+    提供載具援軍的
+    空投區。
     .encyclopedia =
-    Delivers vehicles by plane for Nod. Nod vehicles are fast but fragile. Produce harvesters at the start to jumpstart your economy.
+    以飛機為諾德兄弟會運送載具。諾德兄弟會的載具速度快但脆弱。開局先造採收車，以便快速啟動經濟。
 
 actor-weap =
-    .name = Weapons Factory
-    .description = Produces vehicles.
+    .name = 武器工廠
+    .description = 生產載具。
     .encyclopedia =
-    Produces vehicles for GDI. GDI vehicles tend to be slow but hard-hitting. Produce harvesters at the start to jumpstart your economy.
+    為全球防衛組織生產載具。全球防衛組織的載具往往速度慢但火力強。開局先造採收車，以便快速啟動經濟。
 
 actor-hpad =
-    .name = Helipad
+    .name = 直升機坪
     .description =
-    Produces and repairs helicopters.
+    生產並修復直升機。
     .encyclopedia =
-    Produces and repairs helicopters. Requires a Communications Center to build advanced attack helicopters.
+    生產並修復直升機。建造高級攻擊直升機需要通訊中心。
 
 actor-hq =
-    .name = Communications Center
+    .name = 通訊中心
     .description =
-    Provides radar and Air Strike support power.
-    Unlocks higher-tech units and buildings.
-    Requires power to operate.
-    .airstrikepower-name = Air Strike
-    .airstrikepower-description = Deploy an aerial napalm strike.
-    Burns buildings and infantry along a line.
+    提供雷達與空襲支援能力。
+    解鎖更高科技的單位與建築。
+    運作需要電力。
+    .airstrikepower-name = 空襲
+    .airstrikepower-description = 發動空中汽油彈打擊。
+    沿直線燒毀建築與步兵。
     .encyclopedia =
-    Grants the player access to the minimap (top right) when there is sufficient power. Unlocks new units while also granting access to the airstrike support power.
+    電力充足時可使用小地圖（右上角）。解鎖新單位，並提供空襲支援能力。
 
 actor-fix =
-    .name = Repair Facility
-    .description = Repairs vehicles.
+    .name = 維修廠
+    .description = 修復載具。
     .encyclopedia =
-    Repairs vehicles. The repair command can be used on units to send them to the nearest repair facility.
+    修復載具。對單位下達修復指令後，會前往最近的維修廠。
 
 actor-eye =
-    .name = Advanced Communications Center
+    .name = 高級通訊中心
     .description =
-    Provides radar and Orbital Ion Cannon support power.
-    Unlocks Mammoth Tank and Commando.
-    Requires power to operate.
-    .ioncannonpower-name = Ion Cannon
-    .ioncannonpower-description = Initiates an Ion Cannon strike.
-    Applies instant damage to a small area.
+    提供雷達與軌道離子砲支援能力。
+    解鎖巨象坦克與突擊兵。
+    運作需要電力。
+    .ioncannonpower-name = 離子砲
+    .ioncannonpower-description = 發動離子砲打擊。
+    對小範圍造成立即傷害。
     .encyclopedia =
-    Unlocks advanced units and the ion cannon support power. If the Communications Center is lost, it restores minimap functionality and unit production.
+    解鎖高級單位與離子砲支援能力。若通訊中心被毀，它會恢復小地圖功能與單位生產。
 
 actor-tmpl =
-    .name = Temple of Nod
+    .name = 諾德神殿
     .description =
-    Provides Nuclear Strike support power.
-    Unlocks Stealth Tank, Chem. Warrior and Obelisk of Light.
-    Requires power to operate.
-    .nukepower-name = Nuclear Strike
-    .nukepower-description = Launches a tactical nuclear warhead.
-    Applies heavy damage over a large area.
+    提供核子飛彈支援能力。
+    解鎖隱形坦克、化學戰士與光之方尖碑。
+    運作需要電力。
+    .nukepower-name = 核子飛彈
+    .nukepower-description = 發射戰術核子飛彈。
+    對大範圍造成沉重傷害。
     .encyclopedia =
-    Unlocks advanced units and the Nuke support power. Keeps unit unlocks online if the Communications Center is lost.
+    解鎖高級單位與核子飛彈支援能力。若通訊中心被毀，單位解鎖仍然有效。
 
 actor-gun =
-    .name = Turret
+    .name = 砲塔
     .description =
-    Basic Anti-Tank base defense.
-      Strong vs Tanks and Vehicles
-      Weak vs Infantry
+    基礎反坦克基地防禦。
+      擅長對抗坦克與載具
+      弱於步兵
     .encyclopedia =
-    Base defense armed with an armor-piercing cannon, it deals significant damage to vehicles in range.
+    配備穿甲砲的基地防禦，對射程內的載具造成可觀傷害。
 
 actor-sam =
-    .name = SAM Site
+    .name = 防空飛彈
     .description =
-    Anti-Aircraft base defense.
-      Strong vs Aircraft
-      Cannot target Ground units
+    防空基地防禦。
+      擅長對抗飛行器
+      無法鎖定地面單位
     .encyclopedia =
-    Nod anti-air base defense. It remains protected when closed and opens to engage aircraft.
+    諾德兄弟會的防空基地防禦。關閉時受到保護，開啟後攻擊飛行器。
 
 actor-obli =
-    .name = Obelisk of Light
+    .name = 光之方尖碑
     .description =
-    Advanced base defense.
-    Requires power to operate.
-      Strong vs all Ground units
-      Cannot target Aircraft
+    高級基地防禦。
+    運作需要電力。
+      擅長對抗所有地面單位
+      無法鎖定飛行器
     .encyclopedia =
-    Advanced defense for Nod that quickly destroys ground targets with a powerful laser.
+    諾德兄弟會的高級防禦，以強力雷射迅速摧毀地面目標。
 
 actor-gtwr =
-    .name = Guard Tower
+    .name = 防禦塔
     .description =
-    Basic defensive structure.
-      Strong vs Infantry
-      Weak vs Tanks
+    基礎防禦建築。
+      擅長對抗步兵
+      弱於坦克
     .encyclopedia =
-    Base defense armed with a high-velocity machine gun, it shreds infantry and light vehicles within range with its large area of effect.
+    配備高速機槍的基地防禦，射界寬廣，能撕裂射程內的步兵與輕型載具。
 
 actor-atwr =
-    .name = Advanced Guard Tower
+    .name = 高級防禦塔
     .description =
-    All-purpose defensive structure.
-      Strong vs Aircraft and Infantry
-      Weak vs Tanks
+    全方位防禦建築。
+      擅長對抗飛行器與步兵
+      弱於坦克
     .encyclopedia =
-    Advanced defense for GDI that fires volleys of high explosive missiles at both ground and air targets. Effective versus everything.
+    全球防衛組織的高級防禦，對地面與空中目標發射高爆飛彈齊射。對各種目標都有效。
 
 actor-sbag =
-    .name = Sandbag Barrier
+    .name = 沙包障礙
     .description =
-    Stops infantry and light vehicles.
-      Can be crushed by tanks.
+    阻擋步兵與輕型載具。
+      可被坦克碾過。
     .encyclopedia =
-    Blocks movement of infantry and light vehicles, but can be crushed by tanks. Immune to small arms fire.
+    阻擋步兵與輕型載具移動，但可被坦克碾過。免疫輕武器火力。
 
-    This barrier can be built in multiple segments once an initial sandbag has been placed.
+    放下一節沙包後，此障礙可以一次建造多段。
 
 actor-cycl =
-    .name = Chain Link Barrier
+    .name = 鐵絲網障礙
     .description =
-    Stops infantry and light vehicles.
-      Can be crushed by tanks.
+    阻擋步兵與輕型載具。
+      可被坦克碾過。
     .encyclopedia =
-    Blocks movement of infantry and light vehicles, but can be crushed by tanks. Immune to small arms fire.
+    阻擋步兵與輕型載具移動，但可被坦克碾過。免疫輕武器火力。
 
-    This barrier can be built in multiple segments once an initial chain link has been placed.
+    放下第一段鐵絲網後，此障礙可以一次建造多段。
 
 actor-brik =
-    .name = Concrete Barrier
+    .name = 混凝土障礙
     .description =
-    Stops infantry and most tanks.
-    Blocks some projectiles.
+    阻擋步兵與大多數坦克。
+    可阻擋部分投射物。
     .encyclopedia =
-    Blocks all unit movement, except for Mammoth Tanks which can crush it. Immune to small arms fire.
+    阻擋所有單位移動，但巨象坦克可以碾過。免疫輕武器火力。
 
-    This barrier can be built in multiple segments once an initial wall has been placed.
+    放下第一段牆後，此障礙可以一次建造多段。
 
-actor-barracks-name = Infantry Production
-actor-vehicleproduction-name = Vehicle Production
-actor-anypower-name = Power Generation
-actor-anyhq-name = Communications Center
+actor-barracks-name = 步兵生產
+actor-vehicleproduction-name = 載具生產
+actor-anypower-name = 發電
+actor-anyhq-name = 通訊中心
 
 ## tech.yaml
-actor-v19-husk-name = Oil Derrick (Destroyed)
-actor-hosp-husk-name = Hospital (Destroyed)
-actor-bio-husk-name = Biological Lab (Destroyed)
+actor-v19-husk-name = 油井（已摧毀）
+actor-hosp-husk-name = 醫院（已摧毀）
+actor-bio-husk-name = 生物實驗室（已摧毀）
 
 actor-hosp =
-    .name = Hospital
-    .captured-desc = Provides infantry with self-healing.
-    .capturable-desc = Capture to enable self-healing for infantry.
+    .name = 醫院
+    .captured-desc = 讓步兵能夠自行治療。
+    .capturable-desc = 佔領後讓步兵能夠自行治療。
     .encyclopedia =
-    Heals friendly infantry over time when captured.
+    佔領後會隨時間治療友方步兵。
 
 actor-miss =
-    .name = Tech Center
-    .captured-desc = Provides range of vision.
-    .capturable-desc = Capture to give visual range.
+    .name = 科技中心
+    .captured-desc = 提供視野範圍。
+    .capturable-desc = 佔領後提供視野範圍。
     .encyclopedia =
-    Provides a wide area of vision when captured.
+    佔領後提供寬廣的視野。
 
 actor-bio =
-    .name = Biological Lab
-    .captured-desc = Provides infantry with Tiberium immunity.
-    .capturable-desc = Capture to enable Tiberium immunity for infantry.
+    .name = 生物實驗室
+    .captured-desc = 讓步兵免疫泰伯倫。
+    .capturable-desc = 佔領後讓步兵免疫泰伯倫。
     .encyclopedia =
-    Grants friendly infantry immunity to Tiberium when captured.
+    佔領後讓友方步兵免疫泰伯倫。
 
 actor-v19 =
-    .name = Oil Derrick
-    .captured-desc = Provides additional funds.
-    .capturable-desc = Capture to receive additional funds.
+    .name = 油井
+    .captured-desc = 提供額外資金。
+    .capturable-desc = 佔領後獲得額外資金。
     .encyclopedia =
-    Produces a small amount of income frequently when captured. Makes less money than building a harvester, but provides consistent income.
+    佔領後會頻繁產生少量收入。賺得比建造採收車少，但收入穩定。
 
 ## trees.yaml
-actor-splitblue-name = Blue Blossom Tree
-actor-t03-transformable-name = (Tree that can transform into a Blossom Tree)
-actor-t13-transformable-name = (Tree that can transform into a Blossom Tree)
+actor-splitblue-name = 藍色泰伯倫花樹
+actor-t03-transformable-name = （可變成泰伯倫花樹的樹）
+actor-t13-transformable-name = （可變成泰伯倫花樹的樹）
 
 ## vehicles.yaml
 actor-mcv =
-    .name = Mobile Construction Vehicle
+    .name = 機動建造車
     .description =
-    Deploys into a Construction Yard.
-      Unarmed
+    部署成建造廠。
+      無武裝
     .encyclopedia =
-    Deploying an MCV changes it into a Construction Yard. The MCV has more health in its deployed form, but undeploying can be helpful to escape infantry.
+    把機動建造車部署後，會變成建造廠。展開後的生命值更高，但收回有助於逃離步兵。
 
-    If you have a teammate, they can “gift” you an MCV by destroying an undeployed one near your base, allowing you to reclaim it with an engineer.
+    若有隊友，他們可以在你的基地附近摧毀尚未部署的機動建造車，把它「贈送」給你，再由工程師收回。
 
 actor-harv =
-    .name = Harvester
-    .generic-name = Harvester
+    .name = 採收車
+    .generic-name = 採收車
     .description =
-    Collects Tiberium for processing.
-      Unarmed
+    收集泰伯倫以供處理。
+      無武裝
     .encyclopedia =
-    Harvesters slowly mine Tiberium and deposit it in your refinery, where it is converted into credits. They can also be sent to allied refineries to provide funds.
+    採收車會緩慢開採泰伯倫，並送回精煉廠轉換成資金。也可以送到盟友的精煉廠，為對方提供資金。
 
-notification-harvester-lost = Harvester lost.
+notification-harvester-lost = 採收車損失。
 
 actor-apc =
-    .name = APC
+    .name = 裝甲運兵車
     .description =
-    Armed infantry transport.
-    Can attack Aircraft.
-      Strong vs Vehicles
-      Weak vs Infantry
+    武裝步兵運輸車。
+    可以攻擊飛行器。
+      擅長對抗載具
+      弱於步兵
     .encyclopedia =
-    The APC (Armored Personnel Carrier) transports infantry, making it handy for capturing civilian structures. While its flak gun does not do much damage to enemy vehicles, the APC can resist enemy shots while your Hum-vees deal the damage.
+    裝甲運兵車用來運送步兵，方便佔領平民建築。它的防空砲對敵方載具傷害不高，但能承受敵火，讓悍馬車負責輸出傷害。
 
-    It also functions as your primary AA unit; if you hit the stop command, it'll retarget onto any nearby enemy air units.
+    它也是主要的對空單位；下達停止指令後，會重新鎖定附近的敵方空中單位。
 
 actor-arty =
-    .name = Artillery
+    .name = 自走砲
     .description =
-    Long-range artillery.
-      Strong vs Infantry, Vehicles and Buildings
+    遠程自走砲。
+      擅長對抗步兵、載具與建築
     .encyclopedia =
-    Nod's artillery is a glass cannon, fragile but dealing large amounts of damage at long range. Particularly strong vs structures and infantry, it can destroy stationary tanks.
+    諾德兄弟會的自走砲火力強但非常脆弱，能在遠距離造成大量傷害。對建築與步兵特別有效，也能摧毀靜止的坦克。
 
-    Highly vulnerable when clumped due to its explosion on death.
+    聚在一起時很危險，因為被摧毀時會爆炸。
 
 actor-ftnk =
-    .name = Flame Tank
+    .name = 火焰坦克
     .description =
-    Heavily armored flame-throwing vehicle.
-      Strong vs Infantry, Buildings and Vehicles
-      Weak vs Tanks
+    重裝甲噴火載具。
+      擅長對抗步兵、建築與載具
+      弱於坦克
     .encyclopedia =
-    Roast infantry and structures alike, making them great for surprise attacks. Be wary of their splash damage on death, but be aware it can also be used to your advantage.
+    能燒燬步兵與建築，很適合奇襲。小心它們被摧毀時的濺射傷害，但這也能加以利用。
 
 actor-bggy =
-    .name = Nod Buggy
+    .name = 諾德越野車
     .description =
-    Fast scout and anti-infantry vehicle.
-      Strong vs Infantry
-      Weak vs Tanks
+    快速偵察與反步兵載具。
+      擅長對抗步兵
+      弱於坦克
     .encyclopedia =
-    Strong versus light vehicles and infantry, Buggies are great at scouting and killing isolated infantry. Though it is a little cheaper and faster than the GDI Hum-vee, they are more fragile.
+    擅長對付輕型載具與步兵，越野車很適合偵察並消滅落單步兵。雖然比全球防衛組織的悍馬車便宜一些、也更快，但更脆弱。
 
 actor-bike =
-    .name = Recon Bike
+    .name = 偵察摩托車
     .description =
-    Fast scout vehicle with rockets.
-    Can attack Aircraft.
-      Strong vs Vehicles and Tanks
-      Weak vs Infantry
+    搭載火箭的快速偵察載具。
+    可以攻擊飛行器。
+      擅長對抗載具與坦克
+      弱於步兵
     .encyclopedia =
-    The Nod bike is a very fast vehicle armed with armor-piercing rockets, which makes it great for hit and run and harvester harassment.
+    諾德兄弟會的摩托車非常快，配備穿甲火箭，很適合打了就跑以及騷擾採收車。
 
-    Be wary that its rockets are slow and have a hard time hitting fast-moving targets.
+    注意它的火箭速度慢，難以命中快速移動的目標。
 
 actor-jeep =
-    .name = Hum-vee
+    .name = 悍馬車
     .description =
-    Fast scout and anti-infantry vehicle.
-      Strong vs Infantry
-      Weak vs Tanks
+    快速偵察與反步兵載具。
+      擅長對抗步兵
+      弱於坦克
     .encyclopedia =
-    Strong versus light vehicles and infantry, Hum-vees are great at scouting and eliminating isolated infantry.
+    擅長對付輕型載具與步兵，悍馬車很適合偵察並消滅落單步兵。
 
-    They're excellent for dealing with Nod bike spam and should be built instead of tanks in such engagements. Although a little slower than the Nod buggy, it has more health.
+    對付大量諾德兄弟會摩托車時非常出色，這種交戰應建造悍馬車，而不是坦克。雖然比諾德越野車稍慢，但生命值更高。
 
 actor-ltnk =
-    .name = Light Tank
+    .name = 輕型坦克
     .description =
-    Fast, light tank.
-      Strong vs Vehicles and Tanks
-      Weak vs Infantry
+    快速的輕型坦克。
+      擅長對抗載具與坦克
+      弱於步兵
     .encyclopedia =
-    With its great speed and high health pool, the light tank works great as a frontline unit in various compositions despite its damage output.
+    輕型坦克速度快、生命值高，儘管輸出不高，仍很適合在各種編制中擔任前線。
 
-    It should be combined with bikes, stealth tanks, or infantry when facing medium tanks.
+    面對中型坦克時，應與偵察摩托車、隱形坦克或步兵搭配。
 
 actor-mtnk =
-    .name = Medium Tank
+    .name = 中型坦克
     .description =
-    General-purpose GDI Tank.
-      Strong vs Tanks and Vehicles
-      Weak vs Infantry
+    全球防衛組織的通用坦克。
+      擅長對抗坦克與載具
+      弱於步兵
     .encyclopedia =
-    The workhorse of GDI, offering a good balance of speed, durability and firepower. It will easily destroy Nod light tanks and can tear through structures if it sneaks into a base.
+    全球防衛組織的主力，在速度、耐久與火力之間取得良好平衡。能輕易摧毀諾德兄弟會的輕型坦克，若潛入基地也能撕開建築。
 
-    Mix minigunners with your medium tank armies to deal with enemy infantry.
+    在中型坦克部隊中混編機槍兵，以對付敵方步兵。
 
 actor-htnk =
-    .name = Mammoth Tank
+    .name = 巨象坦克
     .description =
-    Heavily armored GDI Tank.
-    Can attack Aircraft.
-      Strong vs Everything
+    全球防衛組織的重裝甲坦克。
+    可以攻擊飛行器。
+      擅長對抗所有目標
     .encyclopedia =
-    A crawling battle station, capable of self-repair and engaging any threat. It is particularly effective against enemy armor, but can also destroy small amounts of infantry or aircraft.
+    一座緩緩前進的戰鬥堡壘，能夠自我修復並應付任何威脅。對敵方裝甲特別有效，也能消滅少量步兵或飛行器。
 
-    When in an enemy base, put it on aggressive stance to have it carve a path of destruction as it moves.
+    進入敵方基地時，將它設為攻擊任何目標姿態，讓它在移動時開出一條破壞之路。
 
 actor-msam =
-    .name = Rocket Launcher
+    .name = 火箭發射車
     .description =
-    Long-range rocket artillery.
-      Strong vs all ground units
+    遠程火箭砲。
+      擅長對抗所有地面單位
     .encyclopedia =
-    Referred to as  “MLRS” by players (Multiple Launch Rocket System), this artillery platform fires volleys of rockets at distant targets. It is particularly effective against light vehicles and does moderate damage vs infantry, buildings, and heavy armor.
+    玩家常稱為「MLRS」（多管火箭系統）。這座砲兵平台對遠方目標發射火箭齊射。對輕型載具特別有效，對步兵、建築與重甲也有中等傷害。
 
-    A strong unit to build vs enemy artillery, its high bullet velocity and damage to light vehicles makes it the perfect counter to Nod artillery.
+    用來對付敵方自走砲很強。彈速快，且對輕型載具傷害高，是諾德兄弟會自走砲的理想克星。
 
 actor-mlrs =
-    .name = Mobile SAM
+    .name = 移動防空飛彈
     .description =
-    Powerful anti-air unit.
-      Cannot attack ground units.
+    強力對空單位。
+      無法攻擊地面單位。
     .encyclopedia =
-    Generally referred to as “MSAM” by players, this Nod vehicle is a dedicated anti-air vehicle when their bikes do not cut it. It fires slow-moving missiles with powerful splash damage.
+    玩家通常稱為「MSAM」。當偵察摩托車不夠用時，這輛諾德兄弟會載具是專門的對空單位。它發射飛行緩慢、濺射傷害強大的飛彈。
 
 actor-stnk =
-    .name = Stealth Tank
+    .name = 隱形坦克
     .description =
-    Long-range missile tank that can cloak.
-    Can attack Aircraft.
-    Has weak armor. Can be spotted by infantry and
-    defense structures.
-      Strong vs Vehicles and Tanks
-      Weak vs Infantry
+    可隱形的遠程飛彈坦克。
+    可以攻擊飛行器。
+    裝甲薄弱。可被步兵與
+    防禦建築發現。
+      擅長對抗載具與坦克
+      弱於步兵
     .encyclopedia =
-    Cloaked units that become visible when damaged or firing their weapons. They can also be detected by defenses within a small radius or infantry at a one-cell range.
+    隱形單位在受傷或開火時會現形。小範圍內的防禦工事，或距離一格的步兵，也能發現它們。
 
-    Their long-range AP missiles are excellent for dealing with enemy armor or air. They can also crush infantry in a pinch.
+    遠程穿甲飛彈很適合對付敵方裝甲或空中單位。緊急時也能碾過步兵。
 
 actor-mhq =
-    .name = Mobile HQ
+    .name = 移動指揮部
     .description =
-    Mobile base of operations.
+    移動的作戰基地。
 
 actor-truck =
-    .name = Supply Truck
+    .name = 補給卡車
     .description =
-    Transports cash to other players.
-    Builds quickly
-      Unarmed
+    運送資金給其他玩家。
+    建造迅速
+      無武裝
     .encyclopedia =
-    Supply trucks are a convenient way to share cash when your ally is out of money, or you can't spend yours fast enough. They build far quicker than their cost suggests.
+    盟友沒錢，或你的資金花不完時，補給卡車是方便的分享方式。它們的建造速度比造價看起來快得多。
 
 ## ai.yaml
 bot-cabal =
-    .name = Cabal
+    .name = 卡巴爾
 
 bot-watson =
-    .name = Watson
+    .name = 華生
 
 bot-hal9001 =
     .name = HAL 9001
